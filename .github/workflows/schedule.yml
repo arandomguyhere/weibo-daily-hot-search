@@ -1,31 +1,35 @@
-name: schedule
+name: Fetch Weibo Hot Search
 
 on:
   schedule:
-    # NOTE: 间隔 5 分钟执行一次
-    - cron: "*/600 * * * *"
+    # Run every 5 minutes
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
 
 jobs:
-  build:
+  fetch:
     runs-on: ubuntu-latest
 
     env:
       TZ: Asia/Shanghai
 
     steps:
-      - name: Clone repository
-        uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Install deno
-        uses: denolib/setup-deno@master
+      - name: Setup Deno
+        uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
 
-      - name: Run deno
+      - name: Fetch and update data
         run: |
-          git config --local user.email "imrealleonardo@gmail.com"
-          git config --local user.name "Lishuang"
-          git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          git pull --rebase
           deno run --unstable --allow-net --allow-read --allow-write --import-map=import_map.json mod.ts
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           git add .
-          git commit -m "-update by github action;"
+          git diff --staged --quiet || git commit -m "Update hot search data"
           git push
