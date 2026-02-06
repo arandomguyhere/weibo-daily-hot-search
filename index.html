@@ -341,6 +341,12 @@
         const START_DATE = '2020-12-29';
         const WEIBO_BASE_URL = 'https://s.weibo.com';
 
+        function escapeHtml(str) {
+            const div = document.createElement('div');
+            div.textContent = str;
+            return div.innerHTML;
+        }
+
         const datePicker = document.getElementById('datePicker');
         const hotContent = document.getElementById('hotContent');
         const currentDateEl = document.getElementById('currentDate');
@@ -376,15 +382,15 @@
         }
 
         function addDays(dateStr, days) {
-            const date = new Date(dateStr);
+            const date = new Date(dateStr + 'T00:00:00');
             date.setDate(date.getDate() + days);
             return formatDate(date);
         }
 
         function isValidDate(dateStr) {
-            const date = new Date(dateStr);
-            const start = new Date(START_DATE);
-            const today = new Date(getToday());
+            const date = new Date(dateStr + 'T00:00:00');
+            const start = new Date(START_DATE + 'T00:00:00');
+            const today = new Date(getToday() + 'T00:00:00');
             return date >= start && date <= today;
         }
 
@@ -425,7 +431,7 @@
             } catch (error) {
                 hotContent.innerHTML = `
                     <div class="error">
-                        <p>加载失败: ${error.message}</p>
+                        <p>加载失败: ${escapeHtml(error.message)}</p>
                         <p style="margin-top: 10px; color: var(--text-secondary);">该日期可能没有数据记录</p>
                     </div>
                 `;
@@ -436,12 +442,14 @@
         function renderHotList(data) {
             const html = data.map((item, index) => {
                 const fullUrl = item.url.startsWith('http') ? item.url : WEIBO_BASE_URL + item.url;
+                const safeText = escapeHtml(item.text);
+                const safeUrl = escapeHtml(fullUrl);
                 return `
                     <div class="hot-item">
                         <span class="hot-rank">${index + 1}</span>
                         <div class="hot-content">
-                            <a href="${fullUrl}" class="hot-title" target="_blank" rel="noopener" title="${item.text}">
-                                ${item.text}
+                            <a href="${safeUrl}" class="hot-title" target="_blank" rel="noopener" title="${safeText}">
+                                ${safeText}
                             </a>
                         </div>
                         <span class="hot-count">${formatCount(item.count)}</span>

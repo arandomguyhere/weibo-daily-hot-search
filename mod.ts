@@ -22,7 +22,7 @@ async function fetchData(): Promise<HotWord[]> {
   const words: HotWord[] = Array.from(matches).map((x) => ({
     url: x[1],
     text: x[2],
-    count: parseInt(x[3]) * rank,
+    count: Math.round(parseInt(x[3]) * rank),
   }));
 
   return words;
@@ -47,7 +47,7 @@ function handleRawData(rawWords: HotWord[]) {
       }
     });
 
-  return words.splice(0, 50);
+  return words.slice(0, 50);
 }
 
 async function main() {
@@ -58,8 +58,12 @@ async function main() {
   let todayRawData: HotWord[] = [];
 
   if (await exists(rawFilePath)) {
-    const content = await Deno.readTextFile(rawFilePath);
-    todayRawData = JSON.parse(content);
+    try {
+      const content = await Deno.readTextFile(rawFilePath);
+      todayRawData = JSON.parse(content);
+    } catch {
+      console.error("Failed to parse existing data, starting fresh");
+    }
   }
 
   const hotWords = handleRawData(rawHotWords.concat(todayRawData));
