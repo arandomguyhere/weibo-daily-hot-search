@@ -74,11 +74,6 @@ async function main() {
   // 更新 README.md
   const readme = await utils.genNewReadmeText(hotWords);
   await Deno.writeTextFile("./README.md", readme);
-
-  // 更新 archives
-  const archiveText = utils.genArchiveText(hotWords);
-  const archivePath = join("archives", `${currentDateStr}.md`);
-  await Deno.writeTextFile(archivePath, archiveText);
 }
 
 await main();

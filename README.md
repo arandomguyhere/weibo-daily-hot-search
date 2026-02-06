@@ -12,7 +12,7 @@ Browse historical trending data by date with a visual interface.
 
 - Scheduled scraping of Weibo's trending search rankings every 5 minutes
 - Daily archival with historical data lookup
-- Raw data in JSON format and Markdown archives
+- Raw data stored in JSON format
 - GitHub Pages frontend for browsing
 - Time-of-day weighting algorithm for more accurate trend representation
 
@@ -33,8 +33,6 @@ Browse historical trending data by date with a visual interface.
 ```
 ├── raw/                    # Raw JSON data
 │   └── YYYY-MM-DD.json     # Daily hot search data
-├── archives/               # Markdown archives
-│   └── YYYY-MM-DD.md       # Daily hot search archive
 ├── index.html              # GitHub Pages frontend
 └── mod.ts                  # Scraping script (Deno)
 ```
@@ -86,10 +84,6 @@ curl -fsSL https://deno.land/install.sh | sh
 # Run the scraper
 deno run --allow-net --allow-read --allow-write --import-map=import_map.json mod.ts
 ```
-
-## Archives
-
-Browse all historical data: [./archives](./archives)
 
 ## Related Projects
 

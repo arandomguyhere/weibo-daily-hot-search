@@ -28,14 +28,6 @@ ${genDataListString(words) || "空空如也"}
   );
 }
 
-export function genArchiveText(words: HotWord[]): string {
-  const formatedNowTimeStr = format(new Date(), "yyyy-MM-dd");
-
-  return `# ${formatedNowTimeStr}\n
-${genDataListString(words)}
-`;
-}
-
 // 根据当前的小时数，获取热度权值
 export function getCurrentRank(): number {
   const currentHours = (new Date()).getHours();
