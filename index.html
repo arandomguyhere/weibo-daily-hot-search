@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>微博热搜榜 - Weibo Daily Hot Search</title>
-    <meta name="description" content="记录从 2025-01-01 日开始的微博热门搜索历史归档">
+    <title>Weibo Daily Hot Search</title>
+    <meta name="description" content="Weibo trending search archive since 2025-01-01">
     <style>
         :root {
             --primary-color: #ff8200;
@@ -293,48 +293,48 @@
 </head>
 <body>
     <header>
-        <h1>微博热搜榜</h1>
-        <p>记录从 2025-01-01 日开始的微博热门搜索</p>
+        <h1>Weibo Hot Search</h1>
+        <p>Trending search archive since 2025-01-01</p>
     </header>
 
     <div class="container">
         <div class="date-picker">
             <input type="date" id="datePicker" min="2025-01-01">
             <div class="date-nav">
-                <button id="prevDay" title="前一天">&larr; 前一天</button>
-                <button id="today" title="今天">今天</button>
-                <button id="nextDay" title="后一天">后一天 &rarr;</button>
+                <button id="prevDay" title="Previous day">&larr; Prev</button>
+                <button id="today" title="Today">Today</button>
+                <button id="nextDay" title="Next day">Next &rarr;</button>
             </div>
         </div>
 
         <div class="stats">
             <div class="stat-item">
                 <div class="stat-value" id="currentDate">-</div>
-                <div class="stat-label">当前日期</div>
+                <div class="stat-label">Date</div>
             </div>
             <div class="stat-item">
                 <div class="stat-value" id="totalTopics">-</div>
-                <div class="stat-label">热搜话题数</div>
+                <div class="stat-label">Topics</div>
             </div>
         </div>
 
         <div class="hot-list">
             <div class="hot-list-header">
-                <span>热搜排行</span>
+                <span>Trending</span>
                 <span id="updateTime"></span>
             </div>
             <div id="hotContent">
                 <div class="loading">
                     <div class="loading-spinner"></div>
-                    <p>正在加载数据...</p>
+                    <p>Loading...</p>
                 </div>
             </div>
         </div>
     </div>
 
     <footer>
-        <p>数据来源: <a href="https://s.weibo.com/top/summary" target="_blank" rel="noopener">微博热搜</a></p>
-        <p>项目地址: <a href="https://github.com/ARandomGuyHere/weibo-daily-hot-search" target="_blank" rel="noopener">GitHub</a></p>
+        <p>Source: <a href="https://s.weibo.com/top/summary" target="_blank" rel="noopener">Weibo Hot Search</a></p>
+        <p>Project: <a href="https://github.com/ARandomGuyHere/weibo-daily-hot-search" target="_blank" rel="noopener">GitHub</a></p>
     </footer>
 
     <script>
@@ -364,17 +364,17 @@
         }
 
         function formatCount(count) {
-            if (count >= 10000000) {
-                return (count / 10000000).toFixed(1) + '千万';
-            } else if (count >= 10000) {
-                return (count / 10000).toFixed(1) + '万';
+            if (count >= 1000000) {
+                return (count / 1000000).toFixed(1) + 'M';
+            } else if (count >= 1000) {
+                return (count / 1000).toFixed(1) + 'K';
             }
             return count.toLocaleString();
         }
 
         function formatDisplayDate(dateStr) {
             const [year, month, day] = dateStr.split('-');
-            return `${month}月${day}日`;
+            return `${month}/${day}`;
         }
 
         function getToday() {
@@ -398,7 +398,7 @@
             hotContent.innerHTML = `
                 <div class="loading">
                     <div class="loading-spinner"></div>
-                    <p>正在加载数据...</p>
+                    <p>Loading...</p>
                 </div>
             `;
 
@@ -410,7 +410,7 @@
                 const response = await fetch(`./raw/${date}.json`);
 
                 if (!response.ok) {
-                    throw new Error('数据不存在');
+                    throw new Error('Data not found');
                 }
 
                 const data = await response.json();
@@ -418,7 +418,7 @@
                 if (!data || data.length === 0) {
                     hotContent.innerHTML = `
                         <div class="no-data">
-                            <p>该日期暂无数据</p>
+                            <p>No data for this date</p>
                         </div>
                     `;
                     totalTopicsEl.textContent = '0';
@@ -431,8 +431,8 @@
             } catch (error) {
                 hotContent.innerHTML = `
                     <div class="error">
-                        <p>加载失败: ${escapeHtml(error.message)}</p>
-                        <p style="margin-top: 10px; color: var(--text-secondary);">该日期可能没有数据记录</p>
+                        <p>Failed to load: ${escapeHtml(error.message)}</p>
+                        <p style="margin-top: 10px; color: var(--text-secondary);">There may be no data for this date</p>
                     </div>
                 `;
                 totalTopicsEl.textContent = '0';
