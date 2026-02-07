@@ -148,19 +148,23 @@ function parseMobileApi(data: any, rank: number): HotWord[] {
 }
 
 function handleRawData(rawWords: HotWord[]) {
-  const wordTextSet: Set<string> = new Set();
-  const words: HotWord[] = [];
+  const wordMap: Map<string, HotWord> = new Map();
+
+  // Sort by count descending so we keep the highest count per topic
   rawWords
     .sort((a, b) => b.count - a.count)
     .filter((w) => !w.text.includes("肖战"))
     .forEach((t) => {
-      if (!wordTextSet.has(t.text)) {
-        wordTextSet.add(t.text);
-        words.push({ ...t, url: normalizeUrl(t.url, t.text) });
+      const existing = wordMap.get(t.text);
+      if (!existing) {
+        wordMap.set(t.text, t);
+      } else if (!existing.textEn && t.textEn) {
+        // Preserve translation from existing data
+        existing.textEn = t.textEn;
       }
     });
 
-  return words.slice(0, 50);
+  return Array.from(wordMap.values()).slice(0, 50);
 }
 
 async function translateBatch(texts: string[]): Promise<string[]> {
@@ -187,9 +191,9 @@ async function addTranslations(words: HotWord[]): Promise<void> {
   const untranslated = words.filter((w) => !w.textEn);
   if (untranslated.length === 0) return;
 
-  // Translate in batches of 25 to stay within URL length limits
-  for (let i = 0; i < untranslated.length; i += 25) {
-    const batch = untranslated.slice(i, i + 25);
+  // Translate in small batches for reliability
+  for (let i = 0; i < untranslated.length; i += 10) {
+    const batch = untranslated.slice(i, i + 10);
     const translations = await translateBatch(batch.map((w) => w.text));
     batch.forEach((w, idx) => {
       w.textEn = translations[idx];
