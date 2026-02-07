@@ -22,8 +22,6 @@ const MOBILE_HEADERS: Record<string, string> = {
   "Referer": "https://m.weibo.cn/",
 };
 
-// Normalize a URL to the proper /weibo?q= format
-// Handles: hashtag strings (#text#), plain text, and already-correct paths
 function normalizeUrl(url: string, text: string): string {
   if (url.startsWith("/weibo?q=")) return url;
   if (url.startsWith("http")) return url;
@@ -147,24 +145,86 @@ function parseMobileApi(data: any, rank: number): HotWord[] {
   return items;
 }
 
-function handleRawData(rawWords: HotWord[]) {
-  const wordMap: Map<string, HotWord> = new Map();
+// Merge new fetch with existing data, computing lifecycle metadata
+function mergeAndTrack(freshWords: HotWord[], existingWords: HotWord[]): HotWord[] {
+  const now = new Date().toISOString();
+  const existingMap = new Map<string, HotWord>();
+  existingWords.forEach((w) => existingMap.set(w.text, w));
 
-  // Sort by count descending so we keep the highest count per topic
-  rawWords
-    .sort((a, b) => b.count - a.count)
+  const freshMap = new Map<string, HotWord>();
+  freshWords
     .filter((w) => !w.text.includes("肖战"))
-    .forEach((t) => {
-      const existing = wordMap.get(t.text);
-      if (!existing) {
-        wordMap.set(t.text, t);
-      } else if (!existing.textEn && t.textEn) {
-        // Preserve translation from existing data
-        existing.textEn = t.textEn;
-      }
+    .forEach((w) => {
+      if (!freshMap.has(w.text)) freshMap.set(w.text, w);
     });
 
-  return Array.from(wordMap.values()).slice(0, 50);
+  const result = new Map<string, HotWord>();
+
+  // Process fresh topics
+  for (const [text, fresh] of freshMap) {
+    const existing = existingMap.get(text);
+
+    if (existing) {
+      // Topic existed before — update with new count, preserve metadata
+      const prevCount = existing.count;
+      const newCount = Math.max(fresh.count, existing.count);
+      const velocity = prevCount > 0
+        ? Math.round(((fresh.count - prevCount) / prevCount) * 100)
+        : 100;
+
+      let status: HotWord["status"];
+      if (velocity > 20) status = "rising";
+      else if (velocity < -20) status = "falling";
+      else status = "hot";
+
+      result.set(text, {
+        ...fresh,
+        textEn: existing.textEn || fresh.textEn,
+        count: newCount,
+        firstSeen: existing.firstSeen || now,
+        peakCount: Math.max(newCount, existing.peakCount || 0),
+        prevCount: prevCount,
+        velocity,
+        status,
+      });
+    } else {
+      // Brand new topic
+      result.set(text, {
+        ...fresh,
+        firstSeen: now,
+        peakCount: fresh.count,
+        prevCount: 0,
+        velocity: 100,
+        status: "new",
+      });
+    }
+  }
+
+  // Topics that existed but are no longer in fresh data — mark as "gone"
+  for (const [text, existing] of existingMap) {
+    if (!freshMap.has(text) && !result.has(text)) {
+      result.set(text, {
+        ...existing,
+        prevCount: existing.count,
+        velocity: -100,
+        status: "gone",
+      });
+    }
+  }
+
+  // Sort: new and rising first, then by count
+  const statusOrder: Record<string, number> = {
+    new: 0, rising: 1, hot: 2, falling: 3, gone: 4,
+  };
+
+  return Array.from(result.values())
+    .sort((a, b) => {
+      const sa = statusOrder[a.status || "hot"] ?? 2;
+      const sb = statusOrder[b.status || "hot"] ?? 2;
+      if (sa !== sb) return sa - sb;
+      return b.count - a.count;
+    })
+    .slice(0, 100);
 }
 
 async function translateBatch(texts: string[]): Promise<string[]> {
@@ -174,7 +234,6 @@ async function translateBatch(texts: string[]): Promise<string[]> {
     const response = await fetch(url);
     if (!response.ok) throw new Error(`Status ${response.status}`);
     const result = await response.json();
-    // API returns [[translation, original], ...] for multiple or [translation, original] for single
     if (Array.isArray(result) && Array.isArray(result[0])) {
       return result.map((item: string[]) => item[0]);
     } else if (Array.isArray(result)) {
@@ -191,7 +250,6 @@ async function addTranslations(words: HotWord[]): Promise<void> {
   const untranslated = words.filter((w) => !w.textEn);
   if (untranslated.length === 0) return;
 
-  // Translate in small batches for reliability
   for (let i = 0; i < untranslated.length; i += 10) {
     const batch = untranslated.slice(i, i + 10);
     const translations = await translateBatch(batch.map((w) => w.text));
@@ -206,19 +264,25 @@ async function main() {
   const currentDateStr = format(new Date(), "yyyy-MM-dd");
   const rawFilePath = join("raw", `${currentDateStr}.json`);
 
-  const rawHotWords = await fetchData();
-  let todayRawData: HotWord[] = [];
+  const freshWords = await fetchData();
+  let existingWords: HotWord[] = [];
 
   if (await exists(rawFilePath)) {
     try {
       const content = await Deno.readTextFile(rawFilePath);
-      todayRawData = JSON.parse(content);
+      existingWords = JSON.parse(content);
     } catch {
       console.error("Failed to parse existing data, starting fresh");
     }
   }
 
-  const hotWords = handleRawData(rawHotWords.concat(todayRawData));
+  const hotWords = mergeAndTrack(freshWords, existingWords);
+
+  // Log status summary
+  const counts = { new: 0, rising: 0, hot: 0, falling: 0, gone: 0 };
+  hotWords.forEach((w) => { if (w.status) counts[w.status]++; });
+  console.log(`Status: ${counts.new} new, ${counts.rising} rising, ${counts.hot} hot, ${counts.falling} falling, ${counts.gone} gone`);
+
   await addTranslations(hotWords);
 
   await Deno.writeTextFile(rawFilePath, JSON.stringify(hotWords));

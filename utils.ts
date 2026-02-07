@@ -11,8 +11,19 @@ function normalizeUrl(url: string, text: string): string {
   return `/weibo?q=${encodeURIComponent("#" + text + "#")}`;
 }
 
+function statusBadge(word: HotWord): string {
+  switch (word.status) {
+    case "new": return " `NEW`";
+    case "rising": return ` \`+${word.velocity}%\``;
+    case "falling": return ` \`${word.velocity}%\``;
+    case "gone": return " `GONE`";
+    default: return "";
+  }
+}
+
 function genDataListString(words: HotWord[]): string {
   return words
+    .filter((x) => x.status !== "gone")
     .map((x) => {
       const label = x.textEn && x.textEn !== x.text
         ? `${x.text} (${x.textEn})`
@@ -20,7 +31,7 @@ function genDataListString(words: HotWord[]): string {
       const url = normalizeUrl(x.url, x.text);
       return `1. [${label}](https://s.weibo.com${url}) \`${
         getCountStr(x.count)
-      } 🔥\``;
+      } 🔥\`${statusBadge(x)}`;
     })
     .join("\n");
 }

@@ -1,21 +1,22 @@
-# Weibo Daily Hot Search
+# Weibo Signal Tracker
 
-Automatically scrapes and archives Weibo trending search data, recording hot search history since 2025-01-01.
+Narrative signal monitoring system that tracks Weibo trending search data with velocity analysis and lifecycle detection.
 
 ## Live Demo
 
 **[https://arandomguyhere.github.io/weibo-daily-hot-search](https://arandomguyhere.github.io/weibo-daily-hot-search)**
 
-Browse historical trending data by date with a visual interface.
+Browse historical trending data with status badges, velocity indicators, and category filters.
 
 ## Features
 
-- Scheduled scraping of Weibo's trending search rankings every 5 minutes
-- Daily archival with historical data lookup
-- Raw data stored in JSON format with English translations
-- GitHub Pages frontend with dark mode, search filter, and keyboard navigation
-- Time-of-day weighting algorithm for more accurate trend representation
-- Automatic English translation of trending topics via Google Translate
+- **Signal tracking**: Scrapes Weibo trending every 5 minutes, tracks up to 100 topics per day
+- **Lifecycle detection**: Each topic tagged as `NEW`, `RISING`, `HOT`, `FALLING`, or `GONE`
+- **Velocity analysis**: Percentage change between scrapes shows acceleration/deceleration
+- **Suppression detection**: Topics that disappear from the feed are marked as `GONE`
+- **English translations**: Auto-translated via Google Translate for non-Chinese readers
+- **Dark mode + filters**: Filter by status category, search by Chinese or English text
+- **Time-of-day weighting**: Heat values adjusted by collection hour for accuracy
 
 ## Today's Hot Searches
 
@@ -100,7 +101,12 @@ Daily JSON format (`raw/YYYY-MM-DD.json`):
     "url": "/weibo?q=%23Topic%23",
     "text": "Topic",
     "textEn": "Topic in English",
-    "count": 1234567
+    "count": 1234567,
+    "firstSeen": "2026-02-07T08:15:00.000Z",
+    "peakCount": 1500000,
+    "prevCount": 900000,
+    "status": "rising",
+    "velocity": 37
   }
 ]
 ```
@@ -111,6 +117,11 @@ Daily JSON format (`raw/YYYY-MM-DD.json`):
 | `text` | Trending topic text (Chinese) |
 | `textEn` | English translation (optional) |
 | `count` | Heat value (adjusted by time-of-day weight) |
+| `firstSeen` | ISO timestamp when topic first appeared today |
+| `peakCount` | Highest count recorded for this topic today |
+| `prevCount` | Count from previous scrape cycle |
+| `status` | Lifecycle stage: `new`, `rising`, `hot`, `falling`, `gone` |
+| `velocity` | Percentage change from previous scrape |
 
 ### Time-of-Day Weights
 
