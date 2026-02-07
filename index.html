@@ -445,7 +445,7 @@
                 }
 
                 totalTopicsEl.textContent = data.length;
-                topHeatEl.textContent = formatCount(data[0].count);
+                topHeatEl.textContent = formatCount(data[0].peakCount || data[0].count);
                 newCountEl.textContent = data.filter(d => d.status === 'new').length;
                 const totalEng = data.reduce((sum, d) => {
                     if (!d.engagement) return sum;

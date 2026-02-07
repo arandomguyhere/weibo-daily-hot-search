@@ -44,8 +44,6 @@ async function fetchData(): Promise<HotWord[]> {
     },
   ];
 
-  const rank = utils.getCurrentRank();
-
   for (const endpoint of endpoints) {
     try {
       console.log(`Trying: ${endpoint.url}`);
@@ -57,7 +55,7 @@ async function fetchData(): Promise<HotWord[]> {
       }
 
       const data = await response.json();
-      const words = endpoint.parse(data, rank);
+      const words = endpoint.parse(data);
 
       if (words.length > 0) {
         console.log(`  Found ${words.length} topics`);
@@ -75,7 +73,7 @@ async function fetchData(): Promise<HotWord[]> {
 }
 
 // deno-lint-ignore no-explicit-any
-function parseAjaxHotSearch(data: any, rank: number): HotWord[] {
+function parseAjaxHotSearch(data: any): HotWord[] {
   const realtime = data?.data?.realtime;
   if (!Array.isArray(realtime)) return [];
 
@@ -87,13 +85,13 @@ function parseAjaxHotSearch(data: any, rank: number): HotWord[] {
       return {
         url: normalizeUrl(rawUrl, item.word),
         text: item.word,
-        count: Math.round(item.num * rank),
+        count: item.num,
       };
     });
 }
 
 // deno-lint-ignore no-explicit-any
-function parseHotBand(data: any, rank: number): HotWord[] {
+function parseHotBand(data: any): HotWord[] {
   const band = data?.data?.band_list;
   if (!Array.isArray(band)) return [];
 
@@ -105,13 +103,13 @@ function parseHotBand(data: any, rank: number): HotWord[] {
       return {
         url: normalizeUrl(rawUrl, item.word),
         text: item.word,
-        count: Math.round(item.num * rank),
+        count: item.num,
       };
     });
 }
 
 // deno-lint-ignore no-explicit-any
-function parseMobileApi(data: any, rank: number): HotWord[] {
+function parseMobileApi(data: any): HotWord[] {
   const cards = data?.data?.cards;
   if (!Array.isArray(cards)) return [];
 
@@ -129,7 +127,7 @@ function parseMobileApi(data: any, rank: number): HotWord[] {
           items.push({
             url: normalizeUrl(rawUrl, text),
             text,
-            count: Math.round(count * rank),
+            count,
           });
         }
       }
@@ -226,7 +224,7 @@ function mergeAndTrack(freshWords: HotWord[], existingWords: HotWord[]): HotWord
 // Uses the same m.weibo.cn search endpoint as WeiboInsight
 async function enrichTopics(words: HotWord[]): Promise<void> {
   const topWords = words
-    .filter((w) => w.status !== "gone")
+    .filter((w) => w.status !== "gone" && !w.engagement)
     .slice(0, 10);
 
   if (topWords.length === 0) return;
@@ -323,6 +321,12 @@ async function main() {
     } catch {
       console.error("Failed to parse existing data, starting fresh");
     }
+  }
+
+  // If all endpoints failed, preserve existing data instead of marking everything gone
+  if (freshWords.length === 0 && existingWords.length > 0) {
+    console.log("No fresh data — keeping existing data unchanged");
+    return;
   }
 
   const hotWords = mergeAndTrack(freshWords, existingWords);
