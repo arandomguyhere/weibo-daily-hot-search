@@ -5,67 +5,116 @@ import { exists } from "std/fs/mod.ts";
 import * as utils from "./utils.ts";
 import { HotWord } from "./types.ts";
 
-const HEADERS = {
+const MOBILE_HEADERS = {
   "User-Agent":
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-  "Accept":
-    "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1",
+  "Accept": "application/json, text/plain, */*",
   "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+  "X-Requested-With": "XMLHttpRequest",
+  "Referer": "https://m.weibo.cn/",
 };
 
+// 尝试多个 API 端点获取热搜数据
 async function fetchData(): Promise<HotWord[]> {
-  const regexp =
-    /<a href="(\/weibo\?q=[^"]+)".*?>(.+)<\/a>[\s]+<span>(.+)<\/span>/g;
-
-  // 第一次请求获取 cookies
-  const initResponse = await fetch("https://s.weibo.com/top/summary", {
-    headers: HEADERS,
-    redirect: "manual",
-  });
-  const cookies = (initResponse.headers.get("set-cookie") || "")
-    .split(",")
-    .map((c) => c.split(";")[0].trim())
-    .filter(Boolean)
-    .join("; ");
-
-  console.log(`Initial response: ${initResponse.status}`);
-  console.log(`Cookies received: ${cookies ? "yes" : "none"}`);
-
-  // 第二次请求带上 cookies
-  const response = await fetch("https://s.weibo.com/top/summary", {
-    headers: {
-      ...HEADERS,
-      "Referer": "https://s.weibo.com/",
-      ...(cookies ? { "Cookie": cookies } : {}),
+  const endpoints = [
+    {
+      url: "https://weibo.com/ajax/side/hotSearch",
+      parse: parseAjaxHotSearch,
     },
-  });
+    {
+      url: "https://weibo.com/ajax/statuses/hot_band",
+      parse: parseHotBand,
+    },
+    {
+      url: "https://m.weibo.cn/api/container/getIndex?containerid=106003type%3D25%26t%3D3%26disable_hot%3D1%26filter_type%3Drealtimehot",
+      parse: parseMobileApi,
+    },
+  ];
 
-  if (!response.ok) {
-    console.error(`Fetch failed: ${response.status} ${response.statusText}`);
-    Deno.exit(-1);
-  }
-
-  const result = await response.text();
-  console.log(`Response length: ${result.length} chars`);
-
-  const matches = result.matchAll(regexp);
   const rank = utils.getCurrentRank();
 
-  const words: HotWord[] = Array.from(matches).map((x) => ({
-    url: x[1],
-    text: x[2],
-    count: Math.round(parseInt(x[3]) * rank),
-  }));
+  for (const endpoint of endpoints) {
+    try {
+      console.log(`Trying: ${endpoint.url}`);
+      const response = await fetch(endpoint.url, { headers: MOBILE_HEADERS });
 
-  console.log(`Matched ${words.length} trending topics`);
+      if (!response.ok) {
+        console.log(`  Status: ${response.status}`);
+        continue;
+      }
 
-  if (words.length === 0 && result.length > 0) {
-    // 输出页面片段用于调试
-    const snippet = result.substring(0, 500);
-    console.log(`Page snippet: ${snippet}`);
+      const data = await response.json();
+      const words = endpoint.parse(data, rank);
+
+      if (words.length > 0) {
+        console.log(`  Found ${words.length} topics`);
+        return words;
+      }
+
+      console.log(`  Response ok but parsed 0 topics`);
+    } catch (e) {
+      console.log(`  Error: ${e.message}`);
+    }
   }
 
-  return words;
+  console.error("All endpoints failed to return data");
+  return [];
+}
+
+// deno-lint-ignore no-explicit-any
+function parseAjaxHotSearch(data: any, rank: number): HotWord[] {
+  const realtime = data?.data?.realtime;
+  if (!Array.isArray(realtime)) return [];
+
+  return realtime
+    .filter((item: { word?: string; num?: number }) => item.word && item.num)
+    .map((item: { word: string; num: number; word_scheme?: string }) => ({
+      url: item.word_scheme ||
+        `/weibo?q=${encodeURIComponent("#" + item.word + "#")}`,
+      text: item.word,
+      count: Math.round(item.num * rank),
+    }));
+}
+
+// deno-lint-ignore no-explicit-any
+function parseHotBand(data: any, rank: number): HotWord[] {
+  const band = data?.data?.band_list;
+  if (!Array.isArray(band)) return [];
+
+  return band
+    .filter((item: { word?: string; num?: number }) => item.word && item.num)
+    .map((item: { word: string; num: number; word_scheme?: string }) => ({
+      url: item.word_scheme ||
+        `/weibo?q=${encodeURIComponent("#" + item.word + "#")}`,
+      text: item.word,
+      count: Math.round(item.num * rank),
+    }));
+}
+
+// deno-lint-ignore no-explicit-any
+function parseMobileApi(data: any, rank: number): HotWord[] {
+  const cards = data?.data?.cards;
+  if (!Array.isArray(cards)) return [];
+
+  const items: HotWord[] = [];
+  for (const card of cards) {
+    const group = card?.card_group;
+    if (!Array.isArray(group)) continue;
+
+    for (const item of group) {
+      if (item.desc && item.scheme) {
+        const count = parseInt(item.desc) || 0;
+        if (count > 0) {
+          items.push({
+            url: item.scheme.replace("https://m.weibo.cn/search?containerid=", "/weibo?q="),
+            text: item.desc_extr || item.title_sub || item.desc,
+            count: Math.round(count * rank),
+          });
+        }
+      }
+    }
+  }
+  return items;
 }
 
 /**
