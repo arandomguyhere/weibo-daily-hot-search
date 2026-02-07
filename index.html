@@ -611,9 +611,19 @@
             }
         }
 
+        function normalizeUrl(url, text) {
+            if (url.startsWith('/weibo?q=')) return url;
+            if (url.startsWith('http')) return url;
+            if (url.startsWith('#') && url.endsWith('#')) {
+                return '/weibo?q=' + encodeURIComponent(url);
+            }
+            return '/weibo?q=' + encodeURIComponent('#' + text + '#');
+        }
+
         function renderHotList(data) {
             const html = data.map((item, index) => {
-                const fullUrl = item.url.startsWith('http') ? item.url : WEIBO_BASE_URL + item.url;
+                const normalizedUrl = normalizeUrl(item.url, item.text);
+                const fullUrl = normalizedUrl.startsWith('http') ? normalizedUrl : WEIBO_BASE_URL + normalizedUrl;
                 const safeText = escapeHtml(item.text);
                 const safeUrl = escapeHtml(fullUrl);
                 const safeTextEn = item.textEn ? escapeHtml(item.textEn) : '';

@@ -2,13 +2,23 @@ import { format } from "std/datetime/mod.ts";
 import { dailyHours } from "./consts.ts";
 import { HotWord } from "./types.ts";
 
+function normalizeUrl(url: string, text: string): string {
+  if (url.startsWith("/weibo?q=")) return url;
+  if (url.startsWith("http")) return url;
+  if (url.startsWith("#") && url.endsWith("#")) {
+    return `/weibo?q=${encodeURIComponent(url)}`;
+  }
+  return `/weibo?q=${encodeURIComponent("#" + text + "#")}`;
+}
+
 function genDataListString(words: HotWord[]): string {
   return words
     .map((x) => {
       const label = x.textEn && x.textEn !== x.text
         ? `${x.text} (${x.textEn})`
         : x.text;
-      return `1. [${label}](https://s.weibo.com${x.url}) \`${
+      const url = normalizeUrl(x.url, x.text);
+      return `1. [${label}](https://s.weibo.com${url}) \`${
         getCountStr(x.count)
       } 🔥\``;
     })
