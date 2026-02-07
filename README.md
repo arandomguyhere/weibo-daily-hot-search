@@ -28,13 +28,14 @@ Browse historical trending data by date with a visual interface.
 1. [金晨肇事逃逸被罚1500元 (Jin Chen was fined 1,500 yuan for hit-and-run accident)](https://s.weibo.com/weibo?q=%23%E9%87%91%E6%99%A8%E8%82%87%E4%BA%8B%E9%80%83%E9%80%B8%E8%A2%AB%E7%BD%9A1500%E5%85%83%23) `2.0M 🔥`
 1. [2026新春走基层 (2026 New Year Goes to the Grassroots)](https://s.weibo.com/weibo?q=%232026%E6%96%B0%E6%98%A5%E8%B5%B0%E5%9F%BA%E5%B1%82%23) `1.7M 🔥`
 1. [谷爱凌摔倒后立刻看向自己的脚 (After Gu Ailing fell, she immediately looked at her feet)](https://s.weibo.com/weibo?q=%23%E8%B0%B7%E7%88%B1%E5%87%8C%E6%91%94%E5%80%92%E5%90%8E%E7%AB%8B%E5%88%BB%E7%9C%8B%E5%90%91%E8%87%AA%E5%B7%B1%E7%9A%84%E8%84%9A%23) `1.3M 🔥`
+1. [谷爱凌锁定决赛 (Gu Ailing locked in the finals)](https://s.weibo.com/weibo?q=%23%E8%B0%B7%E7%88%B1%E5%87%8C%E9%94%81%E5%AE%9A%E5%86%B3%E8%B5%9B%23) `1.3M 🔥`
 1. [冰雪春天 (ice and snow spring)](https://s.weibo.com/weibo?q=%23%E5%86%B0%E9%9B%AA%E6%98%A5%E5%A4%A9%23) `1.2M 🔥`
 1. [米兰开幕式 好正常好好看 (The opening ceremony in Milan was so normal and beautiful.)](https://s.weibo.com/weibo?q=%23%E7%B1%B3%E5%85%B0%E5%BC%80%E5%B9%95%E5%BC%8F%20%E5%A5%BD%E6%AD%A3%E5%B8%B8%E5%A5%BD%E5%A5%BD%E7%9C%8B%23) `1.1M 🔥`
 1. [印度飞饼师傅凭什么认定为外籍专家 (Why is the Indian flying pancake chef recognized as a foreign expert?)](https://s.weibo.com/weibo?q=%23%E5%8D%B0%E5%BA%A6%E9%A3%9E%E9%A5%BC%E5%B8%88%E5%82%85%E5%87%AD%E4%BB%80%E4%B9%88%E8%AE%A4%E5%AE%9A%E4%B8%BA%E5%A4%96%E7%B1%8D%E4%B8%93%E5%AE%B6%23) `1.1M 🔥`
 1. [谷爱凌完成第二滑 (Gu Ailing completed the second slide)](https://s.weibo.com/weibo?q=%23%E8%B0%B7%E7%88%B1%E5%87%8C%E5%AE%8C%E6%88%90%E7%AC%AC%E4%BA%8C%E6%BB%91%23) `1.0M 🔥`
 1. [女子独自带三娃赶火车丢了俩 (A woman took her three children alone to catch the train and lost two of them.)](https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E7%8B%AC%E8%87%AA%E5%B8%A6%E4%B8%89%E5%A8%83%E8%B5%B6%E7%81%AB%E8%BD%A6%E4%B8%A2%E4%BA%86%E4%BF%A9%23) `972.6K 🔥`
 1. [中国银行坚决拥护党中央决定 (Bank of China firmly supports the decision of the Party Central Committee)](https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E9%93%B6%E8%A1%8C%E5%9D%9A%E5%86%B3%E6%8B%A5%E6%8A%A4%E5%85%9A%E4%B8%AD%E5%A4%AE%E5%86%B3%E5%AE%9A%23) `949.1K 🔥`
-1. [谷爱凌锁定决赛](https://s.weibo.com/weibo?q=%23%E8%B0%B7%E7%88%B1%E5%87%8C%E9%94%81%E5%AE%9A%E5%86%B3%E8%B5%9B%23) `921.9K 🔥`
+1. [山姆你还续卡吗](https://s.weibo.com/weibo?q=%23%E5%B1%B1%E5%A7%86%E4%BD%A0%E8%BF%98%E7%BB%AD%E5%8D%A1%E5%90%97%23) `932.9K 🔥`
 1. [潜水员戴夫手游上线 (Diver Dave mobile game launched)](https://s.weibo.com/weibo?q=%23%E6%BD%9C%E6%B0%B4%E5%91%98%E6%88%B4%E5%A4%AB%E6%89%8B%E6%B8%B8%E4%B8%8A%E7%BA%BF%23) `888.2K 🔥`
 1. [成何体统上了韩网热帖 (Cheng He's tact has become a hot topic on Korean net)](https://s.weibo.com/weibo?q=%23%E6%88%90%E4%BD%95%E4%BD%93%E7%BB%9F%E4%B8%8A%E4%BA%86%E9%9F%A9%E7%BD%91%E7%83%AD%E5%B8%96%23) `871.3K 🔥`
 1. [王楚钦尊重国家队的安排 (Wang Chuqin respects the arrangements of the national team)](https://s.weibo.com/weibo?q=%23%E7%8E%8B%E6%A5%9A%E9%92%A6%E5%B0%8A%E9%87%8D%E5%9B%BD%E5%AE%B6%E9%98%9F%E7%9A%84%E5%AE%89%E6%8E%92%23) `861.8K 🔥`
@@ -55,23 +56,22 @@ Browse historical trending data by date with a visual interface.
 1. [很火但难吃的水果 (Very popular but unpalatable fruit)](https://s.weibo.com/weibo?q=%23%E5%BE%88%E7%81%AB%E4%BD%86%E9%9A%BE%E5%90%83%E7%9A%84%E6%B0%B4%E6%9E%9C%23) `440.4K 🔥`
 1. [谷爱凌第二轮75.30分 (Gu Ailing scored 75.30 points in the second round)](https://s.weibo.com/weibo?q=%23%E8%B0%B7%E7%88%B1%E5%87%8C%E7%AC%AC%E4%BA%8C%E8%BD%AE75.30%E5%88%86%23) `435.1K 🔥`
 1. [金银价飙升米兰冬奥金牌史上最贵 (Gold and silver prices soar, Milan Winter Olympics gold medal the most expensive in history)](https://s.weibo.com/weibo?q=%23%E9%87%91%E9%93%B6%E4%BB%B7%E9%A3%99%E5%8D%87%E7%B1%B3%E5%85%B0%E5%86%AC%E5%A5%A5%E9%87%91%E7%89%8C%E5%8F%B2%E4%B8%8A%E6%9C%80%E8%B4%B5%23) `417.8K 🔥`
-1. [山姆你还续卡吗](https://s.weibo.com/weibo?q=%23%E5%B1%B1%E5%A7%86%E4%BD%A0%E8%BF%98%E7%BB%AD%E5%8D%A1%E5%90%97%23) `396.8K 🔥`
 1. [唐宫奇案反转给我看爽了 (I enjoyed watching the reversal of the Tang Palace Strange Case)](https://s.weibo.com/weibo?q=%23%E5%94%90%E5%AE%AB%E5%A5%87%E6%A1%88%E5%8F%8D%E8%BD%AC%E7%BB%99%E6%88%91%E7%9C%8B%E7%88%BD%E4%BA%86%23) `391.5K 🔥`
 1. [谷爱凌备战期间意外重伤 (Gu Ailing was accidentally seriously injured during preparations for the battle)](https://s.weibo.com/weibo?q=%23%E8%B0%B7%E7%88%B1%E5%87%8C%E5%A4%87%E6%88%98%E6%9C%9F%E9%97%B4%E6%84%8F%E5%A4%96%E9%87%8D%E4%BC%A4%23) `378.6K 🔥`
 1. [冬奥会开幕式 (Winter Olympics opening ceremony)](https://s.weibo.com/weibo?q=%23%E5%86%AC%E5%A5%A5%E4%BC%9A%E5%BC%80%E5%B9%95%E5%BC%8F%23) `365.3K 🔥`
 1. [湖南卫视春晚全阵容官宣](https://s.weibo.com/weibo?q=%23%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86%E6%98%A5%E6%99%9A%E5%85%A8%E9%98%B5%E5%AE%B9%E5%AE%98%E5%AE%A3%23) `356.7K 🔥`
 1. [四川大学通报王竹卿相关问题 (Sichuan University notifies Wang Zhuqing of relevant issues)](https://s.weibo.com/weibo?q=%23%E5%9B%9B%E5%B7%9D%E5%A4%A7%E5%AD%A6%E9%80%9A%E6%8A%A5%E7%8E%8B%E7%AB%B9%E5%8D%BF%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98%23) `341.8K 🔥`
 1. [宋威龙赵今麦 马场二搭 (Song Weilong and Zhao Jinmai, second racehorse)](https://s.weibo.com/weibo?q=%23%E5%AE%8B%E5%A8%81%E9%BE%99%E8%B5%B5%E4%BB%8A%E9%BA%A6%20%E9%A9%AC%E5%9C%BA%E4%BA%8C%E6%90%AD%23) `340.0K 🔥`
-1. [王楚钦vs周启豪](https://s.weibo.com/weibo?q=%23%E7%8E%8B%E6%A5%9A%E9%92%A6vs%E5%91%A8%E5%90%AF%E8%B1%AA%23) `331.0K 🔥`
+1. [王楚钦vs周启豪 (Wang Chuqin vs Zhou Qihao)](https://s.weibo.com/weibo?q=%23%E7%8E%8B%E6%A5%9A%E9%92%A6vs%E5%91%A8%E5%90%AF%E8%B1%AA%23) `331.0K 🔥`
 1. [有奶茶店员称订单密度超外卖大战 (A milk tea shop assistant said the order density exceeds the takeout war)](https://s.weibo.com/weibo?q=%23%E6%9C%89%E5%A5%B6%E8%8C%B6%E5%BA%97%E5%91%98%E7%A7%B0%E8%AE%A2%E5%8D%95%E5%AF%86%E5%BA%A6%E8%B6%85%E5%A4%96%E5%8D%96%E5%A4%A7%E6%88%98%23) `326.8K 🔥`
 1. [山姆品控危机引发退卡风波](https://s.weibo.com/weibo?q=%23%E5%B1%B1%E5%A7%86%E5%93%81%E6%8E%A7%E5%8D%B1%E6%9C%BA%E5%BC%95%E5%8F%91%E9%80%80%E5%8D%A1%E9%A3%8E%E6%B3%A2%23) `321.1K 🔥`
 1. [管乐道歉](https://s.weibo.com/weibo?q=%23%E7%AE%A1%E4%B9%90%E9%81%93%E6%AD%89%23) `321.0K 🔥`
 1. [这一年我去过这些博物馆](https://s.weibo.com/weibo?q=%23%E8%BF%99%E4%B8%80%E5%B9%B4%E6%88%91%E5%8E%BB%E8%BF%87%E8%BF%99%E4%BA%9B%E5%8D%9A%E7%89%A9%E9%A6%86%23) `320.6K 🔥`
 1. [结婚需要多少钱](https://s.weibo.com/weibo?q=%23%E7%BB%93%E5%A9%9A%E9%9C%80%E8%A6%81%E5%A4%9A%E5%B0%91%E9%92%B1%23) `317.1K 🔥`
 1. [孕妇独自驾车就医致一男子死亡](https://s.weibo.com/weibo?q=%23%E5%AD%95%E5%A6%87%E7%8B%AC%E8%87%AA%E9%A9%BE%E8%BD%A6%E5%B0%B1%E5%8C%BB%E8%87%B4%E4%B8%80%E7%94%B7%E5%AD%90%E6%AD%BB%E4%BA%A1%23) `316.8K 🔥`
-1. [我的冬奥AI形象 (My Winter Olympics AI image)](https://s.weibo.com/weibo?q=%23%E6%88%91%E7%9A%84%E5%86%AC%E5%A5%A5AI%E5%BD%A2%E8%B1%A1%23) `303.7K 🔥`
+1. [央视还原网购娃娃菜中毒事件真相](https://s.weibo.com/weibo?q=%23%E5%A4%AE%E8%A7%86%E8%BF%98%E5%8E%9F%E7%BD%91%E8%B4%AD%E5%A8%83%E5%A8%83%E8%8F%9C%E4%B8%AD%E6%AF%92%E4%BA%8B%E4%BB%B6%E7%9C%9F%E7%9B%B8%23) `309.5K 🔥`
 
-Updated at 2026-02-07 19:49:34
+Updated at 2026-02-07 20:01:14
 
 <!-- END -->
 
