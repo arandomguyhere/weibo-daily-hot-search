@@ -5,7 +5,15 @@ import { exists } from "std/fs/mod.ts";
 import * as utils from "./utils.ts";
 import { HotWord } from "./types.ts";
 
-const MOBILE_HEADERS = {
+const DESKTOP_HEADERS: Record<string, string> = {
+  "User-Agent":
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+  "Accept": "application/json, text/plain, */*",
+  "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+  "Referer": "https://weibo.com/",
+};
+
+const MOBILE_HEADERS: Record<string, string> = {
   "User-Agent":
     "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1",
   "Accept": "application/json, text/plain, */*",
@@ -14,19 +22,22 @@ const MOBILE_HEADERS = {
   "Referer": "https://m.weibo.cn/",
 };
 
-// 尝试多个 API 端点获取热搜数据
+// Try multiple API endpoints to fetch hot search data
 async function fetchData(): Promise<HotWord[]> {
   const endpoints = [
     {
       url: "https://weibo.com/ajax/side/hotSearch",
+      headers: DESKTOP_HEADERS,
       parse: parseAjaxHotSearch,
     },
     {
       url: "https://weibo.com/ajax/statuses/hot_band",
+      headers: DESKTOP_HEADERS,
       parse: parseHotBand,
     },
     {
       url: "https://m.weibo.cn/api/container/getIndex?containerid=106003type%3D25%26t%3D3%26disable_hot%3D1%26filter_type%3Drealtimehot",
+      headers: MOBILE_HEADERS,
       parse: parseMobileApi,
     },
   ];
@@ -36,7 +47,7 @@ async function fetchData(): Promise<HotWord[]> {
   for (const endpoint of endpoints) {
     try {
       console.log(`Trying: ${endpoint.url}`);
-      const response = await fetch(endpoint.url, { headers: MOBILE_HEADERS });
+      const response = await fetch(endpoint.url, { headers: endpoint.headers });
 
       if (!response.ok) {
         console.log(`  Status: ${response.status}`);
