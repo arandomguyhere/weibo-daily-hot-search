@@ -1,0 +1,3 @@
+[submodule "WeiboInsight"]
+	path = WeiboInsight
+	url = https://github.com/arandomguyhere/WeiboInsight.git
