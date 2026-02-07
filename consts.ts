@@ -1,6 +1,0 @@
-// Heat value weights by time of day
-export const dailyHours = {
-  night: [2, 3, 4, 5],
-  morning: [6, 7, 8, 9, 10],
-  peak: [11, 12, 13, 17, 18, 19, 20, 21, 22, 23, 0],
-};

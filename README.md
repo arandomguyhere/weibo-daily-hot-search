@@ -16,7 +16,7 @@ Browse historical trending data with status badges, velocity indicators, and cat
 - **Suppression detection**: Topics that disappear from the feed are marked as `GONE`
 - **English translations**: Auto-translated via Google Translate for non-Chinese readers
 - **Dark mode + filters**: Filter by status category, search by Chinese or English text
-- **Time-of-day weighting**: Heat values adjusted by collection hour for accuracy
+- **Engagement metrics**: Top topics enriched with likes, comments, and reposts from related posts
 
 ## Today's Hot Searches
 
@@ -114,24 +114,13 @@ Daily JSON format (`raw/YYYY-MM-DD.json`):
 | `url` | Weibo search link path |
 | `text` | Trending topic text (Chinese) |
 | `textEn` | English translation (optional) |
-| `count` | Heat value (adjusted by time-of-day weight) |
+| `count` | Heat value from Weibo API |
 | `firstSeen` | ISO timestamp when topic first appeared today |
 | `peakCount` | Highest count recorded for this topic today |
 | `prevCount` | Count from previous scrape cycle |
 | `status` | Lifecycle stage: `new`, `rising`, `hot`, `falling`, `gone` |
 | `velocity` | Percentage change from previous scrape |
 | `engagement` | Post engagement metrics (top 10 topics): posts, likes, comments, reposts |
-
-### Time-of-Day Weights
-
-Heat values are weighted by time of day during collection to better reflect true popularity:
-
-| Period | Hours (CST) | Weight |
-|--------|-------------|--------|
-| Night | 02:00-05:00 | 0.5x |
-| Morning | 06:00-10:00 | 0.8x |
-| Peak | 11:00-13:00, 17:00-23:00, 00:00 | 1.2x |
-| Default | 01:00, 14:00-16:00 | 1.0x |
 
 ## Tech Stack
 

@@ -1,5 +1,4 @@
 import { format } from "std/datetime/mod.ts";
-import { dailyHours } from "./consts.ts";
 import { HotWord } from "./types.ts";
 
 export function normalizeUrl(url: string, text: string): string {
@@ -50,22 +49,6 @@ Updated at ${formatedNowTimeStr}
 
 <!-- END -->`,
   );
-}
-
-// Get heat value weight based on current hour
-export function getCurrentRank(): number {
-  const currentHours = (new Date()).getHours();
-
-  // NOTE: values may need further tuning
-  if (dailyHours.night.includes(currentHours)) {
-    return 0.5;
-  } else if (dailyHours.morning.includes(currentHours)) {
-    return 0.8;
-  } else if (dailyHours.peak.includes(currentHours)) {
-    return 1.2;
-  }
-
-  return 1;
 }
 
 // Format heat count string, e.g. 100.1K
