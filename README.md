@@ -20,58 +20,58 @@ Browse historical trending data by date with a visual interface.
 
 <!-- BEGIN -->
 
-1. [成何体统上了韩网热帖 (Cheng He's tact has become a hot topic on Korean net)](https://s.weibo.com#成何体统上了韩网热帖#) `871.3K 🔥`
-1. [王楚钦尊重国家队的安排](https://s.weibo.com#王楚钦尊重国家队的安排#) `861.8K 🔥`
-1. [大集里的中国年味](https://s.weibo.com#大集里的中国年味#) `521.2K 🔥`
+1. [成何体统上了韩网热帖 (Cheng He's tact has become a hot topic on Korean net)](https://s.weibo.com/weibo?q=%23%E6%88%90%E4%BD%95%E4%BD%93%E7%BB%9F%E4%B8%8A%E4%BA%86%E9%9F%A9%E7%BD%91%E7%83%AD%E5%B8%96%23) `871.3K 🔥`
+1. [王楚钦尊重国家队的安排](https://s.weibo.com/weibo?q=%23%E7%8E%8B%E6%A5%9A%E9%92%A6%E5%B0%8A%E9%87%8D%E5%9B%BD%E5%AE%B6%E9%98%9F%E7%9A%84%E5%AE%89%E6%8E%92%23) `861.8K 🔥`
+1. [大集里的中国年味](https://s.weibo.com/weibo?q=%23%E5%A4%A7%E9%9B%86%E9%87%8C%E7%9A%84%E4%B8%AD%E5%9B%BD%E5%B9%B4%E5%91%B3%23) `521.2K 🔥`
 1. [揭秘 Apple 新春大片](https://s.weibo.com/weibo?q=%23%E6%8F%AD%E7%A7%98%20Apple%20%E6%96%B0%E6%98%A5%E5%A4%A7%E7%89%87%23) `467.9K 🔥`
 1. [美团外卖周末半价吃大餐](https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%9B%A2%E5%A4%96%E5%8D%96%E5%91%A8%E6%9C%AB%E5%8D%8A%E4%BB%B7%E5%90%83%E5%A4%A7%E9%A4%90%23) `457.3K 🔥`
 1. [买冰雪运动同款就上淘宝](https://s.weibo.com/weibo?q=%23%E4%B9%B0%E5%86%B0%E9%9B%AA%E8%BF%90%E5%8A%A8%E5%90%8C%E6%AC%BE%E5%B0%B1%E4%B8%8A%E6%B7%98%E5%AE%9D%23) `406.8K 🔥`
-1. [冬奥会开幕式](https://s.weibo.com冬奥会开幕式) `365.3K 🔥`
-1. [郎朗 权威](https://s.weibo.com郎朗 权威) `299.3K 🔥`
-1. [今夜无人入睡](https://s.weibo.com今夜无人入睡) `266.0K 🔥`
+1. [冬奥会开幕式](https://s.weibo.com/weibo?q=%23%E5%86%AC%E5%A5%A5%E4%BC%9A%E5%BC%80%E5%B9%95%E5%BC%8F%23) `365.3K 🔥`
+1. [郎朗 权威](https://s.weibo.com/weibo?q=%23%E9%83%8E%E6%9C%97%20%E6%9D%83%E5%A8%81%23) `299.3K 🔥`
+1. [今夜无人入睡](https://s.weibo.com/weibo?q=%23%E4%BB%8A%E5%A4%9C%E6%97%A0%E4%BA%BA%E5%85%A5%E7%9D%A1%23) `266.0K 🔥`
 1. [中国荣耀李宁同行](https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E8%8D%A3%E8%80%80%E6%9D%8E%E5%AE%81%E5%90%8C%E8%A1%8C%23) `208.3K 🔥`
-1. [巴拿马正成为第二个立陶宛](https://s.weibo.com#巴拿马正成为第二个立陶宛#) `203.9K 🔥`
-1. [最强大脑最无解的题目出现了](https://s.weibo.com最强大脑最无解的题目出现了) `170.9K 🔥`
-1. [中国队蓝羽绒服 好看](https://s.weibo.com中国队蓝羽绒服 好看) `168.6K 🔥`
-1. [米兰开幕式 好正常好好看](https://s.weibo.com米兰开幕式 好正常好好看) `161.5K 🔥`
-1. [爱泼斯坦死亡当晚监控曝光](https://s.weibo.com#爱泼斯坦死亡当晚监控曝光#) `161.4K 🔥`
-1. [海口致3死1伤男子畏罪自杀身亡](https://s.weibo.com#海口致3死1伤男子畏罪自杀身亡#) `159.7K 🔥`
-1. [刘宇宁回应合作白鹿](https://s.weibo.com#刘宇宁回应合作白鹿#) `157.9K 🔥`
-1. [飞饼师傅被认定外籍专家发放慰问费](https://s.weibo.com#飞饼师傅被认定外籍专家发放慰问费#) `150.7K 🔥`
-1. [华晨宇 我35岁最后一天的最后一吻](https://s.weibo.com华晨宇 我35岁最后一天的最后一吻) `139.3K 🔥`
-1. [1.5万裤子穿1天发现勾线退货难](https://s.weibo.com#1.5万裤子穿1天发现勾线退货难#) `130.3K 🔥`
-1. [爱泼斯坦](https://s.weibo.com爱泼斯坦) `124.9K 🔥`
-1. [网友偶遇陈冠希文案](https://s.weibo.com网友偶遇陈冠希文案) `119.6K 🔥`
-1. [卢昱晓说女明星不能一味追求瘦](https://s.weibo.com#卢昱晓说女明星不能一味追求瘦#) `118.8K 🔥`
-1. [成何体统](https://s.weibo.com成何体统) `108.8K 🔥`
-1. [91岁老人900万积蓄遭儿子儿媳挪用](https://s.weibo.com#91岁老人900万积蓄遭儿子儿媳挪用#) `104.3K 🔥`
-1. [邬君梅与外籍丈夫婚姻持续近30年 (Wu Junmei’s marriage to her foreign husband lasted nearly 30 years)](https://s.weibo.com#邬君梅与外籍丈夫婚姻持续近30年#) `104.1K 🔥`
-1. [硕士娶离异农村妇女守护留守儿童](https://s.weibo.com#硕士娶离异农村妇女守护留守儿童#) `102.9K 🔥`
-1. [奥运五环出场方式太震撼了](https://s.weibo.com#奥运五环出场方式太震撼了#) `102.3K 🔥`
-1. [林孝埈转发中国队入场照](https://s.weibo.com#林孝埈转发中国队入场照#) `101.2K 🔥`
-1. [Bin 我依然是世一上](https://s.weibo.comBin 我依然是世一上) `101.0K 🔥`
-1. [黄子韬自曝卫生巾工厂现状](https://s.weibo.com#黄子韬自曝卫生巾工厂现状#) `99.4K 🔥`
-1. [中国黄金调整回购规则](https://s.weibo.com#中国黄金调整回购规则#) `94.2K 🔥`
-1. [底层斩杀线 顶层萝莉岛](https://s.weibo.com底层斩杀线 顶层萝莉岛) `86.2K 🔥`
-1. [蔡徐坤巡演官宣](https://s.weibo.com蔡徐坤巡演官宣) `85.6K 🔥`
-1. [奶茶品牌为千问免单拼了](https://s.weibo.com#奶茶品牌为千问免单拼了#) `84.1K 🔥`
-1. [喜欢巴西旗手的羽绒服](https://s.weibo.com喜欢巴西旗手的羽绒服) `82.2K 🔥`
-1. [一上午烫了20多个老太太](https://s.weibo.com一上午烫了20多个老太太) `81.9K 🔥`
-1. [38岁父亲独自爬野山坠崖遇难](https://s.weibo.com#38岁父亲独自爬野山坠崖遇难#) `79.3K 🔥`
-1. [怀孕闺蜜代替女生亡父送她出嫁](https://s.weibo.com#怀孕闺蜜代替女生亡父送她出嫁#) `79.1K 🔥`
-1. [罗云熙五杀](https://s.weibo.com#罗云熙五杀#) `76.1K 🔥`
-1. [种草引导员的羽绒服](https://s.weibo.com种草引导员的羽绒服) `74.8K 🔥`
-1. [刘宇宁回应微博之夜捂胸口](https://s.weibo.com#刘宇宁回应微博之夜捂胸口#) `73.9K 🔥`
-1. [一觉醒来全跌了](https://s.weibo.com#一觉醒来全跌了#) `67.0K 🔥`
-1. [米兰冬奥主火炬点燃](https://s.weibo.com米兰冬奥主火炬点燃) `66.5K 🔥`
-1. [20岁黄多多好漂亮](https://s.weibo.com#20岁黄多多好漂亮#) `65.7K 🔥`
-1. [生命树18集12分57秒](https://s.weibo.com生命树18集12分57秒) `63.1K 🔥`
-1. [白银一夜大跌20%](https://s.weibo.com#白银一夜大跌20%#) `58.4K 🔥`
-1. [意大利手势](https://s.weibo.com意大利手势) `58.2K 🔥`
-1. [快递停运](https://s.weibo.com快递停运) `57.6K 🔥`
-1. [网红战痘神药副作用竟影响性功能](https://s.weibo.com#网红战痘神药副作用竟影响性功能#) `56.2K 🔥`
+1. [巴拿马正成为第二个立陶宛](https://s.weibo.com/weibo?q=%23%E5%B7%B4%E6%8B%BF%E9%A9%AC%E6%AD%A3%E6%88%90%E4%B8%BA%E7%AC%AC%E4%BA%8C%E4%B8%AA%E7%AB%8B%E9%99%B6%E5%AE%9B%23) `203.9K 🔥`
+1. [最强大脑最无解的题目出现了](https://s.weibo.com/weibo?q=%23%E6%9C%80%E5%BC%BA%E5%A4%A7%E8%84%91%E6%9C%80%E6%97%A0%E8%A7%A3%E7%9A%84%E9%A2%98%E7%9B%AE%E5%87%BA%E7%8E%B0%E4%BA%86%23) `170.9K 🔥`
+1. [中国队蓝羽绒服 好看](https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E9%98%9F%E8%93%9D%E7%BE%BD%E7%BB%92%E6%9C%8D%20%E5%A5%BD%E7%9C%8B%23) `168.6K 🔥`
+1. [米兰开幕式 好正常好好看](https://s.weibo.com/weibo?q=%23%E7%B1%B3%E5%85%B0%E5%BC%80%E5%B9%95%E5%BC%8F%20%E5%A5%BD%E6%AD%A3%E5%B8%B8%E5%A5%BD%E5%A5%BD%E7%9C%8B%23) `161.5K 🔥`
+1. [爱泼斯坦死亡当晚监控曝光](https://s.weibo.com/weibo?q=%23%E7%88%B1%E6%B3%BC%E6%96%AF%E5%9D%A6%E6%AD%BB%E4%BA%A1%E5%BD%93%E6%99%9A%E7%9B%91%E6%8E%A7%E6%9B%9D%E5%85%89%23) `161.4K 🔥`
+1. [海口致3死1伤男子畏罪自杀身亡](https://s.weibo.com/weibo?q=%23%E6%B5%B7%E5%8F%A3%E8%87%B43%E6%AD%BB1%E4%BC%A4%E7%94%B7%E5%AD%90%E7%95%8F%E7%BD%AA%E8%87%AA%E6%9D%80%E8%BA%AB%E4%BA%A1%23) `159.7K 🔥`
+1. [刘宇宁回应合作白鹿](https://s.weibo.com/weibo?q=%23%E5%88%98%E5%AE%87%E5%AE%81%E5%9B%9E%E5%BA%94%E5%90%88%E4%BD%9C%E7%99%BD%E9%B9%BF%23) `157.9K 🔥`
+1. [飞饼师傅被认定外籍专家发放慰问费](https://s.weibo.com/weibo?q=%23%E9%A3%9E%E9%A5%BC%E5%B8%88%E5%82%85%E8%A2%AB%E8%AE%A4%E5%AE%9A%E5%A4%96%E7%B1%8D%E4%B8%93%E5%AE%B6%E5%8F%91%E6%94%BE%E6%85%B0%E9%97%AE%E8%B4%B9%23) `150.7K 🔥`
+1. [华晨宇 我35岁最后一天的最后一吻](https://s.weibo.com/weibo?q=%23%E5%8D%8E%E6%99%A8%E5%AE%87%20%E6%88%9135%E5%B2%81%E6%9C%80%E5%90%8E%E4%B8%80%E5%A4%A9%E7%9A%84%E6%9C%80%E5%90%8E%E4%B8%80%E5%90%BB%23) `139.3K 🔥`
+1. [1.5万裤子穿1天发现勾线退货难](https://s.weibo.com/weibo?q=%231.5%E4%B8%87%E8%A3%A4%E5%AD%90%E7%A9%BF1%E5%A4%A9%E5%8F%91%E7%8E%B0%E5%8B%BE%E7%BA%BF%E9%80%80%E8%B4%A7%E9%9A%BE%23) `130.3K 🔥`
+1. [爱泼斯坦](https://s.weibo.com/weibo?q=%23%E7%88%B1%E6%B3%BC%E6%96%AF%E5%9D%A6%23) `124.9K 🔥`
+1. [网友偶遇陈冠希文案](https://s.weibo.com/weibo?q=%23%E7%BD%91%E5%8F%8B%E5%81%B6%E9%81%87%E9%99%88%E5%86%A0%E5%B8%8C%E6%96%87%E6%A1%88%23) `119.6K 🔥`
+1. [卢昱晓说女明星不能一味追求瘦](https://s.weibo.com/weibo?q=%23%E5%8D%A2%E6%98%B1%E6%99%93%E8%AF%B4%E5%A5%B3%E6%98%8E%E6%98%9F%E4%B8%8D%E8%83%BD%E4%B8%80%E5%91%B3%E8%BF%BD%E6%B1%82%E7%98%A6%23) `118.8K 🔥`
+1. [成何体统](https://s.weibo.com/weibo?q=%23%E6%88%90%E4%BD%95%E4%BD%93%E7%BB%9F%23) `108.8K 🔥`
+1. [91岁老人900万积蓄遭儿子儿媳挪用](https://s.weibo.com/weibo?q=%2391%E5%B2%81%E8%80%81%E4%BA%BA900%E4%B8%87%E7%A7%AF%E8%93%84%E9%81%AD%E5%84%BF%E5%AD%90%E5%84%BF%E5%AA%B3%E6%8C%AA%E7%94%A8%23) `104.3K 🔥`
+1. [邬君梅与外籍丈夫婚姻持续近30年 (Wu Junmei’s marriage to her foreign husband lasted nearly 30 years)](https://s.weibo.com/weibo?q=%23%E9%82%AC%E5%90%9B%E6%A2%85%E4%B8%8E%E5%A4%96%E7%B1%8D%E4%B8%88%E5%A4%AB%E5%A9%9A%E5%A7%BB%E6%8C%81%E7%BB%AD%E8%BF%9130%E5%B9%B4%23) `104.1K 🔥`
+1. [硕士娶离异农村妇女守护留守儿童](https://s.weibo.com/weibo?q=%23%E7%A1%95%E5%A3%AB%E5%A8%B6%E7%A6%BB%E5%BC%82%E5%86%9C%E6%9D%91%E5%A6%87%E5%A5%B3%E5%AE%88%E6%8A%A4%E7%95%99%E5%AE%88%E5%84%BF%E7%AB%A5%23) `102.9K 🔥`
+1. [奥运五环出场方式太震撼了](https://s.weibo.com/weibo?q=%23%E5%A5%A5%E8%BF%90%E4%BA%94%E7%8E%AF%E5%87%BA%E5%9C%BA%E6%96%B9%E5%BC%8F%E5%A4%AA%E9%9C%87%E6%92%BC%E4%BA%86%23) `102.3K 🔥`
+1. [林孝埈转发中国队入场照](https://s.weibo.com/weibo?q=%23%E6%9E%97%E5%AD%9D%E5%9F%88%E8%BD%AC%E5%8F%91%E4%B8%AD%E5%9B%BD%E9%98%9F%E5%85%A5%E5%9C%BA%E7%85%A7%23) `101.2K 🔥`
+1. [Bin 我依然是世一上](https://s.weibo.com/weibo?q=%23Bin%20%E6%88%91%E4%BE%9D%E7%84%B6%E6%98%AF%E4%B8%96%E4%B8%80%E4%B8%8A%23) `101.0K 🔥`
+1. [黄子韬自曝卫生巾工厂现状](https://s.weibo.com/weibo?q=%23%E9%BB%84%E5%AD%90%E9%9F%AC%E8%87%AA%E6%9B%9D%E5%8D%AB%E7%94%9F%E5%B7%BE%E5%B7%A5%E5%8E%82%E7%8E%B0%E7%8A%B6%23) `99.4K 🔥`
+1. [中国黄金调整回购规则](https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E9%BB%84%E9%87%91%E8%B0%83%E6%95%B4%E5%9B%9E%E8%B4%AD%E8%A7%84%E5%88%99%23) `94.2K 🔥`
+1. [底层斩杀线 顶层萝莉岛](https://s.weibo.com/weibo?q=%23%E5%BA%95%E5%B1%82%E6%96%A9%E6%9D%80%E7%BA%BF%20%E9%A1%B6%E5%B1%82%E8%90%9D%E8%8E%89%E5%B2%9B%23) `86.2K 🔥`
+1. [蔡徐坤巡演官宣](https://s.weibo.com/weibo?q=%23%E8%94%A1%E5%BE%90%E5%9D%A4%E5%B7%A1%E6%BC%94%E5%AE%98%E5%AE%A3%23) `85.6K 🔥`
+1. [奶茶品牌为千问免单拼了](https://s.weibo.com/weibo?q=%23%E5%A5%B6%E8%8C%B6%E5%93%81%E7%89%8C%E4%B8%BA%E5%8D%83%E9%97%AE%E5%85%8D%E5%8D%95%E6%8B%BC%E4%BA%86%23) `84.1K 🔥`
+1. [喜欢巴西旗手的羽绒服](https://s.weibo.com/weibo?q=%23%E5%96%9C%E6%AC%A2%E5%B7%B4%E8%A5%BF%E6%97%97%E6%89%8B%E7%9A%84%E7%BE%BD%E7%BB%92%E6%9C%8D%23) `82.2K 🔥`
+1. [一上午烫了20多个老太太](https://s.weibo.com/weibo?q=%23%E4%B8%80%E4%B8%8A%E5%8D%88%E7%83%AB%E4%BA%8620%E5%A4%9A%E4%B8%AA%E8%80%81%E5%A4%AA%E5%A4%AA%23) `81.9K 🔥`
+1. [38岁父亲独自爬野山坠崖遇难](https://s.weibo.com/weibo?q=%2338%E5%B2%81%E7%88%B6%E4%BA%B2%E7%8B%AC%E8%87%AA%E7%88%AC%E9%87%8E%E5%B1%B1%E5%9D%A0%E5%B4%96%E9%81%87%E9%9A%BE%23) `79.3K 🔥`
+1. [怀孕闺蜜代替女生亡父送她出嫁](https://s.weibo.com/weibo?q=%23%E6%80%80%E5%AD%95%E9%97%BA%E8%9C%9C%E4%BB%A3%E6%9B%BF%E5%A5%B3%E7%94%9F%E4%BA%A1%E7%88%B6%E9%80%81%E5%A5%B9%E5%87%BA%E5%AB%81%23) `79.1K 🔥`
+1. [罗云熙五杀](https://s.weibo.com/weibo?q=%23%E7%BD%97%E4%BA%91%E7%86%99%E4%BA%94%E6%9D%80%23) `76.1K 🔥`
+1. [种草引导员的羽绒服](https://s.weibo.com/weibo?q=%23%E7%A7%8D%E8%8D%89%E5%BC%95%E5%AF%BC%E5%91%98%E7%9A%84%E7%BE%BD%E7%BB%92%E6%9C%8D%23) `74.8K 🔥`
+1. [刘宇宁回应微博之夜捂胸口](https://s.weibo.com/weibo?q=%23%E5%88%98%E5%AE%87%E5%AE%81%E5%9B%9E%E5%BA%94%E5%BE%AE%E5%8D%9A%E4%B9%8B%E5%A4%9C%E6%8D%82%E8%83%B8%E5%8F%A3%23) `73.9K 🔥`
+1. [一觉醒来全跌了](https://s.weibo.com/weibo?q=%23%E4%B8%80%E8%A7%89%E9%86%92%E6%9D%A5%E5%85%A8%E8%B7%8C%E4%BA%86%23) `67.0K 🔥`
+1. [米兰冬奥主火炬点燃](https://s.weibo.com/weibo?q=%23%E7%B1%B3%E5%85%B0%E5%86%AC%E5%A5%A5%E4%B8%BB%E7%81%AB%E7%82%AC%E7%82%B9%E7%87%83%23) `66.5K 🔥`
+1. [20岁黄多多好漂亮](https://s.weibo.com/weibo?q=%2320%E5%B2%81%E9%BB%84%E5%A4%9A%E5%A4%9A%E5%A5%BD%E6%BC%82%E4%BA%AE%23) `65.7K 🔥`
+1. [生命树18集12分57秒](https://s.weibo.com/weibo?q=%23%E7%94%9F%E5%91%BD%E6%A0%9118%E9%9B%8612%E5%88%8657%E7%A7%92%23) `63.1K 🔥`
+1. [白银一夜大跌20%](https://s.weibo.com/weibo?q=%23%E7%99%BD%E9%93%B6%E4%B8%80%E5%A4%9C%E5%A4%A7%E8%B7%8C20%25%23) `58.4K 🔥`
+1. [意大利手势](https://s.weibo.com/weibo?q=%23%E6%84%8F%E5%A4%A7%E5%88%A9%E6%89%8B%E5%8A%BF%23) `58.2K 🔥`
+1. [快递停运](https://s.weibo.com/weibo?q=%23%E5%BF%AB%E9%80%92%E5%81%9C%E8%BF%90%23) `57.6K 🔥`
+1. [网红战痘神药副作用竟影响性功能](https://s.weibo.com/weibo?q=%23%E7%BD%91%E7%BA%A2%E6%88%98%E7%97%98%E7%A5%9E%E8%8D%AF%E5%89%AF%E4%BD%9C%E7%94%A8%E7%AB%9F%E5%BD%B1%E5%93%8D%E6%80%A7%E5%8A%9F%E8%83%BD%23) `56.2K 🔥`
 
-Updated at 2026-02-07 08:28:47
+Updated at 2026-02-07 01:18:15
 
 <!-- END -->
 
