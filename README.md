@@ -23,7 +23,7 @@ Browse historical trending data by date with a visual interface.
 1. [王昶钱天一结婚 (Wang Chang and Qian Tianyi get married)](https://s.weibo.com/weibo?q=%23%E7%8E%8B%E6%98%B6%E9%92%B1%E5%A4%A9%E4%B8%80%E7%BB%93%E5%A9%9A%23) `12.6M 🔥`
 1. [千问免单不止奶茶 (Qianwen offers more than just milk tea for free)](https://s.weibo.com/weibo?q=%23%E5%8D%83%E9%97%AE%E5%85%8D%E5%8D%95%E4%B8%8D%E6%AD%A2%E5%A5%B6%E8%8C%B6%23) `4.7M 🔥`
 1. [千问 (Qianwen)](https://s.weibo.com/weibo?q=%23%E5%8D%83%E9%97%AE%23) `2.9M 🔥`
-1. [网友挽留倒闭火锅店房东霸气免租](https://s.weibo.com/weibo?q=%23%E7%BD%91%E5%8F%8B%E6%8C%BD%E7%95%99%E5%80%92%E9%97%AD%E7%81%AB%E9%94%85%E5%BA%97%E6%88%BF%E4%B8%9C%E9%9C%B8%E6%B0%94%E5%85%8D%E7%A7%9F%23) `2.1M 🔥`
+1. [网友挽留倒闭火锅店房东霸气免租 (Netizens persuade landlord to stay at closed hot pot restaurant and waive rent)](https://s.weibo.com/weibo?q=%23%E7%BD%91%E5%8F%8B%E6%8C%BD%E7%95%99%E5%80%92%E9%97%AD%E7%81%AB%E9%94%85%E5%BA%97%E6%88%BF%E4%B8%9C%E9%9C%B8%E6%B0%94%E5%85%8D%E7%A7%9F%23) `2.1M 🔥`
 1. [2026新春走基层 (2026 New Year Goes to the Grassroots)](https://s.weibo.com/weibo?q=%232026%E6%96%B0%E6%98%A5%E8%B5%B0%E5%9F%BA%E5%B1%82%23) `1.7M 🔥`
 1. [米兰开幕式 好正常好好看 (The opening ceremony in Milan was so normal and beautiful.)](https://s.weibo.com/weibo?q=%23%E7%B1%B3%E5%85%B0%E5%BC%80%E5%B9%95%E5%BC%8F%20%E5%A5%BD%E6%AD%A3%E5%B8%B8%E5%A5%BD%E5%A5%BD%E7%9C%8B%23) `1.1M 🔥`
 1. [印度飞饼师傅凭什么认定为外籍专家 (Why is the Indian flying pancake chef recognized as a foreign expert?)](https://s.weibo.com/weibo?q=%23%E5%8D%B0%E5%BA%A6%E9%A3%9E%E9%A5%BC%E5%B8%88%E5%82%85%E5%87%AD%E4%BB%80%E4%B9%88%E8%AE%A4%E5%AE%9A%E4%B8%BA%E5%A4%96%E7%B1%8D%E4%B8%93%E5%AE%B6%23) `1.1M 🔥`
@@ -31,7 +31,7 @@ Browse historical trending data by date with a visual interface.
 1. [成何体统上了韩网热帖 (Cheng He's tact has become a hot topic on Korean net)](https://s.weibo.com/weibo?q=%23%E6%88%90%E4%BD%95%E4%BD%93%E7%BB%9F%E4%B8%8A%E4%BA%86%E9%9F%A9%E7%BD%91%E7%83%AD%E5%B8%96%23) `871.3K 🔥`
 1. [王楚钦尊重国家队的安排 (Wang Chuqin respects the arrangements of the national team)](https://s.weibo.com/weibo?q=%23%E7%8E%8B%E6%A5%9A%E9%92%A6%E5%B0%8A%E9%87%8D%E5%9B%BD%E5%AE%B6%E9%98%9F%E7%9A%84%E5%AE%89%E6%8E%92%23) `861.8K 🔥`
 1. [中国网络视听盛典](https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E7%BD%91%E7%BB%9C%E8%A7%86%E5%90%AC%E7%9B%9B%E5%85%B8%23) `855.4K 🔥`
-1. [政务窗口工作人员8年收好处费1614万](https://s.weibo.com/weibo?q=%23%E6%94%BF%E5%8A%A1%E7%AA%97%E5%8F%A3%E5%B7%A5%E4%BD%9C%E4%BA%BA%E5%91%988%E5%B9%B4%E6%94%B6%E5%A5%BD%E5%A4%84%E8%B4%B91614%E4%B8%87%23) `820.5K 🔥`
+1. [政务窗口工作人员8年收好处费1614万](https://s.weibo.com/weibo?q=%23%E6%94%BF%E5%8A%A1%E7%AA%97%E5%8F%A3%E5%B7%A5%E4%BD%9C%E4%BA%BA%E5%91%988%E5%B9%B4%E6%94%B6%E5%A5%BD%E5%A4%84%E8%B4%B91614%E4%B8%87%23) `836.4K 🔥`
 1. [新年有乐事就选拼多多](https://s.weibo.com/weibo?q=%23%E6%96%B0%E5%B9%B4%E6%9C%89%E4%B9%90%E4%BA%8B%E5%B0%B1%E9%80%89%E6%8B%BC%E5%A4%9A%E5%A4%9A%23) `814.6K 🔥`
 1. [昭阳公主](https://s.weibo.com/weibo?q=%23%E6%98%AD%E9%98%B3%E5%85%AC%E4%B8%BB%23) `729.5K 🔥`
 1. [买冰雪运动同款就上淘宝](https://s.weibo.com/weibo?q=%23%E4%B9%B0%E5%86%B0%E9%9B%AA%E8%BF%90%E5%8A%A8%E5%90%8C%E6%AC%BE%E5%B0%B1%E4%B8%8A%E6%B7%98%E5%AE%9D%23) `678.9K 🔥`
@@ -41,8 +41,9 @@ Browse historical trending data by date with a visual interface.
 1. [揭秘 Apple 新春大片 (Revealing Apple’s New Year blockbusters)](https://s.weibo.com/weibo?q=%23%E6%8F%AD%E7%A7%98%20Apple%20%E6%96%B0%E6%98%A5%E5%A4%A7%E7%89%87%23) `467.9K 🔥`
 1. [美团外卖周末半价吃大餐 (Meituan Takeaway offers half-price meals on weekends)](https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%9B%A2%E5%A4%96%E5%8D%96%E5%91%A8%E6%9C%AB%E5%8D%8A%E4%BB%B7%E5%90%83%E5%A4%A7%E9%A4%90%23) `457.3K 🔥`
 1. [金银价飙升米兰冬奥金牌史上最贵 (Gold and silver prices soar, Milan Winter Olympics gold medal the most expensive in history)](https://s.weibo.com/weibo?q=%23%E9%87%91%E9%93%B6%E4%BB%B7%E9%A3%99%E5%8D%87%E7%B1%B3%E5%85%B0%E5%86%AC%E5%A5%A5%E9%87%91%E7%89%8C%E5%8F%B2%E4%B8%8A%E6%9C%80%E8%B4%B5%23) `417.8K 🔥`
+1. [谷爱凌备战期间意外重伤](https://s.weibo.com/weibo?q=%23%E8%B0%B7%E7%88%B1%E5%87%8C%E5%A4%87%E6%88%98%E6%9C%9F%E9%97%B4%E6%84%8F%E5%A4%96%E9%87%8D%E4%BC%A4%23) `378.6K 🔥`
 1. [冬奥会开幕式 (Winter Olympics opening ceremony)](https://s.weibo.com/weibo?q=%23%E5%86%AC%E5%A5%A5%E4%BC%9A%E5%BC%80%E5%B9%95%E5%BC%8F%23) `365.3K 🔥`
-1. [四川大学通报王竹卿相关问题](https://s.weibo.com/weibo?q=%23%E5%9B%9B%E5%B7%9D%E5%A4%A7%E5%AD%A6%E9%80%9A%E6%8A%A5%E7%8E%8B%E7%AB%B9%E5%8D%BF%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98%23) `341.8K 🔥`
+1. [四川大学通报王竹卿相关问题 (Sichuan University notifies Wang Zhuqing of relevant issues)](https://s.weibo.com/weibo?q=%23%E5%9B%9B%E5%B7%9D%E5%A4%A7%E5%AD%A6%E9%80%9A%E6%8A%A5%E7%8E%8B%E7%AB%B9%E5%8D%BF%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98%23) `341.8K 🔥`
 1. [有奶茶店员称订单密度超外卖大战 (A milk tea shop assistant said the order density exceeds the takeout war)](https://s.weibo.com/weibo?q=%23%E6%9C%89%E5%A5%B6%E8%8C%B6%E5%BA%97%E5%91%98%E7%A7%B0%E8%AE%A2%E5%8D%95%E5%AF%86%E5%BA%A6%E8%B6%85%E5%A4%96%E5%8D%96%E5%A4%A7%E6%88%98%23) `326.8K 🔥`
 1. [我的冬奥AI形象](https://s.weibo.com/weibo?q=%23%E6%88%91%E7%9A%84%E5%86%AC%E5%A5%A5AI%E5%BD%A2%E8%B1%A1%23) `303.7K 🔥`
 1. [郎朗 权威](https://s.weibo.com/weibo?q=%23%E9%83%8E%E6%9C%97%20%E6%9D%83%E5%A8%81%23) `299.3K 🔥`
@@ -56,7 +57,7 @@ Browse historical trending data by date with a visual interface.
 1. [丞磊说和王楚然一对视就笑 (Cheng Lei said that he would laugh when he looked at Wang Churan)](https://s.weibo.com/weibo?q=%23%E4%B8%9E%E7%A3%8A%E8%AF%B4%E5%92%8C%E7%8E%8B%E6%A5%9A%E7%84%B6%E4%B8%80%E5%AF%B9%E8%A7%86%E5%B0%B1%E7%AC%91%23) `229.0K 🔥`
 1. [谢娜因为同一个人哭3次 (Xie Na cried 3 times because of the same person)](https://s.weibo.com/weibo?q=%23%E8%B0%A2%E5%A8%9C%E5%9B%A0%E4%B8%BA%E5%90%8C%E4%B8%80%E4%B8%AA%E4%BA%BA%E5%93%AD3%E6%AC%A1%23) `221.8K 🔥`
 1. [00后男子强奸幼女被执行死刑](https://s.weibo.com/weibo?q=%2300%E5%90%8E%E7%94%B7%E5%AD%90%E5%BC%BA%E5%A5%B8%E5%B9%BC%E5%A5%B3%E8%A2%AB%E6%89%A7%E8%A1%8C%E6%AD%BB%E5%88%91%23) `221.2K 🔥`
-1. [四川大学已成立工作专班](https://s.weibo.com/weibo?q=%23%E5%9B%9B%E5%B7%9D%E5%A4%A7%E5%AD%A6%E5%B7%B2%E6%88%90%E7%AB%8B%E5%B7%A5%E4%BD%9C%E4%B8%93%E7%8F%AD%23) `218.7K 🔥`
+1. [四川大学已成立工作专班 (Sichuan University has established a special work class)](https://s.weibo.com/weibo?q=%23%E5%9B%9B%E5%B7%9D%E5%A4%A7%E5%AD%A6%E5%B7%B2%E6%88%90%E7%AB%8B%E5%B7%A5%E4%BD%9C%E4%B8%93%E7%8F%AD%23) `218.7K 🔥`
 1. [张凌赫不满足当惠英红的18号宝贝](https://s.weibo.com/weibo?q=%23%E5%BC%A0%E5%87%8C%E8%B5%AB%E4%B8%8D%E6%BB%A1%E8%B6%B3%E5%BD%93%E6%83%A0%E8%8B%B1%E7%BA%A2%E7%9A%8418%E5%8F%B7%E5%AE%9D%E8%B4%9D%23) `218.1K 🔥`
 1. [孙颖莎逆转赢了](https://s.weibo.com/weibo?q=%23%E5%AD%99%E9%A2%96%E8%8E%8E%E9%80%86%E8%BD%AC%E8%B5%A2%E4%BA%86%23) `211.6K 🔥`
 1. [苏翊鸣接住开幕式最美雪花](https://s.weibo.com/weibo?q=%23%E8%8B%8F%E7%BF%8A%E9%B8%A3%E6%8E%A5%E4%BD%8F%E5%BC%80%E5%B9%95%E5%BC%8F%E6%9C%80%E7%BE%8E%E9%9B%AA%E8%8A%B1%23) `210.0K 🔥`
@@ -69,9 +70,8 @@ Browse historical trending data by date with a visual interface.
 1. [个税年度汇算](https://s.weibo.com/weibo?q=%23%E4%B8%AA%E7%A8%8E%E5%B9%B4%E5%BA%A6%E6%B1%87%E7%AE%97%23) `201.7K 🔥`
 1. [小李子女友开幕式交接国旗](https://s.weibo.com/weibo?q=%23%E5%B0%8F%E6%9D%8E%E5%AD%90%E5%A5%B3%E5%8F%8B%E5%BC%80%E5%B9%95%E5%BC%8F%E4%BA%A4%E6%8E%A5%E5%9B%BD%E6%97%97%23) `201.4K 🔥`
 1. [陈冠希以为碰到一群迷妹 (Edison Chen thought he met a group of fangirls)](https://s.weibo.com/weibo?q=%23%E9%99%88%E5%86%A0%E5%B8%8C%E4%BB%A5%E4%B8%BA%E7%A2%B0%E5%88%B0%E4%B8%80%E7%BE%A4%E8%BF%B7%E5%A6%B9%23) `201.3K 🔥`
-1. [王昶求婚戒指选了很久](https://s.weibo.com/weibo?q=%23%E7%8E%8B%E6%98%B6%E6%B1%82%E5%A9%9A%E6%88%92%E6%8C%87%E9%80%89%E4%BA%86%E5%BE%88%E4%B9%85%23) `200.9K 🔥`
 
-Updated at 2026-02-07 14:58:36
+Updated at 2026-02-07 15:39:21
 
 <!-- END -->
 
