@@ -1,4 +1,4 @@
-// 各时段的热度权值
+// Heat value weights by time of day
 export const dailyHours = {
   night: [2, 3, 4, 5],
   morning: [6, 7, 8, 9, 10],
