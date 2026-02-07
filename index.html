@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weibo Daily Hot Search</title>
+    <title>Weibo Signal Tracker</title>
     <meta name="description" content="Weibo narrative signal tracker - trending topics with velocity and lifecycle analysis">
     <style>
         :root {
@@ -309,6 +309,9 @@
             div.textContent = str;
             return div.innerHTML;
         }
+        function escapeAttr(str) {
+            return str.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        }
 
         const datePicker = document.getElementById('datePicker');
         const hotContent = document.getElementById('hotContent');
@@ -473,13 +476,13 @@
                 const normalizedUrl = normalizeUrl(item.url, item.text);
                 const fullUrl = normalizedUrl.startsWith('http') ? normalizedUrl : WEIBO_BASE_URL + normalizedUrl;
                 const safeText = escapeHtml(item.text);
-                const safeUrl = escapeHtml(fullUrl);
+                const safeUrl = escapeAttr(fullUrl);
                 const safeTextEn = item.textEn ? escapeHtml(item.textEn) : '';
                 const enLine = safeTextEn && safeTextEn !== safeText
                     ? `<span class="hot-subtitle">${safeTextEn}</span>` : '';
                 const engLine = item.engagement && item.engagement.posts > 0
                     ? `<div class="engagement"><span>\u{1F4AC} ${formatCount(item.engagement.comments)}</span><span>\u{1F501} ${formatCount(item.engagement.reposts)}</span><span>\u{2764} ${formatCount(item.engagement.likes)}</span></div>` : '';
-                const searchText = escapeHtml(item.text + (item.textEn ? ' ' + item.textEn : ''));
+                const searchText = escapeAttr(item.text + (item.textEn ? ' ' + item.textEn : ''));
                 const status = item.status || 'hot';
 
                 let badge = '';
@@ -499,7 +502,7 @@
                     <div class="hot-item" data-text="${searchText}" data-status="${status}">
                         <span class="hot-rank">${index + 1}</span>
                         <div class="hot-content">
-                            <a href="${safeUrl}" class="hot-title" target="_blank" rel="noopener" title="${safeText}">
+                            <a href="${safeUrl}" class="hot-title" target="_blank" rel="noopener" title="${escapeAttr(item.text)}">
                                 ${safeText}
                             </a>
                             ${enLine}
