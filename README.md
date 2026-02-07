@@ -12,9 +12,10 @@ Browse historical trending data by date with a visual interface.
 
 - Scheduled scraping of Weibo's trending search rankings every 5 minutes
 - Daily archival with historical data lookup
-- Raw data stored in JSON format
-- GitHub Pages frontend for browsing
+- Raw data stored in JSON format with English translations
+- GitHub Pages frontend with dark mode, search filter, and keyboard navigation
 - Time-of-day weighting algorithm for more accurate trend representation
+- Automatic English translation of trending topics via Google Translate
 
 ## Today's Hot Searches
 
@@ -95,6 +96,7 @@ Daily JSON format (`raw/YYYY-MM-DD.json`):
   {
     "url": "/weibo?q=%23Topic%23",
     "text": "Topic",
+    "textEn": "Topic in English",
     "count": 1234567
   }
 ]
@@ -103,7 +105,8 @@ Daily JSON format (`raw/YYYY-MM-DD.json`):
 | Field | Description |
 |-------|-------------|
 | `url` | Weibo search link path |
-| `text` | Trending topic text |
+| `text` | Trending topic text (Chinese) |
+| `textEn` | English translation (optional) |
 | `count` | Heat value (adjusted by time-of-day weight) |
 
 ### Time-of-Day Weights
