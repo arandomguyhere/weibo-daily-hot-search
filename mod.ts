@@ -5,24 +5,49 @@ import { exists } from "std/fs/mod.ts";
 import * as utils from "./utils.ts";
 import { HotWord } from "./types.ts";
 
+const HEADERS = {
+  "User-Agent":
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+  "Accept":
+    "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+};
+
 async function fetchData(): Promise<HotWord[]> {
   const regexp =
     /<a href="(\/weibo\?q=[^"]+)".*?>(.+)<\/a>[\s]+<span>(.+)<\/span>/g;
+
+  // 第一次请求获取 cookies
+  const initResponse = await fetch("https://s.weibo.com/top/summary", {
+    headers: HEADERS,
+    redirect: "manual",
+  });
+  const cookies = (initResponse.headers.get("set-cookie") || "")
+    .split(",")
+    .map((c) => c.split(";")[0].trim())
+    .filter(Boolean)
+    .join("; ");
+
+  console.log(`Initial response: ${initResponse.status}`);
+  console.log(`Cookies received: ${cookies ? "yes" : "none"}`);
+
+  // 第二次请求带上 cookies
   const response = await fetch("https://s.weibo.com/top/summary", {
     headers: {
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-      "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+      ...HEADERS,
       "Referer": "https://s.weibo.com/",
+      ...(cookies ? { "Cookie": cookies } : {}),
     },
   });
 
   if (!response.ok) {
-    console.error(response.statusText);
+    console.error(`Fetch failed: ${response.status} ${response.statusText}`);
     Deno.exit(-1);
   }
 
   const result = await response.text();
+  console.log(`Response length: ${result.length} chars`);
+
   const matches = result.matchAll(regexp);
   const rank = utils.getCurrentRank();
 
@@ -31,6 +56,14 @@ async function fetchData(): Promise<HotWord[]> {
     text: x[2],
     count: Math.round(parseInt(x[3]) * rank),
   }));
+
+  console.log(`Matched ${words.length} trending topics`);
+
+  if (words.length === 0 && result.length > 0) {
+    // 输出页面片段用于调试
+    const snippet = result.substring(0, 500);
+    console.log(`Page snippet: ${snippet}`);
+  }
 
   return words;
 }
