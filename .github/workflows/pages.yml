@@ -5,6 +5,10 @@ on:
     branches:
       - main
       - master
+  workflow_run:
+    workflows: ["Fetch Weibo Hot Search"]
+    types:
+      - completed
   workflow_dispatch:
 
 permissions:
