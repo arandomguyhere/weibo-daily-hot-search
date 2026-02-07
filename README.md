@@ -24,6 +24,7 @@ Browse historical trending data by date with a visual interface.
 1. [千问免单不止奶茶 (Qianwen offers more than just milk tea for free)](https://s.weibo.com/weibo?q=%23%E5%8D%83%E9%97%AE%E5%85%8D%E5%8D%95%E4%B8%8D%E6%AD%A2%E5%A5%B6%E8%8C%B6%23) `4.7M 🔥`
 1. [千问 (Qianwen)](https://s.weibo.com/weibo?q=%23%E5%8D%83%E9%97%AE%23) `2.9M 🔥`
 1. [网友挽留倒闭火锅店房东霸气免租 (Netizens persuade landlord to stay at closed hot pot restaurant and waive rent)](https://s.weibo.com/weibo?q=%23%E7%BD%91%E5%8F%8B%E6%8C%BD%E7%95%99%E5%80%92%E9%97%AD%E7%81%AB%E9%94%85%E5%BA%97%E6%88%BF%E4%B8%9C%E9%9C%B8%E6%B0%94%E5%85%8D%E7%A7%9F%23) `2.1M 🔥`
+1. [谷爱凌第一滑摔倒 (Gu Ailing fell down in her first slip)](https://s.weibo.com/weibo?q=%23%E8%B0%B7%E7%88%B1%E5%87%8C%E7%AC%AC%E4%B8%80%E6%BB%91%E6%91%94%E5%80%92%23) `1.9M 🔥`
 1. [2026新春走基层 (2026 New Year Goes to the Grassroots)](https://s.weibo.com/weibo?q=%232026%E6%96%B0%E6%98%A5%E8%B5%B0%E5%9F%BA%E5%B1%82%23) `1.7M 🔥`
 1. [米兰开幕式 好正常好好看 (The opening ceremony in Milan was so normal and beautiful.)](https://s.weibo.com/weibo?q=%23%E7%B1%B3%E5%85%B0%E5%BC%80%E5%B9%95%E5%BC%8F%20%E5%A5%BD%E6%AD%A3%E5%B8%B8%E5%A5%BD%E5%A5%BD%E7%9C%8B%23) `1.1M 🔥`
 1. [印度飞饼师傅凭什么认定为外籍专家 (Why is the Indian flying pancake chef recognized as a foreign expert?)](https://s.weibo.com/weibo?q=%23%E5%8D%B0%E5%BA%A6%E9%A3%9E%E9%A5%BC%E5%B8%88%E5%82%85%E5%87%AD%E4%BB%80%E4%B9%88%E8%AE%A4%E5%AE%9A%E4%B8%BA%E5%A4%96%E7%B1%8D%E4%B8%93%E5%AE%B6%23) `1.1M 🔥`
@@ -33,21 +34,22 @@ Browse historical trending data by date with a visual interface.
 1. [成何体统上了韩网热帖 (Cheng He's tact has become a hot topic on Korean net)](https://s.weibo.com/weibo?q=%23%E6%88%90%E4%BD%95%E4%BD%93%E7%BB%9F%E4%B8%8A%E4%BA%86%E9%9F%A9%E7%BD%91%E7%83%AD%E5%B8%96%23) `871.3K 🔥`
 1. [王楚钦尊重国家队的安排 (Wang Chuqin respects the arrangements of the national team)](https://s.weibo.com/weibo?q=%23%E7%8E%8B%E6%A5%9A%E9%92%A6%E5%B0%8A%E9%87%8D%E5%9B%BD%E5%AE%B6%E9%98%9F%E7%9A%84%E5%AE%89%E6%8E%92%23) `861.8K 🔥`
 1. [中国网络视听盛典 (China Internet Audiovisual Festival)](https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E7%BD%91%E7%BB%9C%E8%A7%86%E5%90%AC%E7%9B%9B%E5%85%B8%23) `855.4K 🔥`
+1. [冰雪春天](https://s.weibo.com/weibo?q=%23%E5%86%B0%E9%9B%AA%E6%98%A5%E5%A4%A9%23) `842.4K 🔥`
 1. [政务窗口工作人员8年收好处费1614万 (Government affairs counter staff received 16.14 million yuan in benefits in 8 years)](https://s.weibo.com/weibo?q=%23%E6%94%BF%E5%8A%A1%E7%AA%97%E5%8F%A3%E5%B7%A5%E4%BD%9C%E4%BA%BA%E5%91%988%E5%B9%B4%E6%94%B6%E5%A5%BD%E5%A4%84%E8%B4%B91614%E4%B8%87%23) `836.4K 🔥`
 1. [新年有乐事就选拼多多](https://s.weibo.com/weibo?q=%23%E6%96%B0%E5%B9%B4%E6%9C%89%E4%B9%90%E4%BA%8B%E5%B0%B1%E9%80%89%E6%8B%BC%E5%A4%9A%E5%A4%9A%23) `814.6K 🔥`
 1. [中国健儿蓝白红配色冰雪感拉满](https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E5%81%A5%E5%84%BF%E8%93%9D%E7%99%BD%E7%BA%A2%E9%85%8D%E8%89%B2%E5%86%B0%E9%9B%AA%E6%84%9F%E6%8B%89%E6%BB%A1%23) `763.9K 🔥`
+1. [揭秘 Apple 新春大片 (Revealing Apple’s New Year blockbusters)](https://s.weibo.com/weibo?q=%23%E6%8F%AD%E7%A7%98%20Apple%20%E6%96%B0%E6%98%A5%E5%A4%A7%E7%89%87%23) `744.7K 🔥`
 1. [昭阳公主](https://s.weibo.com/weibo?q=%23%E6%98%AD%E9%98%B3%E5%85%AC%E4%B8%BB%23) `729.5K 🔥`
-1. [揭秘 Apple 新春大片 (Revealing Apple’s New Year blockbusters)](https://s.weibo.com/weibo?q=%23%E6%8F%AD%E7%A7%98%20Apple%20%E6%96%B0%E6%98%A5%E5%A4%A7%E7%89%87%23) `683.7K 🔥`
 1. [买冰雪运动同款就上淘宝](https://s.weibo.com/weibo?q=%23%E4%B9%B0%E5%86%B0%E9%9B%AA%E8%BF%90%E5%8A%A8%E5%90%8C%E6%AC%BE%E5%B0%B1%E4%B8%8A%E6%B7%98%E5%AE%9D%23) `678.9K 🔥`
 1. [吴京回应唇部紧急护理](https://s.weibo.com/weibo?q=%23%E5%90%B4%E4%BA%AC%E5%9B%9E%E5%BA%94%E5%94%87%E9%83%A8%E7%B4%A7%E6%80%A5%E6%8A%A4%E7%90%86%23) `545.7K 🔥`
 1. [大集里的中国年味](https://s.weibo.com/weibo?q=%23%E5%A4%A7%E9%9B%86%E9%87%8C%E7%9A%84%E4%B8%AD%E5%9B%BD%E5%B9%B4%E5%91%B3%23) `521.2K 🔥`
 1. [王楚然只贴三片黄瓜美成这样 (Wang Churan only posted three slices of cucumber and looked like this)](https://s.weibo.com/weibo?q=%23%E7%8E%8B%E6%A5%9A%E7%84%B6%E5%8F%AA%E8%B4%B4%E4%B8%89%E7%89%87%E9%BB%84%E7%93%9C%E7%BE%8E%E6%88%90%E8%BF%99%E6%A0%B7%23) `515.0K 🔥`
-1. [谷爱凌第一滑摔倒](https://s.weibo.com/weibo?q=%23%E8%B0%B7%E7%88%B1%E5%87%8C%E7%AC%AC%E4%B8%80%E6%BB%91%E6%91%94%E5%80%92%23) `506.5K 🔥`
 1. [美团外卖周末半价吃大餐 (Meituan Takeaway offers half-price meals on weekends)](https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%9B%A2%E5%A4%96%E5%8D%96%E5%91%A8%E6%9C%AB%E5%8D%8A%E4%BB%B7%E5%90%83%E5%A4%A7%E9%A4%90%23) `457.3K 🔥`
 1. [金银价飙升米兰冬奥金牌史上最贵 (Gold and silver prices soar, Milan Winter Olympics gold medal the most expensive in history)](https://s.weibo.com/weibo?q=%23%E9%87%91%E9%93%B6%E4%BB%B7%E9%A3%99%E5%8D%87%E7%B1%B3%E5%85%B0%E5%86%AC%E5%A5%A5%E9%87%91%E7%89%8C%E5%8F%B2%E4%B8%8A%E6%9C%80%E8%B4%B5%23) `417.8K 🔥`
 1. [谷爱凌备战期间意外重伤](https://s.weibo.com/weibo?q=%23%E8%B0%B7%E7%88%B1%E5%87%8C%E5%A4%87%E6%88%98%E6%9C%9F%E9%97%B4%E6%84%8F%E5%A4%96%E9%87%8D%E4%BC%A4%23) `378.6K 🔥`
 1. [冬奥会开幕式 (Winter Olympics opening ceremony)](https://s.weibo.com/weibo?q=%23%E5%86%AC%E5%A5%A5%E4%BC%9A%E5%BC%80%E5%B9%95%E5%BC%8F%23) `365.3K 🔥`
-1. [很火但难吃的水果](https://s.weibo.com/weibo?q=%23%E5%BE%88%E7%81%AB%E4%BD%86%E9%9A%BE%E5%90%83%E7%9A%84%E6%B0%B4%E6%9E%9C%23) `343.3K 🔥`
+1. [湖南卫视春晚全阵容官宣](https://s.weibo.com/weibo?q=%23%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86%E6%98%A5%E6%99%9A%E5%85%A8%E9%98%B5%E5%AE%B9%E5%AE%98%E5%AE%A3%23) `356.7K 🔥`
+1. [很火但难吃的水果 (Very popular but unpalatable fruit)](https://s.weibo.com/weibo?q=%23%E5%BE%88%E7%81%AB%E4%BD%86%E9%9A%BE%E5%90%83%E7%9A%84%E6%B0%B4%E6%9E%9C%23) `343.3K 🔥`
 1. [四川大学通报王竹卿相关问题 (Sichuan University notifies Wang Zhuqing of relevant issues)](https://s.weibo.com/weibo?q=%23%E5%9B%9B%E5%B7%9D%E5%A4%A7%E5%AD%A6%E9%80%9A%E6%8A%A5%E7%8E%8B%E7%AB%B9%E5%8D%BF%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98%23) `341.8K 🔥`
 1. [唐宫奇案反转给我看爽了 (I enjoyed watching the reversal of the Tang Palace Strange Case)](https://s.weibo.com/weibo?q=%23%E5%94%90%E5%AE%AB%E5%A5%87%E6%A1%88%E5%8F%8D%E8%BD%AC%E7%BB%99%E6%88%91%E7%9C%8B%E7%88%BD%E4%BA%86%23) `340.0K 🔥`
 1. [宋威龙赵今麦 马场二搭 (Song Weilong and Zhao Jinmai, second racehorse)](https://s.weibo.com/weibo?q=%23%E5%AE%8B%E5%A8%81%E9%BE%99%E8%B5%B5%E4%BB%8A%E9%BA%A6%20%E9%A9%AC%E5%9C%BA%E4%BA%8C%E6%90%AD%23) `340.0K 🔥`
@@ -55,23 +57,21 @@ Browse historical trending data by date with a visual interface.
 1. [这一年我去过这些博物馆](https://s.weibo.com/weibo?q=%23%E8%BF%99%E4%B8%80%E5%B9%B4%E6%88%91%E5%8E%BB%E8%BF%87%E8%BF%99%E4%BA%9B%E5%8D%9A%E7%89%A9%E9%A6%86%23) `320.6K 🔥`
 1. [我的冬奥AI形象 (My Winter Olympics AI image)](https://s.weibo.com/weibo?q=%23%E6%88%91%E7%9A%84%E5%86%AC%E5%A5%A5AI%E5%BD%A2%E8%B1%A1%23) `303.7K 🔥`
 1. [山姆品控危机引发退卡风波](https://s.weibo.com/weibo?q=%23%E5%B1%B1%E5%A7%86%E5%93%81%E6%8E%A7%E5%8D%B1%E6%9C%BA%E5%BC%95%E5%8F%91%E9%80%80%E5%8D%A1%E9%A3%8E%E6%B3%A2%23) `303.5K 🔥`
+1. [中国荣耀李宁同行](https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E8%8D%A3%E8%80%80%E6%9D%8E%E5%AE%81%E5%90%8C%E8%A1%8C%23) `300.1K 🔥`
 1. [郎朗 权威 (Lang Lang authority)](https://s.weibo.com/weibo?q=%23%E9%83%8E%E6%9C%97%20%E6%9D%83%E5%A8%81%23) `299.3K 🔥`
 1. [苏翊鸣回应奥运夺冠后飘了](https://s.weibo.com/weibo?q=%23%E8%8B%8F%E7%BF%8A%E9%B8%A3%E5%9B%9E%E5%BA%94%E5%A5%A5%E8%BF%90%E5%A4%BA%E5%86%A0%E5%90%8E%E9%A3%98%E4%BA%86%23) `293.9K 🔥`
-1. [湖南卫视春晚全阵容官宣](https://s.weibo.com/weibo?q=%23%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%86%E6%98%A5%E6%99%9A%E5%85%A8%E9%98%B5%E5%AE%B9%E5%AE%98%E5%AE%A3%23) `278.8K 🔥`
+1. [老君山一员工拍短视频5年被奖132万](https://s.weibo.com/weibo?q=%23%E8%80%81%E5%90%9B%E5%B1%B1%E4%B8%80%E5%91%98%E5%B7%A5%E6%8B%8D%E7%9F%AD%E8%A7%86%E9%A2%915%E5%B9%B4%E8%A2%AB%E5%A5%96132%E4%B8%87%23) `285.0K 🔥`
 1. [脚底藏毒太味被闻出](https://s.weibo.com/weibo?q=%23%E8%84%9A%E5%BA%95%E8%97%8F%E6%AF%92%E5%A4%AA%E5%91%B3%E8%A2%AB%E9%97%BB%E5%87%BA%23) `272.2K 🔥`
 1. [今夜无人入睡](https://s.weibo.com/weibo?q=%23%E4%BB%8A%E5%A4%9C%E6%97%A0%E4%BA%BA%E5%85%A5%E7%9D%A1%23) `266.0K 🔥`
 1. [局长收370元礼品被免职](https://s.weibo.com/weibo?q=%23%E5%B1%80%E9%95%BF%E6%94%B6370%E5%85%83%E7%A4%BC%E5%93%81%E8%A2%AB%E5%85%8D%E8%81%8C%23) `258.5K 🔥`
 1. [管乐道歉](https://s.weibo.com/weibo?q=%23%E7%AE%A1%E4%B9%90%E9%81%93%E6%AD%89%23) `249.4K 🔥`
-1. [第一次见到怀孕的耙耙柑](https://s.weibo.com/weibo?q=%23%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%A7%81%E5%88%B0%E6%80%80%E5%AD%95%E7%9A%84%E8%80%99%E8%80%99%E6%9F%91%23) `247.3K 🔥`
+1. [第一次见到怀孕的耙耙柑 (The first time I met a pregnant woman)](https://s.weibo.com/weibo?q=%23%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%A7%81%E5%88%B0%E6%80%80%E5%AD%95%E7%9A%84%E8%80%99%E8%80%99%E6%9F%91%23) `247.3K 🔥`
 1. [向佐说自己原生家庭有问题 (Xiang Zuo said that there were problems in his original family)](https://s.weibo.com/weibo?q=%23%E5%90%91%E4%BD%90%E8%AF%B4%E8%87%AA%E5%B7%B1%E5%8E%9F%E7%94%9F%E5%AE%B6%E5%BA%AD%E6%9C%89%E9%97%AE%E9%A2%98%23) `245.2K 🔥`
 1. [店主称无人饭店顾客自炊自付为摆拍 (The owner said that customers in an unmanned restaurant cook and pay for themselves were staged for photos)](https://s.weibo.com/weibo?q=%23%E5%BA%97%E4%B8%BB%E7%A7%B0%E6%97%A0%E4%BA%BA%E9%A5%AD%E5%BA%97%E9%A1%BE%E5%AE%A2%E8%87%AA%E7%82%8A%E8%87%AA%E4%BB%98%E4%B8%BA%E6%91%86%E6%8B%8D%23) `244.6K 🔥`
 1. [女子临终将婆婆300万养老钱送姐姐](https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E4%B8%B4%E7%BB%88%E5%B0%86%E5%A9%86%E5%A9%86300%E4%B8%87%E5%85%BB%E8%80%81%E9%92%B1%E9%80%81%E5%A7%90%E5%A7%90%23) `241.8K 🔥`
 1. [马琳远程收看王昶求婚钱天一](https://s.weibo.com/weibo?q=%23%E9%A9%AC%E7%90%B3%E8%BF%9C%E7%A8%8B%E6%94%B6%E7%9C%8B%E7%8E%8B%E6%98%B6%E6%B1%82%E5%A9%9A%E9%92%B1%E5%A4%A9%E4%B8%80%23) `241.5K 🔥`
-1. [TCL硬核科技霸屏米兰冬奥](https://s.weibo.com/weibo?q=%23TCL%E7%A1%AC%E6%A0%B8%E7%A7%91%E6%8A%80%E9%9C%B8%E5%B1%8F%E7%B1%B3%E5%85%B0%E5%86%AC%E5%A5%A5%23) `238.5K 🔥`
-1. [演员立威廉已重新安排遗嘱](https://s.weibo.com/weibo?q=%23%E6%BC%94%E5%91%98%E7%AB%8B%E5%A8%81%E5%BB%89%E5%B7%B2%E9%87%8D%E6%96%B0%E5%AE%89%E6%8E%92%E9%81%97%E5%98%B1%23) `238.2K 🔥`
-1. [山姆道歉成常态](https://s.weibo.com/weibo?q=%23%E5%B1%B1%E5%A7%86%E9%81%93%E6%AD%89%E6%88%90%E5%B8%B8%E6%80%81%23) `233.5K 🔥`
 
-Updated at 2026-02-07 17:43:00
+Updated at 2026-02-07 18:00:03
 
 <!-- END -->
 
