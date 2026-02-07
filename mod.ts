@@ -186,6 +186,7 @@ function mergeAndTrack(freshWords: HotWord[], existingWords: HotWord[]): HotWord
         prevCount: prevCount,
         velocity,
         status,
+        engagement: existing.engagement,
       });
     } else {
       // Brand new topic
@@ -225,6 +226,60 @@ function mergeAndTrack(freshWords: HotWord[], existingWords: HotWord[]): HotWord
       return b.count - a.count;
     })
     .slice(0, 100);
+}
+
+// Enrich top topics with engagement metrics via keyword search API
+// Uses the same m.weibo.cn search endpoint as WeiboInsight
+async function enrichTopics(words: HotWord[]): Promise<void> {
+  const topWords = words
+    .filter((w) => w.status !== "gone")
+    .slice(0, 10);
+
+  if (topWords.length === 0) return;
+
+  let enriched = 0;
+  for (const word of topWords) {
+    try {
+      const keyword = encodeURIComponent(word.text);
+      const containerId = `100103type%3D61%26q%3D${keyword}`;
+      const url = `https://m.weibo.cn/api/container/getIndex?containerid=${containerId}`;
+
+      const response = await fetch(url, { headers: MOBILE_HEADERS });
+      if (!response.ok) continue;
+
+      const data = await response.json();
+      const cards = data?.data?.cards;
+      if (!Array.isArray(cards)) continue;
+
+      let posts = 0, likes = 0, comments = 0, reposts = 0;
+
+      for (const card of cards) {
+        const group = card?.card_group || [card];
+        for (const item of group) {
+          const mblog = item?.mblog;
+          if (!mblog) continue;
+          posts++;
+          likes += mblog.attitudes_count || 0;
+          comments += mblog.comments_count || 0;
+          reposts += mblog.reposts_count || 0;
+        }
+      }
+
+      if (posts > 0) {
+        word.engagement = { posts, likes, comments, reposts };
+        enriched++;
+      }
+
+      // Rate limiting: 500ms between requests
+      await new Promise((r) => setTimeout(r, 500));
+    } catch {
+      // Skip failed enrichments silently
+    }
+  }
+
+  if (enriched > 0) {
+    console.log(`Enriched ${enriched} topics with engagement data`);
+  }
 }
 
 async function translateBatch(texts: string[]): Promise<string[]> {
@@ -284,6 +339,7 @@ async function main() {
   console.log(`Status: ${counts.new} new, ${counts.rising} rising, ${counts.hot} hot, ${counts.falling} falling, ${counts.gone} gone`);
 
   await addTranslations(hotWords);
+  await enrichTopics(hotWords);
 
   await Deno.writeTextFile(rawFilePath, JSON.stringify(hotWords));
   const readme = await utils.genNewReadmeText(hotWords);

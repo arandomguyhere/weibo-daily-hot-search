@@ -188,6 +188,12 @@
         .velocity.up { color: var(--rising-color); }
         .velocity.down { color: var(--falling-color); }
 
+        .engagement {
+            display: flex; gap: 8px; font-size: 0.72rem;
+            color: var(--text-secondary); margin-top: 2px;
+        }
+        .engagement span { white-space: nowrap; }
+
         .loading { text-align: center; padding: 60px 20px; color: var(--text-secondary); }
         .loading-spinner {
             width: 40px; height: 40px; border: 3px solid var(--border-color);
@@ -266,6 +272,10 @@
                 <div class="stat-value" id="newCount">-</div>
                 <div class="stat-label">New Signals</div>
             </div>
+            <div class="stat-item">
+                <div class="stat-value" id="totalEngagement">-</div>
+                <div class="stat-label">Engagement</div>
+            </div>
         </div>
 
         <div class="hot-list">
@@ -306,6 +316,7 @@
         const totalTopicsEl = document.getElementById('totalTopics');
         const topHeatEl = document.getElementById('topHeat');
         const newCountEl = document.getElementById('newCount');
+        const totalEngagementEl = document.getElementById('totalEngagement');
         const updateTimeEl = document.getElementById('updateTime');
         const prevDayBtn = document.getElementById('prevDay');
         const nextDayBtn = document.getElementById('nextDay');
@@ -408,6 +419,7 @@
             totalTopicsEl.textContent = '-';
             topHeatEl.textContent = '-';
             newCountEl.textContent = '-';
+            totalEngagementEl.textContent = '-';
             updateTimeEl.textContent = '';
             searchInput.value = '';
             activeFilter = 'all';
@@ -425,12 +437,18 @@
                     totalTopicsEl.textContent = '0';
                     topHeatEl.textContent = '-';
                     newCountEl.textContent = '0';
+                    totalEngagementEl.textContent = '-';
                     return;
                 }
 
                 totalTopicsEl.textContent = data.length;
                 topHeatEl.textContent = formatCount(data[0].count);
                 newCountEl.textContent = data.filter(d => d.status === 'new').length;
+                const totalEng = data.reduce((sum, d) => {
+                    if (!d.engagement) return sum;
+                    return sum + d.engagement.likes + d.engagement.comments + d.engagement.reposts;
+                }, 0);
+                totalEngagementEl.textContent = totalEng > 0 ? formatCount(totalEng) : '-';
                 updateFilterCounts(data);
                 renderHotList(data);
             } catch (error) {
@@ -439,6 +457,7 @@
                 totalTopicsEl.textContent = '0';
                 topHeatEl.textContent = '-';
                 newCountEl.textContent = '0';
+                totalEngagementEl.textContent = '-';
             }
         }
 
@@ -458,6 +477,8 @@
                 const safeTextEn = item.textEn ? escapeHtml(item.textEn) : '';
                 const enLine = safeTextEn && safeTextEn !== safeText
                     ? `<span class="hot-subtitle">${safeTextEn}</span>` : '';
+                const engLine = item.engagement && item.engagement.posts > 0
+                    ? `<div class="engagement"><span>\u{1F4AC} ${formatCount(item.engagement.comments)}</span><span>\u{1F501} ${formatCount(item.engagement.reposts)}</span><span>\u{2764} ${formatCount(item.engagement.likes)}</span></div>` : '';
                 const searchText = escapeHtml(item.text + (item.textEn ? ' ' + item.textEn : ''));
                 const status = item.status || 'hot';
 
@@ -482,6 +503,7 @@
                                 ${safeText}
                             </a>
                             ${enLine}
+                            ${engLine}
                         </div>
                         <div class="hot-meta">
                             ${badge}

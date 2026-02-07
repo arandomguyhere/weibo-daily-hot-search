@@ -88,7 +88,9 @@ Updated at 2026-02-07 12:32:40
 ├── raw/                    # Raw JSON data
 │   └── YYYY-MM-DD.json     # Daily hot search data
 ├── index.html              # GitHub Pages frontend
-└── mod.ts                  # Scraping script (Deno)
+├── mod.ts                  # Scraping script (Deno)
+├── bridge.py               # Data bridge to WeiboInsight/MongoDB
+└── WeiboInsight/           # Submodule: Playwright-based deep analysis
 ```
 
 ### Data Format
@@ -106,7 +108,8 @@ Daily JSON format (`raw/YYYY-MM-DD.json`):
     "peakCount": 1500000,
     "prevCount": 900000,
     "status": "rising",
-    "velocity": 37
+    "velocity": 37,
+    "engagement": { "posts": 15, "likes": 45200, "comments": 3100, "reposts": 8900 }
   }
 ]
 ```
@@ -122,6 +125,7 @@ Daily JSON format (`raw/YYYY-MM-DD.json`):
 | `prevCount` | Count from previous scrape cycle |
 | `status` | Lifecycle stage: `new`, `rising`, `hot`, `falling`, `gone` |
 | `velocity` | Percentage change from previous scrape |
+| `engagement` | Post engagement metrics (top 10 topics): posts, likes, comments, reposts |
 
 ### Time-of-Day Weights
 
@@ -151,8 +155,36 @@ curl -fsSL https://deno.land/install.sh | sh
 deno run --allow-net --allow-read --allow-write --import-map=import_map.json mod.ts
 ```
 
+## WeiboInsight Integration
+
+This project includes [WeiboInsight](https://github.com/arandomguyhere/WeiboInsight) as a submodule for deep NLP analysis of trending topics.
+
+**What each project does:**
+- **weibo-daily-hot-search** — Lightweight Deno scraper that tracks trending topics every 5 min via JSON APIs, with lifecycle/velocity analysis
+- **WeiboInsight** — Python/Playwright-based scraper with Scrapy pipelines, MongoDB storage, Jieba segmentation, LDA topic modeling, and K-Means clustering
+
+**How they connect:**
+1. This scraper collects trending topics + engagement data every 5 minutes
+2. `bridge.py` imports the JSON data into MongoDB with text segmentation
+3. WeiboInsight's `analyze_weibo_data.py` runs NLP analysis on the imported data
+
+```bash
+# Setup
+git submodule update --init
+cd WeiboInsight && pip install -r requirements.txt && cd ..
+pip install pymongo jieba
+
+# Import data into MongoDB
+python bridge.py --all
+
+# Run NLP analysis
+cd WeiboInsight/scrapy_project
+python analyze_weibo_data.py
+```
+
 ## Related Projects
 
+- [WeiboInsight](https://github.com/arandomguyhere/WeiboInsight) — Playwright-based Weibo CTI analysis
 - [V2EX Daily Hot Topics](https://github.com/boojack/v2ex-daily-hot-topic)
 - [jackylee1/weibo-daily-hot-search](https://github.com/jackylee1/weibo-daily-hot-search) — Original project
 
