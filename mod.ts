@@ -128,15 +128,9 @@ function parseMobileApi(data: any, rank: number): HotWord[] {
   return items;
 }
 
-/**
- * 处理源数据，包括去重、关键词过滤、排序、切割
- * @param words 源数据
- */
 function handleRawData(rawWords: HotWord[]) {
   const wordTextSet: Set<string> = new Set();
   const words: HotWord[] = [];
-
-  /** 去重 */
   rawWords
     .sort((a, b) => b.count - a.count)
     .filter((w) => !w.text.includes("肖战"))
@@ -148,6 +142,41 @@ function handleRawData(rawWords: HotWord[]) {
     });
 
   return words.slice(0, 50);
+}
+
+async function translateBatch(texts: string[]): Promise<string[]> {
+  try {
+    const query = texts.map((t) => `q=${encodeURIComponent(t)}`).join("&");
+    const url = `https://translate.googleapis.com/translate_a/t?client=gtx&sl=zh-CN&tl=en&${query}`;
+    const response = await fetch(url);
+    if (!response.ok) throw new Error(`Status ${response.status}`);
+    const result = await response.json();
+    // API returns [[translation, original], ...] for multiple or [translation, original] for single
+    if (Array.isArray(result) && Array.isArray(result[0])) {
+      return result.map((item: string[]) => item[0]);
+    } else if (Array.isArray(result)) {
+      return [result[0]];
+    }
+    return texts;
+  } catch (e) {
+    console.log(`Translation failed: ${e.message}`);
+    return texts;
+  }
+}
+
+async function addTranslations(words: HotWord[]): Promise<void> {
+  const untranslated = words.filter((w) => !w.textEn);
+  if (untranslated.length === 0) return;
+
+  // Translate in batches of 25 to stay within URL length limits
+  for (let i = 0; i < untranslated.length; i += 25) {
+    const batch = untranslated.slice(i, i + 25);
+    const translations = await translateBatch(batch.map((w) => w.text));
+    batch.forEach((w, idx) => {
+      w.textEn = translations[idx];
+    });
+  }
+  console.log(`Translated ${untranslated.length} topics`);
 }
 
 async function main() {
@@ -167,11 +196,9 @@ async function main() {
   }
 
   const hotWords = handleRawData(rawHotWords.concat(todayRawData));
+  await addTranslations(hotWords);
 
-  // 保存原始数据
   await Deno.writeTextFile(rawFilePath, JSON.stringify(hotWords));
-
-  // 更新 README.md
   const readme = await utils.genNewReadmeText(hotWords);
   await Deno.writeTextFile("./README.md", readme);
 }

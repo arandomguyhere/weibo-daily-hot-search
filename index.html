@@ -202,6 +202,15 @@
             color: var(--primary-color);
         }
 
+        .hot-subtitle {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            display: block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
         .hot-count {
             font-size: 0.85rem;
             color: var(--text-secondary);
@@ -444,6 +453,10 @@
                 const fullUrl = item.url.startsWith('http') ? item.url : WEIBO_BASE_URL + item.url;
                 const safeText = escapeHtml(item.text);
                 const safeUrl = escapeHtml(fullUrl);
+                const safeTextEn = item.textEn ? escapeHtml(item.textEn) : '';
+                const enLine = safeTextEn && safeTextEn !== safeText
+                    ? `<span class="hot-subtitle">${safeTextEn}</span>`
+                    : '';
                 return `
                     <div class="hot-item">
                         <span class="hot-rank">${index + 1}</span>
@@ -451,6 +464,7 @@
                             <a href="${safeUrl}" class="hot-title" target="_blank" rel="noopener" title="${safeText}">
                                 ${safeText}
                             </a>
+                            ${enLine}
                         </div>
                         <span class="hot-count">${formatCount(item.count)}</span>
                     </div>

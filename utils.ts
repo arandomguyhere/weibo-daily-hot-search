@@ -4,11 +4,14 @@ import { HotWord } from "./types.ts";
 
 function genDataListString(words: HotWord[]): string {
   return words
-    .map((x) =>
-      `1. [${x.text}](https://s.weibo.com${x.url}) \`${
+    .map((x) => {
+      const label = x.textEn && x.textEn !== x.text
+        ? `${x.text} (${x.textEn})`
+        : x.text;
+      return `1. [${label}](https://s.weibo.com${x.url}) \`${
         getCountStr(x.count)
-      } 🔥\``
-    )
+      } 🔥\``;
+    })
     .join("\n");
 }
 
@@ -20,19 +23,19 @@ export async function genNewReadmeText(words: HotWord[]): Promise<string> {
     /<!-- BEGIN -->[\W\w]*<!-- END -->/,
     `<!-- BEGIN -->
 
-${genDataListString(words) || "空空如也"}
+${genDataListString(words) || "No data available"}
 
-数据更新于 ${formatedNowTimeStr}
+Updated at ${formatedNowTimeStr}
 
 <!-- END -->`,
   );
 }
 
-// 根据当前的小时数，获取热度权值
+// Get heat value weight based on current hour
 export function getCurrentRank(): number {
   const currentHours = (new Date()).getHours();
 
-  // NOTE: 数值待完善
+  // NOTE: values may need further tuning
   if (dailyHours.night.includes(currentHours)) {
     return 0.5;
   } else if (dailyHours.morning.includes(currentHours)) {
@@ -44,7 +47,7 @@ export function getCurrentRank(): number {
   return 1;
 }
 
-// 获取热度字符串，例如：100.1K 热度
+// Format heat count string, e.g. 100.1K
 export function getCountStr(num: number): string {
   const countUnit = ["", "K", "M", "B"];
   let idx = 0;
