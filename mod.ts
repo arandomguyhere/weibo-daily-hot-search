@@ -22,6 +22,17 @@ const MOBILE_HEADERS: Record<string, string> = {
   "Referer": "https://m.weibo.cn/",
 };
 
+// Normalize a URL to the proper /weibo?q= format
+// Handles: hashtag strings (#text#), plain text, and already-correct paths
+function normalizeUrl(url: string, text: string): string {
+  if (url.startsWith("/weibo?q=")) return url;
+  if (url.startsWith("http")) return url;
+  if (url.startsWith("#") && url.endsWith("#")) {
+    return `/weibo?q=${encodeURIComponent(url)}`;
+  }
+  return `/weibo?q=${encodeURIComponent("#" + text + "#")}`;
+}
+
 // Try multiple API endpoints to fetch hot search data
 async function fetchData(): Promise<HotWord[]> {
   const endpoints = [
@@ -79,12 +90,15 @@ function parseAjaxHotSearch(data: any, rank: number): HotWord[] {
 
   return realtime
     .filter((item: { word?: string; num?: number }) => item.word && item.num)
-    .map((item: { word: string; num: number; word_scheme?: string }) => ({
-      url: item.word_scheme ||
-        `/weibo?q=${encodeURIComponent("#" + item.word + "#")}`,
-      text: item.word,
-      count: Math.round(item.num * rank),
-    }));
+    .map((item: { word: string; num: number; word_scheme?: string }) => {
+      const rawUrl = item.word_scheme ||
+        `/weibo?q=${encodeURIComponent("#" + item.word + "#")}`;
+      return {
+        url: normalizeUrl(rawUrl, item.word),
+        text: item.word,
+        count: Math.round(item.num * rank),
+      };
+    });
 }
 
 // deno-lint-ignore no-explicit-any
@@ -94,12 +108,15 @@ function parseHotBand(data: any, rank: number): HotWord[] {
 
   return band
     .filter((item: { word?: string; num?: number }) => item.word && item.num)
-    .map((item: { word: string; num: number; word_scheme?: string }) => ({
-      url: item.word_scheme ||
-        `/weibo?q=${encodeURIComponent("#" + item.word + "#")}`,
-      text: item.word,
-      count: Math.round(item.num * rank),
-    }));
+    .map((item: { word: string; num: number; word_scheme?: string }) => {
+      const rawUrl = item.word_scheme ||
+        `/weibo?q=${encodeURIComponent("#" + item.word + "#")}`;
+      return {
+        url: normalizeUrl(rawUrl, item.word),
+        text: item.word,
+        count: Math.round(item.num * rank),
+      };
+    });
 }
 
 // deno-lint-ignore no-explicit-any
@@ -116,9 +133,11 @@ function parseMobileApi(data: any, rank: number): HotWord[] {
       if (item.desc && item.scheme) {
         const count = parseInt(item.desc) || 0;
         if (count > 0) {
+          const text = item.desc_extr || item.title_sub || item.desc;
+          const rawUrl = item.scheme.replace("https://m.weibo.cn/search?containerid=", "/weibo?q=");
           items.push({
-            url: item.scheme.replace("https://m.weibo.cn/search?containerid=", "/weibo?q="),
-            text: item.desc_extr || item.title_sub || item.desc,
+            url: normalizeUrl(rawUrl, text),
+            text,
             count: Math.round(count * rank),
           });
         }
@@ -137,7 +156,7 @@ function handleRawData(rawWords: HotWord[]) {
     .forEach((t) => {
       if (!wordTextSet.has(t.text)) {
         wordTextSet.add(t.text);
-        words.push(t);
+        words.push({ ...t, url: normalizeUrl(t.url, t.text) });
       }
     });
 
