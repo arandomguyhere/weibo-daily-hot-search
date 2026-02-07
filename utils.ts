@@ -2,7 +2,7 @@ import { format } from "std/datetime/mod.ts";
 import { dailyHours } from "./consts.ts";
 import { HotWord } from "./types.ts";
 
-function normalizeUrl(url: string, text: string): string {
+export function normalizeUrl(url: string, text: string): string {
   if (url.startsWith("/weibo?q=")) return url;
   if (url.startsWith("http")) return url;
   if (url.startsWith("#") && url.endsWith("#")) {

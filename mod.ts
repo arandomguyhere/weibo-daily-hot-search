@@ -22,14 +22,7 @@ const MOBILE_HEADERS: Record<string, string> = {
   "Referer": "https://m.weibo.cn/",
 };
 
-function normalizeUrl(url: string, text: string): string {
-  if (url.startsWith("/weibo?q=")) return url;
-  if (url.startsWith("http")) return url;
-  if (url.startsWith("#") && url.endsWith("#")) {
-    return `/weibo?q=${encodeURIComponent(url)}`;
-  }
-  return `/weibo?q=${encodeURIComponent("#" + text + "#")}`;
-}
+const { normalizeUrl } = utils;
 
 // Try multiple API endpoints to fetch hot search data
 async function fetchData(): Promise<HotWord[]> {
@@ -151,9 +144,11 @@ function mergeAndTrack(freshWords: HotWord[], existingWords: HotWord[]): HotWord
   const existingMap = new Map<string, HotWord>();
   existingWords.forEach((w) => existingMap.set(w.text, w));
 
+  // Filter known spam/bot-promoted topics that artificially inflate trending
+  const BLOCKED_KEYWORDS = ["肖战"];
   const freshMap = new Map<string, HotWord>();
   freshWords
-    .filter((w) => !w.text.includes("肖战"))
+    .filter((w) => !BLOCKED_KEYWORDS.some((k) => w.text.includes(k)))
     .forEach((w) => {
       if (!freshMap.has(w.text)) freshMap.set(w.text, w);
     });
@@ -165,9 +160,8 @@ function mergeAndTrack(freshWords: HotWord[], existingWords: HotWord[]): HotWord
     const existing = existingMap.get(text);
 
     if (existing) {
-      // Topic existed before — update with new count, preserve metadata
+      // Topic existed before — use fresh count as current value
       const prevCount = existing.count;
-      const newCount = Math.max(fresh.count, existing.count);
       const velocity = prevCount > 0
         ? Math.round(((fresh.count - prevCount) / prevCount) * 100)
         : 100;
@@ -180,9 +174,9 @@ function mergeAndTrack(freshWords: HotWord[], existingWords: HotWord[]): HotWord
       result.set(text, {
         ...fresh,
         textEn: existing.textEn || fresh.textEn,
-        count: newCount,
+        count: fresh.count,
         firstSeen: existing.firstSeen || now,
-        peakCount: Math.max(newCount, existing.peakCount || 0),
+        peakCount: Math.max(fresh.count, existing.peakCount || 0),
         prevCount: prevCount,
         velocity,
         status,
