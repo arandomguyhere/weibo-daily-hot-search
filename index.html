@@ -387,7 +387,10 @@
         }
 
         function getToday() {
-            return formatDate(new Date());
+            // Use Asia/Shanghai timezone to match the scraper
+            const now = new Date();
+            const parts = now.toLocaleDateString('en-CA', { timeZone: 'Asia/Shanghai' });
+            return parts; // en-CA gives YYYY-MM-DD format
         }
 
         function addDays(dateStr, days) {
@@ -397,10 +400,11 @@
         }
 
         function isValidDate(dateStr) {
+            if (!dateStr || !/^\d{4}-\d{2}-\d{2}$/.test(dateStr)) return false;
             const date = new Date(dateStr + 'T00:00:00');
             const start = new Date(START_DATE + 'T00:00:00');
-            const today = new Date(getToday() + 'T00:00:00');
-            return date >= start && date <= today;
+            const todayDate = new Date(getToday() + 'T00:00:00');
+            return date >= start && date <= todayDate;
         }
 
         async function loadData(date) {
