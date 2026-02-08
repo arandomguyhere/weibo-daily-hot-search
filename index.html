@@ -206,7 +206,7 @@
         .no-data { text-align: center; padding: 60px 20px; color: var(--text-secondary); }
         .search-empty { text-align: center; padding: 40px 20px; color: var(--text-secondary); }
 
-        .insight-section { margin-top: 30px; }
+        .insight-section { margin-bottom: 25px; }
         .insight-toggle {
             width: 100%; padding: 14px 20px; font-size: 0.95rem; font-weight: 600;
             border: 2px solid var(--primary-color); border-radius: 12px; cursor: pointer;
@@ -232,33 +232,56 @@
         .insight-block { margin-bottom: 24px; }
         .insight-block:last-child { margin-bottom: 0; }
 
-        .keyword-cloud {
-            display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+        .insight-summary {
+            font-size: 0.88rem; line-height: 1.7; color: var(--text-color);
         }
-        .keyword-tag {
-            padding: 4px 12px; border-radius: 15px; font-size: 0.82rem;
-            background: var(--bg-color); color: var(--text-color);
-            border: 1px solid var(--border-color); white-space: nowrap;
-        }
-        .keyword-tag .kw-count { font-size: 0.72rem; color: var(--text-secondary); margin-left: 4px; }
+        .insight-summary strong { color: var(--primary-color); }
 
-        .cluster-group { margin-bottom: 14px; }
-        .cluster-label {
-            font-size: 0.82rem; font-weight: 600; color: var(--primary-color);
-            margin-bottom: 6px; display: flex; align-items: center; gap: 6px;
+        .momentum-list { display: flex; flex-direction: column; gap: 10px; }
+        .momentum-item {
+            display: flex; align-items: flex-start; gap: 12px; padding: 10px 12px;
+            background: var(--bg-color); border-radius: 10px; border: 1px solid var(--border-color);
         }
-        .cluster-label .cluster-dot {
-            width: 8px; height: 8px; border-radius: 50%; display: inline-block;
+        .momentum-rank {
+            width: 28px; height: 28px; display: flex; align-items: center; justify-content: center;
+            font-weight: bold; font-size: 0.82rem; border-radius: 6px; flex-shrink: 0;
+            background: var(--primary-color); color: white;
         }
-        .cluster-topics {
-            display: flex; flex-wrap: wrap; gap: 6px;
+        .momentum-info { flex: 1; min-width: 0; }
+        .momentum-title { font-size: 0.88rem; font-weight: 600; color: var(--text-color); }
+        .momentum-en { font-size: 0.78rem; color: var(--text-secondary); }
+        .momentum-metrics {
+            display: flex; flex-wrap: wrap; gap: 10px; margin-top: 4px; font-size: 0.75rem; color: var(--text-secondary);
         }
-        .cluster-topic {
+        .momentum-metrics span { white-space: nowrap; }
+        .metric-hot { color: var(--hot-color); font-weight: 600; }
+        .metric-up { color: var(--rising-color); font-weight: 600; }
+
+        .thread-group { margin-bottom: 14px; }
+        .thread-header {
+            font-size: 0.85rem; font-weight: 600; color: var(--text-color);
+            margin-bottom: 6px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+        }
+        .thread-header .thread-dot {
+            width: 8px; height: 8px; border-radius: 50%; display: inline-block; flex-shrink: 0;
+        }
+        .thread-stats { font-size: 0.72rem; color: var(--text-secondary); font-weight: 400; }
+        .thread-topics { display: flex; flex-wrap: wrap; gap: 6px; }
+        .thread-topic {
             font-size: 0.78rem; padding: 3px 10px; border-radius: 12px;
             background: var(--bg-color); color: var(--text-secondary);
             border: 1px solid var(--border-color);
-            overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 260px;
+            overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 280px;
         }
+
+        .gone-list { display: flex; flex-direction: column; gap: 6px; }
+        .gone-item {
+            display: flex; align-items: center; gap: 10px; font-size: 0.82rem;
+            padding: 6px 10px; background: var(--bg-color); border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+        .gone-item .gone-text { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--text-color); }
+        .gone-item .gone-peak { font-size: 0.75rem; color: var(--gone-color); white-space: nowrap; }
 
         .heat-bars { display: flex; flex-direction: column; gap: 8px; }
         .heat-bar-row { display: flex; align-items: center; gap: 10px; }
@@ -341,6 +364,35 @@
             </div>
         </div>
 
+        <div class="insight-section">
+            <button class="insight-toggle" id="insightToggle">
+                <span>WeiboInsight Analysis</span>
+                <span class="arrow">&#9660;</span>
+            </button>
+            <div class="insight-panel" id="insightPanel">
+                <div class="insight-block">
+                    <h3>Daily Signal Summary</h3>
+                    <div class="insight-summary" id="insightSummary"></div>
+                </div>
+                <div class="insight-block">
+                    <h3>Momentum Leaders</h3>
+                    <div class="momentum-list" id="momentumLeaders"></div>
+                </div>
+                <div class="insight-block">
+                    <h3>Story Threads</h3>
+                    <div id="storyThreads"></div>
+                </div>
+                <div class="insight-block">
+                    <h3>Suppressed Signals</h3>
+                    <div class="gone-list" id="goneSignals"></div>
+                </div>
+                <div class="insight-block">
+                    <h3>Heat Distribution</h3>
+                    <div class="heat-bars" id="heatBars"></div>
+                </div>
+            </div>
+        </div>
+
         <div class="hot-list">
             <div class="hot-list-header">
                 <span>Trending</span>
@@ -354,26 +406,6 @@
             </div>
         </div>
 
-        <div class="insight-section">
-            <button class="insight-toggle" id="insightToggle">
-                <span>WeiboInsight Analysis</span>
-                <span class="arrow">&#9660;</span>
-            </button>
-            <div class="insight-panel" id="insightPanel">
-                <div class="insight-block">
-                    <h3>Keyword Extraction</h3>
-                    <div class="keyword-cloud" id="keywordCloud"></div>
-                </div>
-                <div class="insight-block">
-                    <h3>Topic Clusters</h3>
-                    <div id="topicClusters"></div>
-                </div>
-                <div class="insight-block">
-                    <h3>Heat Distribution by Status</h3>
-                    <div class="heat-bars" id="heatBars"></div>
-                </div>
-            </div>
-        </div>
     </div>
 
     <footer>
@@ -648,113 +680,150 @@
             if (open && currentData.length > 0) runInsightAnalysis(currentData);
         });
 
-        const CLUSTER_COLORS = ['#ff4d4f','#ff8200','#52c41a','#1890ff','#722ed1','#eb2f96','#13c2c2','#faad14'];
-
-        // Chinese stopwords
-        const STOP_WORDS = new Set(['的','了','在','是','我','有','和','就','不','人','都','一','一个','上','也','很','到','说','要','去','你','会','着','没有','看','好','自己','这']);
-
-        function extractKeywords(data) {
-            const freq = {};
-            data.forEach(item => {
-                const text = item.text;
-                // Extract Chinese word segments (2-4 char sequences) + English words
-                const cjk = text.match(/[\u4e00-\u9fff]{2,4}/g) || [];
-                const en = text.match(/[A-Za-z]{2,}/g) || [];
-                [...cjk, ...en].forEach(w => {
-                    if (!STOP_WORDS.has(w)) freq[w] = (freq[w] || 0) + 1;
-                });
-                // Also extract individual 2-char bigrams for better coverage
-                const chars = text.match(/[\u4e00-\u9fff]/g) || [];
-                for (let i = 0; i < chars.length - 1; i++) {
-                    const bg = chars[i] + chars[i+1];
-                    if (!STOP_WORDS.has(bg)) freq[bg] = (freq[bg] || 0) + 1;
-                }
-            });
-            // Deduplicate: if a longer keyword contains a shorter one with similar count, keep the longer one
-            const entries = Object.entries(freq).filter(([w]) => w.length >= 2);
-            const sorted = entries.sort((a, b) => b[1] - a[1]);
-            const used = new Set();
-            const result = [];
-            for (const [word, count] of sorted) {
-                if (count < 2) continue;
-                let dominated = false;
-                for (const r of result) {
-                    if (r[0].includes(word) && r[0] !== word && r[1] >= count * 0.7) { dominated = true; break; }
-                }
-                if (dominated) continue;
-                // Remove shorter substrings this word dominates
-                result.push([word, count]);
-                if (result.length >= 20) break;
-            }
-            return result;
-        }
+        const THREAD_COLORS = ['#ff4d4f','#ff8200','#52c41a','#1890ff','#722ed1','#eb2f96','#13c2c2','#faad14'];
 
         function clusterTopics(data) {
             if (data.length === 0) return [];
-            // Simple keyword-overlap clustering
-            const topics = data.map(d => ({
-                text: d.text,
-                tokens: new Set([...(d.text.match(/[\u4e00-\u9fff]{2,3}/g) || []), ...(d.text.match(/[A-Za-z]{2,}/gi) || [])])
+            const items = data.map((d, i) => ({
+                idx: i, text: d.text, textEn: d.textEn || '',
+                count: d.count, peakCount: d.peakCount || d.count, velocity: d.velocity || 0, status: d.status || 'hot',
+                tokens: new Set([...(d.text.match(/[\u4e00-\u9fff]{2,3}/g) || []), ...(d.text.match(/[A-Za-z]{2,}/gi) || []).map(w => w.toLowerCase())])
             }));
-            const assigned = new Array(topics.length).fill(-1);
+            const assigned = new Array(items.length).fill(-1);
             const clusters = [];
-            for (let i = 0; i < topics.length; i++) {
+            for (let i = 0; i < items.length; i++) {
                 if (assigned[i] !== -1) continue;
                 const cluster = [i];
                 assigned[i] = clusters.length;
-                for (let j = i + 1; j < topics.length; j++) {
+                for (let j = i + 1; j < items.length; j++) {
                     if (assigned[j] !== -1) continue;
-                    // Calculate Jaccard similarity
-                    const a = topics[i].tokens, b = topics[j].tokens;
+                    const a = items[i].tokens, b = items[j].tokens;
                     if (a.size === 0 || b.size === 0) continue;
                     let inter = 0;
                     for (const t of a) if (b.has(t)) inter++;
-                    const jaccard = inter / (a.size + b.size - inter);
-                    if (jaccard >= 0.25) {
+                    if (inter / (a.size + b.size - inter) >= 0.2) {
                         cluster.push(j);
                         assigned[j] = clusters.length;
                     }
                 }
                 if (cluster.length >= 2) {
-                    clusters.push(cluster.map(idx => data[idx].text));
+                    const members = cluster.map(idx => items[idx]);
+                    const totalHeat = members.reduce((s, m) => s + m.peakCount, 0);
+                    const avgVel = Math.round(members.reduce((s, m) => s + m.velocity, 0) / members.length);
+                    // Find shared tokens for label
+                    const tokenCounts = {};
+                    members.forEach(m => m.tokens.forEach(t => { tokenCounts[t] = (tokenCounts[t] || 0) + 1; }));
+                    const shared = Object.entries(tokenCounts).filter(([,c]) => c >= 2).sort((a,b) => b[1] - a[1]).map(([t]) => t);
+                    const label = shared.slice(0, 3).join(' + ') || members[0].text.slice(0, 8);
+                    clusters.push({ label, members, totalHeat, avgVel });
                 }
             }
-            return clusters.sort((a, b) => b.length - a.length).slice(0, 8);
-        }
-
-        function getHeatDistribution(data) {
-            const buckets = { new: 0, rising: 0, hot: 0, falling: 0, gone: 0 };
-            data.forEach(d => {
-                const s = d.status || 'hot';
-                buckets[s] = (buckets[s] || 0) + d.count;
-            });
-            return buckets;
+            return clusters.sort((a, b) => b.totalHeat - a.totalHeat).slice(0, 8);
         }
 
         function runInsightAnalysis(data) {
-            // Keywords
-            const keywords = extractKeywords(data);
-            const maxKw = keywords.length > 0 ? keywords[0][1] : 1;
-            document.getElementById('keywordCloud').innerHTML = keywords.map(([word, count]) => {
-                const scale = 0.8 + (count / maxKw) * 0.5;
-                return `<span class="keyword-tag" style="font-size:${scale}em">${escapeHtml(word)}<span class="kw-count">${count}</span></span>`;
-            }).join('') || '<span style="color:var(--text-secondary)">Not enough data</span>';
+            if (!data || data.length === 0) return;
 
-            // Clusters
-            const clusters = clusterTopics(data);
-            document.getElementById('topicClusters').innerHTML = clusters.length > 0
-                ? clusters.map((group, i) => {
-                    const color = CLUSTER_COLORS[i % CLUSTER_COLORS.length];
-                    // Use first shared token as label
-                    return `<div class="cluster-group">
-                        <div class="cluster-label"><span class="cluster-dot" style="background:${color}"></span>Cluster ${i + 1} (${group.length} topics)</div>
-                        <div class="cluster-topics">${group.map(t => `<span class="cluster-topic">${escapeHtml(t)}</span>`).join('')}</div>
+            // === Daily Signal Summary ===
+            const counts = { new: 0, rising: 0, hot: 0, falling: 0, gone: 0 };
+            let totalHeat = 0, totalPeak = 0, engTopics = 0, totalEng = 0;
+            data.forEach(d => {
+                const s = d.status || 'hot';
+                counts[s] = (counts[s] || 0) + 1;
+                totalHeat += d.count;
+                totalPeak += d.peakCount || d.count;
+                if (d.engagement) {
+                    engTopics++;
+                    totalEng += d.engagement.likes + d.engagement.comments + d.engagement.reposts;
+                }
+            });
+            const fastestRising = data.filter(d => d.status === 'rising' && d.velocity > 0)
+                .sort((a, b) => b.velocity - a.velocity)[0];
+            const biggestGone = data.filter(d => d.status === 'gone')
+                .sort((a, b) => (b.peakCount || 0) - (a.peakCount || 0))[0];
+            const highestPeak = data.reduce((best, d) => (d.peakCount || 0) > (best.peakCount || 0) ? d : best, data[0]);
+
+            let summary = `<strong>${data.length}</strong> topics tracked today `;
+            summary += `(<strong>${counts.new}</strong> new, <strong>${counts.rising}</strong> rising, <strong>${counts.gone}</strong> gone). `;
+            summary += `Combined heat: <strong>${formatCount(totalHeat)}</strong>. `;
+            if (highestPeak) summary += `Highest peak: <strong>${escapeHtml(highestPeak.text)}</strong> at ${formatCount(highestPeak.peakCount || highestPeak.count)}. `;
+            if (fastestRising) summary += `Fastest velocity: <strong>${escapeHtml(fastestRising.text)}</strong> (+${fastestRising.velocity}%). `;
+            if (biggestGone) summary += `Top suppressed signal: <strong>${escapeHtml(biggestGone.text)}</strong> (peaked at ${formatCount(biggestGone.peakCount || biggestGone.count)}). `;
+            if (engTopics > 0) summary += `Engagement data on ${engTopics} topics (${formatCount(totalEng)} total interactions).`;
+            document.getElementById('insightSummary').innerHTML = summary;
+
+            // === Momentum Leaders (velocity * heat score) ===
+            const momentum = data
+                .filter(d => d.status !== 'gone' && d.velocity > 0)
+                .map(d => ({
+                    ...d,
+                    score: (d.velocity / 100) * (d.peakCount || d.count)
+                }))
+                .sort((a, b) => b.score - a.score)
+                .slice(0, 5);
+            document.getElementById('momentumLeaders').innerHTML = momentum.length > 0
+                ? momentum.map((item, i) => {
+                    const enLine = item.textEn && item.textEn !== item.text
+                        ? `<div class="momentum-en">${escapeHtml(item.textEn)}</div>` : '';
+                    let metrics = `<span class="metric-hot">${formatCount(item.peakCount || item.count)} peak</span>`;
+                    metrics += `<span class="metric-up">+${item.velocity}% velocity</span>`;
+                    metrics += `<span>${formatCount(item.count)} current</span>`;
+                    if (item.engagement && item.engagement.posts > 0) {
+                        metrics += `<span>\u{2764} ${formatCount(item.engagement.likes)}</span>`;
+                        metrics += `<span>\u{1F4AC} ${formatCount(item.engagement.comments)}</span>`;
+                        metrics += `<span>\u{1F501} ${formatCount(item.engagement.reposts)}</span>`;
+                    }
+                    if (item.firstSeen) {
+                        const h = new Date(item.firstSeen).getHours();
+                        const m = String(new Date(item.firstSeen).getMinutes()).padStart(2, '0');
+                        metrics += `<span>first seen ${h}:${m}</span>`;
+                    }
+                    return `<div class="momentum-item">
+                        <span class="momentum-rank">${i + 1}</span>
+                        <div class="momentum-info">
+                            <div class="momentum-title">${escapeHtml(item.text)}</div>
+                            ${enLine}
+                            <div class="momentum-metrics">${metrics}</div>
+                        </div>
                     </div>`;
                 }).join('')
-                : '<span style="color:var(--text-secondary)">No clusters found (topics are diverse)</span>';
+                : '<span style="color:var(--text-secondary)">No momentum data</span>';
 
-            // Heat distribution
-            const dist = getHeatDistribution(data);
+            // === Story Threads (clusters with metadata) ===
+            const clusters = clusterTopics(data);
+            document.getElementById('storyThreads').innerHTML = clusters.length > 0
+                ? clusters.map((cl, i) => {
+                    const color = THREAD_COLORS[i % THREAD_COLORS.length];
+                    return `<div class="thread-group">
+                        <div class="thread-header">
+                            <span class="thread-dot" style="background:${color}"></span>
+                            ${escapeHtml(cl.label)}
+                            <span class="thread-stats">${cl.members.length} topics &middot; ${formatCount(cl.totalHeat)} peak heat &middot; avg ${cl.avgVel > 0 ? '+' : ''}${cl.avgVel}% vel</span>
+                        </div>
+                        <div class="thread-topics">${cl.members.map(m =>
+                            `<span class="thread-topic" title="${escapeAttr(m.textEn || m.text)}">${escapeHtml(m.text)}</span>`
+                        ).join('')}</div>
+                    </div>`;
+                }).join('')
+                : '<span style="color:var(--text-secondary)">No story threads found (topics are diverse)</span>';
+
+            // === Suppressed Signals (gone topics by peak) ===
+            const gone = data.filter(d => d.status === 'gone')
+                .sort((a, b) => (b.peakCount || 0) - (a.peakCount || 0))
+                .slice(0, 8);
+            document.getElementById('goneSignals').innerHTML = gone.length > 0
+                ? gone.map(d => {
+                    const name = d.textEn && d.textEn !== d.text ? `${escapeHtml(d.text)} (${escapeHtml(d.textEn)})` : escapeHtml(d.text);
+                    return `<div class="gone-item">
+                        <span class="gone-text">${name}</span>
+                        <span class="gone-peak">peaked ${formatCount(d.peakCount || d.count)}</span>
+                    </div>`;
+                }).join('')
+                : '<span style="color:var(--text-secondary)">No suppressed signals</span>';
+
+            // === Heat Distribution ===
+            const dist = { new: 0, rising: 0, hot: 0, falling: 0, gone: 0 };
+            data.forEach(d => { dist[d.status || 'hot'] = (dist[d.status || 'hot'] || 0) + d.count; });
             const maxHeat = Math.max(...Object.values(dist), 1);
             const statusColors = { new: 'var(--new-color)', rising: 'var(--rising-color)', hot: 'var(--hot-color)', falling: 'var(--falling-color)', gone: 'var(--gone-color)' };
             const statusLabels = { new: 'New', rising: 'Rising', hot: 'Hot', falling: 'Falling', gone: 'Gone' };
@@ -764,7 +833,7 @@
                 .map(([status, heat]) => {
                     const pct = (heat / maxHeat * 100).toFixed(1);
                     return `<div class="heat-bar-row">
-                        <span class="heat-bar-label">${statusLabels[status]}</span>
+                        <span class="heat-bar-label">${statusLabels[status]} (${counts[status]})</span>
                         <div class="heat-bar-track"><div class="heat-bar-fill" style="width:${pct}%;background:${statusColors[status]}"></div></div>
                         <span class="heat-bar-value">${formatCount(heat)}</span>
                     </div>`;
