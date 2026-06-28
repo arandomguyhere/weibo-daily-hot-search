@@ -22,57 +22,57 @@ Browse historical trending data with status badges, velocity indicators, and cat
 
 <!-- BEGIN -->
 
-1. [超级计算机预测阿根廷晋级概率89% (Supercomputer predicts Argentina’s probability of qualifying is 89%)](https://s.weibo.com/weibo?q=%23%E8%B6%85%E7%BA%A7%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%A2%84%E6%B5%8B%E9%98%BF%E6%A0%B9%E5%BB%B7%E6%99%8B%E7%BA%A7%E6%A6%82%E7%8E%8789%25%23) `47.6K 🔥` `NEW`
-1. [退休化学教授帮医药研发人员制毒](https://s.weibo.com/weibo?q=%23%E9%80%80%E4%BC%91%E5%8C%96%E5%AD%A6%E6%95%99%E6%8E%88%E5%B8%AE%E5%8C%BB%E8%8D%AF%E7%A0%94%E5%8F%91%E4%BA%BA%E5%91%98%E5%88%B6%E6%AF%92%23) `47.5K 🔥` `NEW`
-1. [武汉大学回应女孩查完分喂猪](https://s.weibo.com/weibo?q=%23%E6%AD%A6%E6%B1%89%E5%A4%A7%E5%AD%A6%E5%9B%9E%E5%BA%94%E5%A5%B3%E5%AD%A9%E6%9F%A5%E5%AE%8C%E5%88%86%E5%96%82%E7%8C%AA%23) `47.5K 🔥` `NEW`
-1. [四川宜宾地震 (Yibin earthquake in Sichuan)](https://s.weibo.com/weibo?q=%23%E5%9B%9B%E5%B7%9D%E5%AE%9C%E5%AE%BE%E5%9C%B0%E9%9C%87%23) `832.7K 🔥` `+114%`
-1. [神23乘组太空出差满月](https://s.weibo.com/weibo?q=%23%E7%A5%9E23%E4%B9%98%E7%BB%84%E5%A4%AA%E7%A9%BA%E5%87%BA%E5%B7%AE%E6%BB%A1%E6%9C%88%23) `267.5K 🔥` `+147%`
-1. [实习期把公司领导开除了](https://s.weibo.com/weibo?q=%23%E5%AE%9E%E4%B9%A0%E6%9C%9F%E6%8A%8A%E5%85%AC%E5%8F%B8%E9%A2%86%E5%AF%BC%E5%BC%80%E9%99%A4%E4%BA%86%23) `185.5K 🔥` `+116%`
-1. [黄灿灿是浪姐最大赢家吧](https://s.weibo.com/weibo?q=%23%E9%BB%84%E7%81%BF%E7%81%BF%E6%98%AF%E6%B5%AA%E5%A7%90%E6%9C%80%E5%A4%A7%E8%B5%A2%E5%AE%B6%E5%90%A7%23) `100.4K 🔥` `+92%`
-1. [原来衣着打扮会影响对自己的感知 (It turns out that dressing up can affect your perception of yourself)](https://s.weibo.com/weibo?q=%23%E5%8E%9F%E6%9D%A5%E8%A1%A3%E7%9D%80%E6%89%93%E6%89%AE%E4%BC%9A%E5%BD%B1%E5%93%8D%E5%AF%B9%E8%87%AA%E5%B7%B1%E7%9A%84%E6%84%9F%E7%9F%A5%23) `92.6K 🔥` `+65%`
-1. [白玉兰下沉市场](https://s.weibo.com/weibo?q=%23%E7%99%BD%E7%8E%89%E5%85%B0%E4%B8%8B%E6%B2%89%E5%B8%82%E5%9C%BA%23) `91.6K 🔥` `+113%`
-1. [宜宾 (Yibin)](https://s.weibo.com/weibo?q=%23%E5%AE%9C%E5%AE%BE%23) `76.3K 🔥` `+78%`
-1. [3000块街舞课狗狗学了2900](https://s.weibo.com/weibo?q=%233000%E5%9D%97%E8%A1%97%E8%88%9E%E8%AF%BE%E7%8B%97%E7%8B%97%E5%AD%A6%E4%BA%862900%23) `70.1K 🔥` `+62%`
-1. [韩国主教练连夜下课](https://s.weibo.com/weibo?q=%23%E9%9F%A9%E5%9B%BD%E4%B8%BB%E6%95%99%E7%BB%83%E8%BF%9E%E5%A4%9C%E4%B8%8B%E8%AF%BE%23) `69.9K 🔥` `+63%`
-1. [重庆震感](https://s.weibo.com/weibo?q=%23%E9%87%8D%E5%BA%86%E9%9C%87%E6%84%9F%23) `69.8K 🔥` `+65%`
-1. [美国230斤男孩在家中去世父母被捕 (230-pound boy dies at home in US, parents arrested)](https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%9B%BD230%E6%96%A4%E7%94%B7%E5%AD%A9%E5%9C%A8%E5%AE%B6%E4%B8%AD%E5%8E%BB%E4%B8%96%E7%88%B6%E6%AF%8D%E8%A2%AB%E6%8D%95%23) `69.6K 🔥` `+101%`
-1. [李在明要调查韩国队出局原因](https://s.weibo.com/weibo?q=%23%E6%9D%8E%E5%9C%A8%E6%98%8E%E8%A6%81%E8%B0%83%E6%9F%A5%E9%9F%A9%E5%9B%BD%E9%98%9F%E5%87%BA%E5%B1%80%E5%8E%9F%E5%9B%A0%23) `68.3K 🔥` `+60%`
-1. [成都震感](https://s.weibo.com/weibo?q=%23%E6%88%90%E9%83%BD%E9%9C%87%E6%84%9F%23) `60.5K 🔥` `+74%`
-1. [加纳巫师预测佛得角淘汰阿根廷](https://s.weibo.com/weibo?q=%23%E5%8A%A0%E7%BA%B3%E5%B7%AB%E5%B8%88%E9%A2%84%E6%B5%8B%E4%BD%9B%E5%BE%97%E8%A7%92%E6%B7%98%E6%B1%B0%E9%98%BF%E6%A0%B9%E5%BB%B7%23) `56.6K 🔥` `+33%`
-1. [刘宇宁说龚俊去浪姐干嘛去了](https://s.weibo.com/weibo?q=%23%E5%88%98%E5%AE%87%E5%AE%81%E8%AF%B4%E9%BE%9A%E4%BF%8A%E5%8E%BB%E6%B5%AA%E5%A7%90%E5%B9%B2%E5%98%9B%E5%8E%BB%E4%BA%86%23) `51.1K 🔥` `+48%`
-1. [北方雨多了 (It rains more in the north)](https://s.weibo.com/weibo?q=%23%E5%8C%97%E6%96%B9%E9%9B%A8%E5%A4%9A%E4%BA%86%23) `50.7K 🔥` `+43%`
-1. [伊朗球员道歉 说着说着哭了 (Iranian players apologized and cried while talking)](https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E7%90%83%E5%91%98%E9%81%93%E6%AD%89%20%E8%AF%B4%E7%9D%80%E8%AF%B4%E7%9D%80%E5%93%AD%E4%BA%86%23) `47.7K 🔥` `+38%`
-1. [没有被坚定选择不是你的错](https://s.weibo.com/weibo?q=%23%E6%B2%A1%E6%9C%89%E8%A2%AB%E5%9D%9A%E5%AE%9A%E9%80%89%E6%8B%A9%E4%B8%8D%E6%98%AF%E4%BD%A0%E7%9A%84%E9%94%99%23) `47.7K 🔥` `+38%`
-1. [奶奶的微信有77万条未读消息 (Grandma’s WeChat has 770,000 unread messages)](https://s.weibo.com/weibo?q=%23%E5%A5%B6%E5%A5%B6%E7%9A%84%E5%BE%AE%E4%BF%A1%E6%9C%8977%E4%B8%87%E6%9D%A1%E6%9C%AA%E8%AF%BB%E6%B6%88%E6%81%AF%23) `47.6K 🔥` `+38%`
-1. [韩国队出局李在明怒了](https://s.weibo.com/weibo?q=%23%E9%9F%A9%E5%9B%BD%E9%98%9F%E5%87%BA%E5%B1%80%E6%9D%8E%E5%9C%A8%E6%98%8E%E6%80%92%E4%BA%86%23) `47.6K 🔥` `+26%`
-1. [想通就在一瞬间 (I figured it out in an instant)](https://s.weibo.com/weibo?q=%23%E6%83%B3%E9%80%9A%E5%B0%B1%E5%9C%A8%E4%B8%80%E7%9E%AC%E9%97%B4%23) `47.6K 🔥` `+38%`
-1. [四川 (Sichuan)](https://s.weibo.com/weibo?q=%23%E5%9B%9B%E5%B7%9D%23) `47.6K 🔥` `+30%`
-1. [萧蔷回应捐出参加浪姐所有收入 (Xiao Qiang responded by donating all the income from participating in Sister Lang)](https://s.weibo.com/weibo?q=%23%E8%90%A7%E8%94%B7%E5%9B%9E%E5%BA%94%E6%8D%90%E5%87%BA%E5%8F%82%E5%8A%A0%E6%B5%AA%E5%A7%90%E6%89%80%E6%9C%89%E6%94%B6%E5%85%A5%23) `47.6K 🔥` `+38%`
-1. [男子捅死前妻获子女谅解一审判14年](https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E6%8D%85%E6%AD%BB%E5%89%8D%E5%A6%BB%E8%8E%B7%E5%AD%90%E5%A5%B3%E8%B0%85%E8%A7%A3%E4%B8%80%E5%AE%A1%E5%88%A414%E5%B9%B4%23) `47.6K 🔥` `+38%`
-1. [真回避型走不到确认关系那步 (A truly avoidant person cannot go as far as confirming a relationship.)](https://s.weibo.com/weibo?q=%23%E7%9C%9F%E5%9B%9E%E9%81%BF%E5%9E%8B%E8%B5%B0%E4%B8%8D%E5%88%B0%E7%A1%AE%E8%AE%A4%E5%85%B3%E7%B3%BB%E9%82%A3%E6%AD%A5%23) `47.6K 🔥` `+38%`
-1. [洪明甫仁川机场遇害预言](https://s.weibo.com/weibo?q=%23%E6%B4%AA%E6%98%8E%E7%94%AB%E4%BB%81%E5%B7%9D%E6%9C%BA%E5%9C%BA%E9%81%87%E5%AE%B3%E9%A2%84%E8%A8%80%23) `47.6K 🔥` `+38%`
-1. [宜宾地震震源深度6公里](https://s.weibo.com/weibo?q=%23%E5%AE%9C%E5%AE%BE%E5%9C%B0%E9%9C%87%E9%9C%87%E6%BA%90%E6%B7%B1%E5%BA%A66%E5%85%AC%E9%87%8C%23) `47.6K 🔥` `+38%`
-1. [蒸了一锅妃子笑荔枝馒头 (Steamed a pot of Feizixiao lychee steamed buns)](https://s.weibo.com/weibo?q=%23%E8%92%B8%E4%BA%86%E4%B8%80%E9%94%85%E5%A6%83%E5%AD%90%E7%AC%91%E8%8D%94%E6%9E%9D%E9%A6%92%E5%A4%B4%23) `47.6K 🔥` `+38%`
-1. [白鹿九部剧全集有广 (The complete series of nine White Deer dramas are available in Guangdong)](https://s.weibo.com/weibo?q=%23%E7%99%BD%E9%B9%BF%E4%B9%9D%E9%83%A8%E5%89%A7%E5%85%A8%E9%9B%86%E6%9C%89%E5%B9%BF%23) `47.5K 🔥` `+38%`
-1. [严浩翔紫钻戒指](https://s.weibo.com/weibo?q=%23%E4%B8%A5%E6%B5%A9%E7%BF%94%E7%B4%AB%E9%92%BB%E6%88%92%E6%8C%87%23) `47.5K 🔥` `+38%`
-1. [女子替7户邻居交了17年电费](https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E6%9B%BF7%E6%88%B7%E9%82%BB%E5%B1%85%E4%BA%A4%E4%BA%8617%E5%B9%B4%E7%94%B5%E8%B4%B9%23) `47.5K 🔥` `+38%`
-1. [伊朗球员向伊朗人民道歉](https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E7%90%83%E5%91%98%E5%90%91%E4%BC%8A%E6%9C%97%E4%BA%BA%E6%B0%91%E9%81%93%E6%AD%89%23) `47.5K 🔥` `+37%`
-1. [拼豆正式进入3D打印美甲猫眼时代](https://s.weibo.com/weibo?q=%23%E6%8B%BC%E8%B1%86%E6%AD%A3%E5%BC%8F%E8%BF%9B%E5%85%A53D%E6%89%93%E5%8D%B0%E7%BE%8E%E7%94%B2%E7%8C%AB%E7%9C%BC%E6%97%B6%E4%BB%A3%23) `47.5K 🔥` `+37%`
-1. [杨毅董路预测日本巴西](https://s.weibo.com/weibo?q=%23%E6%9D%A8%E6%AF%85%E8%91%A3%E8%B7%AF%E9%A2%84%E6%B5%8B%E6%97%A5%E6%9C%AC%E5%B7%B4%E8%A5%BF%23) `47.5K 🔥` `+38%`
-1. [立陶宛为挑衅中国付出代价 (Lithuania pays the price for provoking China)](https://s.weibo.com/weibo?q=%23%E7%AB%8B%E9%99%B6%E5%AE%9B%E4%B8%BA%E6%8C%91%E8%A1%85%E4%B8%AD%E5%9B%BD%E4%BB%98%E5%87%BA%E4%BB%A3%E4%BB%B7%23) `47.5K 🔥` `+38%`
-1. [立陶宛生变](https://s.weibo.com/weibo?q=%23%E7%AB%8B%E9%99%B6%E5%AE%9B%E7%94%9F%E5%8F%98%23) `47.5K 🔥` `+37%`
-1. [艾米人生第一次看演唱会](https://s.weibo.com/weibo?q=%23%E8%89%BE%E7%B1%B3%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%9C%8B%E6%BC%94%E5%94%B1%E4%BC%9A%23) `47.5K 🔥` `+38%`
-1. [王俊凯没去周杰伦演唱会](https://s.weibo.com/weibo?q=%23%E7%8E%8B%E4%BF%8A%E5%87%AF%E6%B2%A1%E5%8E%BB%E5%91%A8%E6%9D%B0%E4%BC%A6%E6%BC%94%E5%94%B1%E4%BC%9A%23) `47.5K 🔥` `+37%`
-1. [谁来为恋与深空真心氪金玩家买单](https://s.weibo.com/weibo?q=%23%E8%B0%81%E6%9D%A5%E4%B8%BA%E6%81%8B%E4%B8%8E%E6%B7%B1%E7%A9%BA%E7%9C%9F%E5%BF%83%E6%B0%AA%E9%87%91%E7%8E%A9%E5%AE%B6%E4%B9%B0%E5%8D%95%23) `47.5K 🔥` `+37%`
-1. [种地吧 (Farm it)](https://s.weibo.com/weibo?q=%23%E7%A7%8D%E5%9C%B0%E5%90%A7%23) `47.5K 🔥` `+38%`
-1. [伊朗队队长怒斥国际足联 (Iran captain lashes out at FIFA)](https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E9%98%9F%E9%98%9F%E9%95%BF%E6%80%92%E6%96%A5%E5%9B%BD%E9%99%85%E8%B6%B3%E8%81%94%23) `47.5K 🔥` `+37%`
-1. [四川高县附近5.5级左右地震 (Earthquake of around 5.5 magnitude near Gaoxian County, Sichuan)](https://s.weibo.com/weibo?q=%23%E5%9B%9B%E5%B7%9D%E9%AB%98%E5%8E%BF%E9%99%84%E8%BF%915.5%E7%BA%A7%E5%B7%A6%E5%8F%B3%E5%9C%B0%E9%9C%87%23) `47.5K 🔥` `+37%`
-1. [腾讯回应做独立支付APP (Tencent responds by developing an independent payment APP)](https://s.weibo.com/weibo?q=%23%E8%85%BE%E8%AE%AF%E5%9B%9E%E5%BA%94%E5%81%9A%E7%8B%AC%E7%AB%8B%E6%94%AF%E4%BB%98APP%23) `47.5K 🔥` `+37%`
-1. [南非vs加拿大](https://s.weibo.com/weibo?q=%23%E5%8D%97%E9%9D%9Evs%E5%8A%A0%E6%8B%BF%E5%A4%A7%23) `386.0K 🔥`
-1. [东风奕派M8开启预售 (Dongfeng Yipai M8 starts pre-sale)](https://s.weibo.com/weibo?q=%23%E4%B8%9C%E9%A3%8E%E5%A5%95%E6%B4%BEM8%E5%BC%80%E5%90%AF%E9%A2%84%E5%94%AE%23) `225.7K 🔥`
-1. [白桃星座一周运势 (Weekly horoscope for Baitao zodiac sign)](https://s.weibo.com/weibo?q=%23%E7%99%BD%E6%A1%83%E6%98%9F%E5%BA%A7%E4%B8%80%E5%91%A8%E8%BF%90%E5%8A%BF%23) `47.6K 🔥`
+1. [加拿大92分钟绝杀 (Canada's 92nd minute winner)](https://s.weibo.com/weibo?q=%23%E5%8A%A0%E6%8B%BF%E5%A4%A792%E5%88%86%E9%92%9F%E7%BB%9D%E6%9D%80%23) `856.3K 🔥` `NEW`
+1. [宜宾5.5级地震震源深度6公里](https://s.weibo.com/weibo?q=%23%E5%AE%9C%E5%AE%BE5.5%E7%BA%A7%E5%9C%B0%E9%9C%87%E9%9C%87%E6%BA%90%E6%B7%B1%E5%BA%A66%E5%85%AC%E9%87%8C%23) `278.8K 🔥` `NEW`
+1. [双高胎](https://s.weibo.com/weibo?q=%23%E5%8F%8C%E9%AB%98%E8%83%8E%23) `236.3K 🔥` `NEW`
+1. [唐艺昕女儿接唐艺昕回家](https://s.weibo.com/weibo?q=%23%E5%94%90%E8%89%BA%E6%98%95%E5%A5%B3%E5%84%BF%E6%8E%A5%E5%94%90%E8%89%BA%E6%98%95%E5%9B%9E%E5%AE%B6%23) `235.0K 🔥` `NEW`
+1. [宜宾地震监控画面](https://s.weibo.com/weibo?q=%23%E5%AE%9C%E5%AE%BE%E5%9C%B0%E9%9C%87%E7%9B%91%E6%8E%A7%E7%94%BB%E9%9D%A2%23) `161.8K 🔥` `NEW`
+1. [功率半导体缺货涨价](https://s.weibo.com/weibo?q=%23%E5%8A%9F%E7%8E%87%E5%8D%8A%E5%AF%BC%E4%BD%93%E7%BC%BA%E8%B4%A7%E6%B6%A8%E4%BB%B7%23) `157.7K 🔥` `NEW`
+1. [加拿大晋级16强](https://s.weibo.com/weibo?q=%23%E5%8A%A0%E6%8B%BF%E5%A4%A7%E6%99%8B%E7%BA%A716%E5%BC%BA%23) `79.9K 🔥` `NEW`
+1. [卢昱晓误触](https://s.weibo.com/weibo?q=%23%E5%8D%A2%E6%98%B1%E6%99%93%E8%AF%AF%E8%A7%A6%23) `79.8K 🔥` `NEW`
+1. [李圣经 金永大](https://s.weibo.com/weibo?q=%23%E6%9D%8E%E5%9C%A3%E7%BB%8F%20%E9%87%91%E6%B0%B8%E5%A4%A7%23) `79.8K 🔥` `NEW`
+1. [四川宜宾地震 (Yibin earthquake in Sichuan)](https://s.weibo.com/weibo?q=%23%E5%9B%9B%E5%B7%9D%E5%AE%9C%E5%AE%BE%E5%9C%B0%E9%9C%87%23) `2.3M 🔥` `+180%`
+1. [神23乘组太空出差满月](https://s.weibo.com/weibo?q=%23%E7%A5%9E23%E4%B9%98%E7%BB%84%E5%A4%AA%E7%A9%BA%E5%87%BA%E5%B7%AE%E6%BB%A1%E6%9C%88%23) `661.2K 🔥` `+147%`
+1. [东风奕派M8开启预售 (Dongfeng Yipai M8 starts pre-sale)](https://s.weibo.com/weibo?q=%23%E4%B8%9C%E9%A3%8E%E5%A5%95%E6%B4%BEM8%E5%BC%80%E5%90%AF%E9%A2%84%E5%94%AE%23) `492.1K 🔥` `+118%`
+1. [成都震感 (Chengdu earthquake)](https://s.weibo.com/weibo?q=%23%E6%88%90%E9%83%BD%E9%9C%87%E6%84%9F%23) `257.0K 🔥` `+325%`
+1. [白玉兰下沉市场](https://s.weibo.com/weibo?q=%23%E7%99%BD%E7%8E%89%E5%85%B0%E4%B8%8B%E6%B2%89%E5%B8%82%E5%9C%BA%23) `245.4K 🔥` `+168%`
+1. [原来衣着打扮会影响对自己的感知 (It turns out that dressing up can affect your perception of yourself)](https://s.weibo.com/weibo?q=%23%E5%8E%9F%E6%9D%A5%E8%A1%A3%E7%9D%80%E6%89%93%E6%89%AE%E4%BC%9A%E5%BD%B1%E5%93%8D%E5%AF%B9%E8%87%AA%E5%B7%B1%E7%9A%84%E6%84%9F%E7%9F%A5%23) `244.4K 🔥` `+164%`
+1. [韩国主教练连夜下课](https://s.weibo.com/weibo?q=%23%E9%9F%A9%E5%9B%BD%E4%B8%BB%E6%95%99%E7%BB%83%E8%BF%9E%E5%A4%9C%E4%B8%8B%E8%AF%BE%23) `235.5K 🔥` `+237%`
+1. [实习期把公司领导开除了](https://s.weibo.com/weibo?q=%23%E5%AE%9E%E4%B9%A0%E6%9C%9F%E6%8A%8A%E5%85%AC%E5%8F%B8%E9%A2%86%E5%AF%BC%E5%BC%80%E9%99%A4%E4%BA%86%23) `232.7K 🔥` `+25%`
+1. [刘宇宁说龚俊去浪姐干嘛去了](https://s.weibo.com/weibo?q=%23%E5%88%98%E5%AE%87%E5%AE%81%E8%AF%B4%E9%BE%9A%E4%BF%8A%E5%8E%BB%E6%B5%AA%E5%A7%90%E5%B9%B2%E5%98%9B%E5%8E%BB%E4%BA%86%23) `206.6K 🔥` `+305%`
+1. [宜宾 (Yibin)](https://s.weibo.com/weibo?q=%23%E5%AE%9C%E5%AE%BE%23) `204.6K 🔥` `+168%`
+1. [重庆震感](https://s.weibo.com/weibo?q=%23%E9%87%8D%E5%BA%86%E9%9C%87%E6%84%9F%23) `176.0K 🔥` `+152%`
+1. [美国230斤男孩在家中去世父母被捕 (230-pound boy dies at home in US, parents arrested)](https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%9B%BD230%E6%96%A4%E7%94%B7%E5%AD%A9%E5%9C%A8%E5%AE%B6%E4%B8%AD%E5%8E%BB%E4%B8%96%E7%88%B6%E6%AF%8D%E8%A2%AB%E6%8D%95%23) `172.1K 🔥` `+147%`
+1. [男子捅死前妻获子女谅解一审判14年](https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E6%8D%85%E6%AD%BB%E5%89%8D%E5%A6%BB%E8%8E%B7%E5%AD%90%E5%A5%B3%E8%B0%85%E8%A7%A3%E4%B8%80%E5%AE%A1%E5%88%A414%E5%B9%B4%23) `157.4K 🔥` `+231%`
+1. [李在明要调查韩国队出局原因](https://s.weibo.com/weibo?q=%23%E6%9D%8E%E5%9C%A8%E6%98%8E%E8%A6%81%E8%B0%83%E6%9F%A5%E9%9F%A9%E5%9B%BD%E9%98%9F%E5%87%BA%E5%B1%80%E5%8E%9F%E5%9B%A0%23) `152.6K 🔥` `+123%`
+1. [韩国队出局李在明怒了](https://s.weibo.com/weibo?q=%23%E9%9F%A9%E5%9B%BD%E9%98%9F%E5%87%BA%E5%B1%80%E6%9D%8E%E5%9C%A8%E6%98%8E%E6%80%92%E4%BA%86%23) `122.9K 🔥` `+158%`
+1. [退休化学教授帮医药研发人员制毒](https://s.weibo.com/weibo?q=%23%E9%80%80%E4%BC%91%E5%8C%96%E5%AD%A6%E6%95%99%E6%8E%88%E5%B8%AE%E5%8C%BB%E8%8D%AF%E7%A0%94%E5%8F%91%E4%BA%BA%E5%91%98%E5%88%B6%E6%AF%92%23) `120.9K 🔥` `+154%`
+1. [白鹿九部剧全集有广 (The complete series of nine White Deer dramas are available in Guangdong)](https://s.weibo.com/weibo?q=%23%E7%99%BD%E9%B9%BF%E4%B9%9D%E9%83%A8%E5%89%A7%E5%85%A8%E9%9B%86%E6%9C%89%E5%B9%BF%23) `103.7K 🔥` `+118%`
+1. [加纳巫师预测佛得角淘汰阿根廷 (Ghana wizard predicts Cape Verde knocks out Argentina)](https://s.weibo.com/weibo?q=%23%E5%8A%A0%E7%BA%B3%E5%B7%AB%E5%B8%88%E9%A2%84%E6%B5%8B%E4%BD%9B%E5%BE%97%E8%A7%92%E6%B7%98%E6%B1%B0%E9%98%BF%E6%A0%B9%E5%BB%B7%23) `103.6K 🔥` `+83%`
+1. [没有被坚定选择不是你的错](https://s.weibo.com/weibo?q=%23%E6%B2%A1%E6%9C%89%E8%A2%AB%E5%9D%9A%E5%AE%9A%E9%80%89%E6%8B%A9%E4%B8%8D%E6%98%AF%E4%BD%A0%E7%9A%84%E9%94%99%23) `97.1K 🔥` `+104%`
+1. [伊朗球员道歉 说着说着哭了 (Iranian players apologized and cried while talking)](https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E7%90%83%E5%91%98%E9%81%93%E6%AD%89%20%E8%AF%B4%E7%9D%80%E8%AF%B4%E7%9D%80%E5%93%AD%E4%BA%86%23) `89.5K 🔥` `+88%`
+1. [立陶宛为挑衅中国付出代价 (Lithuania pays the price for provoking China)](https://s.weibo.com/weibo?q=%23%E7%AB%8B%E9%99%B6%E5%AE%9B%E4%B8%BA%E6%8C%91%E8%A1%85%E4%B8%AD%E5%9B%BD%E4%BB%98%E5%87%BA%E4%BB%A3%E4%BB%B7%23) `89.0K 🔥` `+87%`
+1. [3000块街舞课狗狗学了2900](https://s.weibo.com/weibo?q=%233000%E5%9D%97%E8%A1%97%E8%88%9E%E8%AF%BE%E7%8B%97%E7%8B%97%E5%AD%A6%E4%BA%862900%23) `84.7K 🔥` `+21%`
+1. [武汉大学回应女孩查完分喂猪](https://s.weibo.com/weibo?q=%23%E6%AD%A6%E6%B1%89%E5%A4%A7%E5%AD%A6%E5%9B%9E%E5%BA%94%E5%A5%B3%E5%AD%A9%E6%9F%A5%E5%AE%8C%E5%88%86%E5%96%82%E7%8C%AA%23) `83.5K 🔥` `+76%`
+1. [奶奶的微信有77万条未读消息 (Grandma’s WeChat has 770,000 unread messages)](https://s.weibo.com/weibo?q=%23%E5%A5%B6%E5%A5%B6%E7%9A%84%E5%BE%AE%E4%BF%A1%E6%9C%8977%E4%B8%87%E6%9D%A1%E6%9C%AA%E8%AF%BB%E6%B6%88%E6%81%AF%23) `80.6K 🔥` `+69%`
+1. [蒸了一锅妃子笑荔枝馒头 (Steamed a pot of Feizixiao lychee steamed buns)](https://s.weibo.com/weibo?q=%23%E8%92%B8%E4%BA%86%E4%B8%80%E9%94%85%E5%A6%83%E5%AD%90%E7%AC%91%E8%8D%94%E6%9E%9D%E9%A6%92%E5%A4%B4%23) `79.9K 🔥` `+68%`
+1. [真回避型走不到确认关系那步 (A truly avoidant person cannot go as far as confirming a relationship.)](https://s.weibo.com/weibo?q=%23%E7%9C%9F%E5%9B%9E%E9%81%BF%E5%9E%8B%E8%B5%B0%E4%B8%8D%E5%88%B0%E7%A1%AE%E8%AE%A4%E5%85%B3%E7%B3%BB%E9%82%A3%E6%AD%A5%23) `79.9K 🔥` `+68%`
+1. [严浩翔紫钻戒指](https://s.weibo.com/weibo?q=%23%E4%B8%A5%E6%B5%A9%E7%BF%94%E7%B4%AB%E9%92%BB%E6%88%92%E6%8C%87%23) `79.8K 🔥` `+68%`
+1. [北方雨多了 (It rains more in the north)](https://s.weibo.com/weibo?q=%23%E5%8C%97%E6%96%B9%E9%9B%A8%E5%A4%9A%E4%BA%86%23) `79.8K 🔥` `+57%`
+1. [四川 (Sichuan)](https://s.weibo.com/weibo?q=%23%E5%9B%9B%E5%B7%9D%23) `79.8K 🔥` `+68%`
+1. [白桃星座一周运势 (Weekly horoscope for Baitao zodiac sign)](https://s.weibo.com/weibo?q=%23%E7%99%BD%E6%A1%83%E6%98%9F%E5%BA%A7%E4%B8%80%E5%91%A8%E8%BF%90%E5%8A%BF%23) `79.8K 🔥` `+68%`
+1. [女子替7户邻居交了17年电费](https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E6%9B%BF7%E6%88%B7%E9%82%BB%E5%B1%85%E4%BA%A4%E4%BA%8617%E5%B9%B4%E7%94%B5%E8%B4%B9%23) `79.8K 🔥` `+68%`
+1. [伊朗球员向伊朗人民道歉](https://s.weibo.com/weibo?q=%23%E4%BC%8A%E6%9C%97%E7%90%83%E5%91%98%E5%90%91%E4%BC%8A%E6%9C%97%E4%BA%BA%E6%B0%91%E9%81%93%E6%AD%89%23) `79.8K 🔥` `+68%`
+1. [种地吧 (Farm it)](https://s.weibo.com/weibo?q=%23%E7%A7%8D%E5%9C%B0%E5%90%A7%23) `79.8K 🔥` `+68%`
+1. [立陶宛生变](https://s.weibo.com/weibo?q=%23%E7%AB%8B%E9%99%B6%E5%AE%9B%E7%94%9F%E5%8F%98%23) `79.8K 🔥` `+68%`
+1. [艾米人生第一次看演唱会](https://s.weibo.com/weibo?q=%23%E8%89%BE%E7%B1%B3%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%9C%8B%E6%BC%94%E5%94%B1%E4%BC%9A%23) `79.8K 🔥` `+68%`
+1. [杨毅董路预测日本巴西](https://s.weibo.com/weibo?q=%23%E6%9D%A8%E6%AF%85%E8%91%A3%E8%B7%AF%E9%A2%84%E6%B5%8B%E6%97%A5%E6%9C%AC%E5%B7%B4%E8%A5%BF%23) `79.8K 🔥` `+68%`
+1. [王俊凯没去周杰伦演唱会 (Wang Junkai didn’t go to Jay Chou’s concert)](https://s.weibo.com/weibo?q=%23%E7%8E%8B%E4%BF%8A%E5%87%AF%E6%B2%A1%E5%8E%BB%E5%91%A8%E6%9D%B0%E4%BC%A6%E6%BC%94%E5%94%B1%E4%BC%9A%23) `79.8K 🔥` `+68%`
+1. [南非vs加拿大](https://s.weibo.com/weibo?q=%23%E5%8D%97%E9%9D%9Evs%E5%8A%A0%E6%8B%BF%E5%A4%A7%23) `329.6K 🔥`
+1. [黄灿灿是浪姐最大赢家吧](https://s.weibo.com/weibo?q=%23%E9%BB%84%E7%81%BF%E7%81%BF%E6%98%AF%E6%B5%AA%E5%A7%90%E6%9C%80%E5%A4%A7%E8%B5%A2%E5%AE%B6%E5%90%A7%23) `86.3K 🔥`
+1. [广州某高校辟谣禁止小米汽车入校](https://s.weibo.com/weibo?q=%23%E5%B9%BF%E5%B7%9E%E6%9F%90%E9%AB%98%E6%A0%A1%E8%BE%9F%E8%B0%A3%E7%A6%81%E6%AD%A2%E5%B0%8F%E7%B1%B3%E6%B1%BD%E8%BD%A6%E5%85%A5%E6%A0%A1%23) `79.8K 🔥`
 
-Updated at 2026-06-29 06:16:39
+Updated at 2026-06-29 07:33:24
 
 <!-- END -->
 
