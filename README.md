@@ -17,6 +17,11 @@ Browse historical trending data with status badges, velocity indicators, and cat
 - **English translations**: Auto-translated via Google Translate for non-Chinese readers
 - **Dark mode + filters**: Filter by status category, search by Chinese or English text
 - **Engagement metrics**: Top topics enriched with likes, comments, and reposts from related posts
+- **Installable app (PWA)**: Add to your phone's home screen for a standalone app with offline support
+
+## Install on Your Phone
+
+The site is a Progressive Web App. On iPhone: open the [live demo](https://arandomguyhere.github.io/weibo-daily-hot-search) in Safari, tap **Share → Add to Home Screen**. It launches full-screen like a native app, and recently viewed days keep working offline (the last ~45 days of viewed data are cached on-device). On Android, Chrome offers an "Install app" prompt.
 
 ## Today's Hot Searches
 
