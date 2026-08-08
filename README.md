@@ -17,6 +17,7 @@ Browse historical trending data with status badges, velocity indicators, and cat
 - **English translations**: Auto-translated via Google Translate for non-Chinese readers
 - **Dark mode + filters**: Filter by status category, search by Chinese or English text
 - **Engagement metrics**: Top topics enriched with likes, comments, and reposts from related posts
+- **Browser extension**: Safari (and Chrome/Firefox) toolbar popup with the daily list — see [`safari-extension/`](safari-extension/)
 
 ## Today's Hot Searches
 
@@ -87,6 +88,7 @@ Updated at 2026-08-08 14:23:51
 ├── index.html              # GitHub Pages frontend
 ├── mod.ts                  # Scraping script (Deno)
 ├── bridge.py               # Data bridge to WeiboInsight/MongoDB
+├── safari-extension/       # Safari/Chrome/Firefox browser extension (popup UI)
 └── WeiboInsight/           # Submodule: Playwright-based deep analysis
 ```
 

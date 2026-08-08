@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weibo Signal Tracker</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <div class="header-row">
+      <h1>Weibo Signal Tracker</h1>
+      <button id="refresh" title="Refresh" aria-label="Refresh">&#x21bb;</button>
+    </div>
+    <div class="search-row">
+      <input type="search" id="search" placeholder="Search topics (中文 or English)&hellip;" autocomplete="off">
+    </div>
+    <div class="filter-tabs" id="filter-tabs">
+      <button class="tab active" data-status="all">All</button>
+      <button class="tab" data-status="new">New</button>
+      <button class="tab" data-status="rising">Rising</button>
+      <button class="tab" data-status="hot">Hot</button>
+      <button class="tab" data-status="falling">Falling</button>
+      <button class="tab" data-status="gone">Gone</button>
+    </div>
+  </header>
+  <main id="list" aria-live="polite">
+    <div class="message" id="status-message">Loading&hellip;</div>
+  </main>
+  <footer>
+    <span id="updated"></span>
+    <a href="https://arandomguyhere.github.io/weibo-daily-hot-search" target="_blank" rel="noopener">Full site &rarr;</a>
+  </footer>
+  <script src="popup.js"></script>
+</body>
+</html>
