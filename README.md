@@ -22,56 +22,57 @@ Browse historical trending data with status badges, velocity indicators, and cat
 
 <!-- BEGIN -->
 
-1. [请查收台风过后防护要点 (Please check out the key points for protection after a typhoon)](https://s.weibo.com/weibo?q=%23%E8%AF%B7%E6%9F%A5%E6%94%B6%E5%8F%B0%E9%A3%8E%E8%BF%87%E5%90%8E%E9%98%B2%E6%8A%A4%E8%A6%81%E7%82%B9%23) `971.9K 🔥` `NEW`
-1. [地下试管婴儿](https://s.weibo.com/weibo?q=%23%E5%9C%B0%E4%B8%8B%E8%AF%95%E7%AE%A1%E5%A9%B4%E5%84%BF%23) `939.0K 🔥` `NEW`
-1. [俩孩子将超市内几十种杂粮混掺](https://s.weibo.com/weibo?q=%23%E4%BF%A9%E5%AD%A9%E5%AD%90%E5%B0%86%E8%B6%85%E5%B8%82%E5%86%85%E5%87%A0%E5%8D%81%E7%A7%8D%E6%9D%82%E7%B2%AE%E6%B7%B7%E6%8E%BA%23) `602.1K 🔥` `NEW`
-1. [金鹰奖男主提名](https://s.weibo.com/weibo?q=%23%E9%87%91%E9%B9%B0%E5%A5%96%E7%94%B7%E4%B8%BB%E6%8F%90%E5%90%8D%23) `518.7K 🔥` `NEW`
-1. [A股尾盘突发跳水 发生了什么](https://s.weibo.com/weibo?q=%23A%E8%82%A1%E5%B0%BE%E7%9B%98%E7%AA%81%E5%8F%91%E8%B7%B3%E6%B0%B4%20%E5%8F%91%E7%94%9F%E4%BA%86%E4%BB%80%E4%B9%88%23) `518.6K 🔥` `NEW`
-1. [王楚钦从小男孩到王队](https://s.weibo.com/weibo?q=%23%E7%8E%8B%E6%A5%9A%E9%92%A6%E4%BB%8E%E5%B0%8F%E7%94%B7%E5%AD%A9%E5%88%B0%E7%8E%8B%E9%98%9F%23) `518.5K 🔥` `NEW`
-1. [岳雨婷又喊话沈腾了](https://s.weibo.com/weibo?q=%23%E5%B2%B3%E9%9B%A8%E5%A9%B7%E5%8F%88%E5%96%8A%E8%AF%9D%E6%B2%88%E8%85%BE%E4%BA%86%23) `518.5K 🔥` `NEW`
-1. [关闭年赚1亿的店 胖东来把桌子掀了](https://s.weibo.com/weibo?q=%23%E5%85%B3%E9%97%AD%E5%B9%B4%E8%B5%9A1%E4%BA%BF%E7%9A%84%E5%BA%97%20%E8%83%96%E4%B8%9C%E6%9D%A5%E6%8A%8A%E6%A1%8C%E5%AD%90%E6%8E%80%E4%BA%86%23) `518.4K 🔥` `NEW`
-1. [宁艺卓 我是回到国内](https://s.weibo.com/weibo?q=%23%E5%AE%81%E8%89%BA%E5%8D%93%20%E6%88%91%E6%98%AF%E5%9B%9E%E5%88%B0%E5%9B%BD%E5%86%85%23) `496.0K 🔥` `NEW`
-1. [女子0元购400根炸串退款被拒](https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%900%E5%85%83%E8%B4%AD400%E6%A0%B9%E7%82%B8%E4%B8%B2%E9%80%80%E6%AC%BE%E8%A2%AB%E6%8B%92%23) `456.0K 🔥` `NEW`
-1. [全球首款车载制冰冰箱 (The world's first car-mounted ice refrigerator)](https://s.weibo.com/weibo?q=%23%E5%85%A8%E7%90%83%E9%A6%96%E6%AC%BE%E8%BD%A6%E8%BD%BD%E5%88%B6%E5%86%B0%E5%86%B0%E7%AE%B1%23) `378.6K 🔥` `NEW`
-1. [王鹤棣杨洋拥抱](https://s.weibo.com/weibo?q=%23%E7%8E%8B%E9%B9%A4%E6%A3%A3%E6%9D%A8%E6%B4%8B%E6%8B%A5%E6%8A%B1%23) `344.9K 🔥` `NEW`
-1. [您这样装修孙子孙女就愿意来了](https://s.weibo.com/weibo?q=%23%E6%82%A8%E8%BF%99%E6%A0%B7%E8%A3%85%E4%BF%AE%E5%AD%99%E5%AD%90%E5%AD%99%E5%A5%B3%E5%B0%B1%E6%84%BF%E6%84%8F%E6%9D%A5%E4%BA%86%23) `343.7K 🔥` `NEW`
-1. [麦迪娜金饰克重超1000克](https://s.weibo.com/weibo?q=%23%E9%BA%A6%E8%BF%AA%E5%A8%9C%E9%87%91%E9%A5%B0%E5%85%8B%E9%87%8D%E8%B6%851000%E5%85%8B%23) `335.6K 🔥` `NEW`
-1. [90后女子爱生闷气乳腺癌去世丈夫痛哭](https://s.weibo.com/weibo?q=%2390%E5%90%8E%E5%A5%B3%E5%AD%90%E7%88%B1%E7%94%9F%E9%97%B7%E6%B0%94%E4%B9%B3%E8%85%BA%E7%99%8C%E5%8E%BB%E4%B8%96%E4%B8%88%E5%A4%AB%E7%97%9B%E5%93%AD%23) `324.1K 🔥` `NEW`
-1. [白鹿北上演技](https://s.weibo.com/weibo?q=%23%E7%99%BD%E9%B9%BF%E5%8C%97%E4%B8%8A%E6%BC%94%E6%8A%80%23) `229.9K 🔥` `NEW`
-1. [2小孩超市混掺几十种杂粮被迫下架](https://s.weibo.com/weibo?q=%232%E5%B0%8F%E5%AD%A9%E8%B6%85%E5%B8%82%E6%B7%B7%E6%8E%BA%E5%87%A0%E5%8D%81%E7%A7%8D%E6%9D%82%E7%B2%AE%E8%A2%AB%E8%BF%AB%E4%B8%8B%E6%9E%B6%23) `229.5K 🔥` `NEW`
-1. [追梦回应威少退役](https://s.weibo.com/weibo?q=%23%E8%BF%BD%E6%A2%A6%E5%9B%9E%E5%BA%94%E5%A8%81%E5%B0%91%E9%80%80%E5%BD%B9%23) `229.4K 🔥` `NEW`
-1. [怪不得医生有时候会反复套话](https://s.weibo.com/weibo?q=%23%E6%80%AA%E4%B8%8D%E5%BE%97%E5%8C%BB%E7%94%9F%E6%9C%89%E6%97%B6%E5%80%99%E4%BC%9A%E5%8F%8D%E5%A4%8D%E5%A5%97%E8%AF%9D%23) `228.8K 🔥` `NEW`
-1. [关注女干部外貌比关注救灾更重要吗](https://s.weibo.com/weibo?q=%23%E5%85%B3%E6%B3%A8%E5%A5%B3%E5%B9%B2%E9%83%A8%E5%A4%96%E8%B2%8C%E6%AF%94%E5%85%B3%E6%B3%A8%E6%95%91%E7%81%BE%E6%9B%B4%E9%87%8D%E8%A6%81%E5%90%97%23) `228.0K 🔥` `NEW`
-1. [高市早苗强烈抗议普京登岛 (Takaichi Sanae strongly protests against Putin’s landing on the island)](https://s.weibo.com/weibo?q=%23%E9%AB%98%E5%B8%82%E6%97%A9%E8%8B%97%E5%BC%BA%E7%83%88%E6%8A%97%E8%AE%AE%E6%99%AE%E4%BA%AC%E7%99%BB%E5%B2%9B%23) `227.1K 🔥` `NEW`
-1. [小米阔折叠意外曝光](https://s.weibo.com/weibo?q=%23%E5%B0%8F%E7%B1%B3%E9%98%94%E6%8A%98%E5%8F%A0%E6%84%8F%E5%A4%96%E6%9B%9D%E5%85%89%23) `226.9K 🔥` `NEW`
-1. [妈妈进屋倒水4岁男童家门口消失](https://s.weibo.com/weibo?q=%23%E5%A6%88%E5%A6%88%E8%BF%9B%E5%B1%8B%E5%80%92%E6%B0%B44%E5%B2%81%E7%94%B7%E7%AB%A5%E5%AE%B6%E9%97%A8%E5%8F%A3%E6%B6%88%E5%A4%B1%23) `226.7K 🔥` `NEW`
-1. [被丁禹兮的谐音梗冷到了](https://s.weibo.com/weibo?q=%23%E8%A2%AB%E4%B8%81%E7%A6%B9%E5%85%AE%E7%9A%84%E8%B0%90%E9%9F%B3%E6%A2%97%E5%86%B7%E5%88%B0%E4%BA%86%23) `184.7K 🔥` `NEW`
-1. [长鑫科技市值赶超腾讯](https://s.weibo.com/weibo?q=%23%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%80%E5%B8%82%E5%80%BC%E8%B5%B6%E8%B6%85%E8%85%BE%E8%AE%AF%23) `184.4K 🔥` `NEW`
-1. [王俊凯林大厨备菜到凌晨4点](https://s.weibo.com/weibo?q=%23%E7%8E%8B%E4%BF%8A%E5%87%AF%E6%9E%97%E5%A4%A7%E5%8E%A8%E5%A4%87%E8%8F%9C%E5%88%B0%E5%87%8C%E6%99%A84%E7%82%B9%23) `164.8K 🔥` `NEW`
-1. [空调低频噪音是产品还是安装问题](https://s.weibo.com/weibo?q=%23%E7%A9%BA%E8%B0%83%E4%BD%8E%E9%A2%91%E5%99%AA%E9%9F%B3%E6%98%AF%E4%BA%A7%E5%93%81%E8%BF%98%E6%98%AF%E5%AE%89%E8%A3%85%E9%97%AE%E9%A2%98%23) `163.9K 🔥` `NEW`
-1. [iPhone18Pro今秋发布](https://s.weibo.com/weibo?q=%23iPhone18Pro%E4%BB%8A%E7%A7%8B%E5%8F%91%E5%B8%83%23) `163.4K 🔥` `NEW`
-1. [一定要把吃饭和睡觉当成大事](https://s.weibo.com/weibo?q=%23%E4%B8%80%E5%AE%9A%E8%A6%81%E6%8A%8A%E5%90%83%E9%A5%AD%E5%92%8C%E7%9D%A1%E8%A7%89%E5%BD%93%E6%88%90%E5%A4%A7%E4%BA%8B%23) `151.5K 🔥` `NEW`
-1. [董卿 抖音评论被造谣](https://s.weibo.com/weibo?q=%23%E8%91%A3%E5%8D%BF%20%E6%8A%96%E9%9F%B3%E8%AF%84%E8%AE%BA%E8%A2%AB%E9%80%A0%E8%B0%A3%23) `414.9K 🔥` `+33%`
-1. [大冰说赚得越少越累 (Da Bing said that the less you earn, the more tired you become.)](https://s.weibo.com/weibo?q=%23%E5%A4%A7%E5%86%B0%E8%AF%B4%E8%B5%9A%E5%BE%97%E8%B6%8A%E5%B0%91%E8%B6%8A%E7%B4%AF%23) `366.7K 🔥` `+149%`
-1. [生理性喜欢是很可怕的一件事 (Physiological love is a terrible thing)](https://s.weibo.com/weibo?q=%23%E7%94%9F%E7%90%86%E6%80%A7%E5%96%9C%E6%AC%A2%E6%98%AF%E5%BE%88%E5%8F%AF%E6%80%95%E7%9A%84%E4%B8%80%E4%BB%B6%E4%BA%8B%23) `942.7K 🔥`
-1. [歌手节目组联系耳帝](https://s.weibo.com/weibo?q=%23%E6%AD%8C%E6%89%8B%E8%8A%82%E7%9B%AE%E7%BB%84%E8%81%94%E7%B3%BB%E8%80%B3%E5%B8%9D%23) `518.6K 🔥`
-1. [马天宇被姜潮搞不会了](https://s.weibo.com/weibo?q=%23%E9%A9%AC%E5%A4%A9%E5%AE%87%E8%A2%AB%E5%A7%9C%E6%BD%AE%E6%90%9E%E4%B8%8D%E4%BC%9A%E4%BA%86%23) `518.6K 🔥`
-1. [李飞 使唤人](https://s.weibo.com/weibo?q=%23%E6%9D%8E%E9%A3%9E%20%E4%BD%BF%E5%94%A4%E4%BA%BA%23) `518.4K 🔥`
-1. [朱镕基同志逝世 (Comrade Zhu Rongji passed away)](https://s.weibo.com/weibo?q=%23%E6%9C%B1%E9%95%95%E5%9F%BA%E5%90%8C%E5%BF%97%E9%80%9D%E4%B8%96%23) `1.0M 🔥` `-23%`
-1. [金鹰奖女主提名 (Golden Eagle Award for Leading Actress Nominated)](https://s.weibo.com/weibo?q=%23%E9%87%91%E9%B9%B0%E5%A5%96%E5%A5%B3%E4%B8%BB%E6%8F%90%E5%90%8D%23) `994.7K 🔥` `-23%`
-1. [gap一年会失去什么](https://s.weibo.com/weibo?q=%23gap%E4%B8%80%E5%B9%B4%E4%BC%9A%E5%A4%B1%E5%8E%BB%E4%BB%80%E4%B9%88%23) `922.1K 🔥` `-21%`
-1. [普京登岛后日本急了](https://s.weibo.com/weibo?q=%23%E6%99%AE%E4%BA%AC%E7%99%BB%E5%B2%9B%E5%90%8E%E6%97%A5%E6%9C%AC%E6%80%A5%E4%BA%86%23) `518.7K 🔥` `-25%`
-1. [情侣懒得拍婚纱照交给豆包](https://s.weibo.com/weibo?q=%23%E6%83%85%E4%BE%A3%E6%87%92%E5%BE%97%E6%8B%8D%E5%A9%9A%E7%BA%B1%E7%85%A7%E4%BA%A4%E7%BB%99%E8%B1%86%E5%8C%85%23) `466.8K 🔥` `-45%`
-1. [五公伴手礼](https://s.weibo.com/weibo?q=%23%E4%BA%94%E5%85%AC%E4%BC%B4%E6%89%8B%E7%A4%BC%23) `258.5K 🔥` `-48%`
-1. [姜潮麦迪娜婚礼的切糕能买乌市一套房](https://s.weibo.com/weibo?q=%23%E5%A7%9C%E6%BD%AE%E9%BA%A6%E8%BF%AA%E5%A8%9C%E5%A9%9A%E7%A4%BC%E7%9A%84%E5%88%87%E7%B3%95%E8%83%BD%E4%B9%B0%E4%B9%8C%E5%B8%82%E4%B8%80%E5%A5%97%E6%88%BF%23) `228.4K 🔥` `-49%`
-1. [男子帮朋友装空调不慎12楼坠亡](https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E5%B8%AE%E6%9C%8B%E5%8F%8B%E8%A3%85%E7%A9%BA%E8%B0%83%E4%B8%8D%E6%85%8E12%E6%A5%BC%E5%9D%A0%E4%BA%A1%23) `227.6K 🔥` `-24%`
-1. [邹市明45岁重返拳击赛场 (Zou Shiming returns to boxing at the age of 45)](https://s.weibo.com/weibo?q=%23%E9%82%B9%E5%B8%82%E6%98%8E45%E5%B2%81%E9%87%8D%E8%BF%94%E6%8B%B3%E5%87%BB%E8%B5%9B%E5%9C%BA%23) `222.6K 🔥` `-27%`
-1. [小象超市文案部来高人了 (An expert is here from the copywriting department of Little Elephant Supermarket)](https://s.weibo.com/weibo?q=%23%E5%B0%8F%E8%B1%A1%E8%B6%85%E5%B8%82%E6%96%87%E6%A1%88%E9%83%A8%E6%9D%A5%E9%AB%98%E4%BA%BA%E4%BA%86%23) `188.5K 🔥` `-38%`
-1. [官方调查郭德纲演出改编红歌 (Official investigation into Guo Degang's performance of adapted red song)](https://s.weibo.com/weibo?q=%23%E5%AE%98%E6%96%B9%E8%B0%83%E6%9F%A5%E9%83%AD%E5%BE%B7%E7%BA%B2%E6%BC%94%E5%87%BA%E6%94%B9%E7%BC%96%E7%BA%A2%E6%AD%8C%23) `163.9K 🔥` `-49%`
-1. [Lisa金九封面](https://s.weibo.com/weibo?q=%23Lisa%E9%87%91%E4%B9%9D%E5%B0%81%E9%9D%A2%23) `160.6K 🔥` `-36%`
-1. [胖东来 房租翻倍](https://s.weibo.com/weibo?q=%23%E8%83%96%E4%B8%9C%E6%9D%A5%20%E6%88%BF%E7%A7%9F%E7%BF%BB%E5%80%8D%23) `154.9K 🔥` `-67%`
+1. [长鑫科技 中国市值最大上市公司 (Changxin Technology China’s largest listed company by market capitalization)](https://s.weibo.com/weibo?q=%23%E9%95%BF%E9%91%AB%E7%A7%91%E6%8A%80%20%E4%B8%AD%E5%9B%BD%E5%B8%82%E5%80%BC%E6%9C%80%E5%A4%A7%E4%B8%8A%E5%B8%82%E5%85%AC%E5%8F%B8%23) `747.5K 🔥` `NEW`
+1. [博主评易烊千玺拿百花奖影帝](https://s.weibo.com/weibo?q=%23%E5%8D%9A%E4%B8%BB%E8%AF%84%E6%98%93%E7%83%8A%E5%8D%83%E7%8E%BA%E6%8B%BF%E7%99%BE%E8%8A%B1%E5%A5%96%E5%BD%B1%E5%B8%9D%23) `579.2K 🔥` `NEW`
+1. [福建福安一船厂爆炸](https://s.weibo.com/weibo?q=%23%E7%A6%8F%E5%BB%BA%E7%A6%8F%E5%AE%89%E4%B8%80%E8%88%B9%E5%8E%82%E7%88%86%E7%82%B8%23) `557.0K 🔥` `NEW`
+1. [网传王水牛艾滋](https://s.weibo.com/weibo?q=%23%E7%BD%91%E4%BC%A0%E7%8E%8B%E6%B0%B4%E7%89%9B%E8%89%BE%E6%BB%8B%23) `516.0K 🔥` `NEW`
+1. [郭麒麟瘦到认不出](https://s.weibo.com/weibo?q=%23%E9%83%AD%E9%BA%92%E9%BA%9F%E7%98%A6%E5%88%B0%E8%AE%A4%E4%B8%8D%E5%87%BA%23) `494.0K 🔥` `NEW`
+1. [茉莉奶白伦敦门店被砸](https://s.weibo.com/weibo?q=%23%E8%8C%89%E8%8E%89%E5%A5%B6%E7%99%BD%E4%BC%A6%E6%95%A6%E9%97%A8%E5%BA%97%E8%A2%AB%E7%A0%B8%23) `469.6K 🔥` `NEW`
+1. [郭德纲 紫禁城](https://s.weibo.com/weibo?q=%23%E9%83%AD%E5%BE%B7%E7%BA%B2%20%E7%B4%AB%E7%A6%81%E5%9F%8E%23) `460.6K 🔥` `NEW`
+1. [罗氏虾自助吃12只回本太爽了](https://s.weibo.com/weibo?q=%23%E7%BD%97%E6%B0%8F%E8%99%BE%E8%87%AA%E5%8A%A9%E5%90%8312%E5%8F%AA%E5%9B%9E%E6%9C%AC%E5%A4%AA%E7%88%BD%E4%BA%86%23) `375.3K 🔥` `NEW`
+1. [武汉文旅应明晰郭德纲改编是否违规](https://s.weibo.com/weibo?q=%23%E6%AD%A6%E6%B1%89%E6%96%87%E6%97%85%E5%BA%94%E6%98%8E%E6%99%B0%E9%83%AD%E5%BE%B7%E7%BA%B2%E6%94%B9%E7%BC%96%E6%98%AF%E5%90%A6%E8%BF%9D%E8%A7%84%23) `371.1K 🔥` `NEW`
+1. [王俊凯二开](https://s.weibo.com/weibo?q=%23%E7%8E%8B%E4%BF%8A%E5%87%AF%E4%BA%8C%E5%BC%80%23) `361.5K 🔥` `NEW`
+1. [AG对战TES (AG vs. TES)](https://s.weibo.com/weibo?q=%23AG%E5%AF%B9%E6%88%98TES%23) `358.6K 🔥` `NEW`
+1. [五公人气](https://s.weibo.com/weibo?q=%23%E4%BA%94%E5%85%AC%E4%BA%BA%E6%B0%94%23) `351.8K 🔥` `NEW`
+1. [曝stew加入EDG](https://s.weibo.com/weibo?q=%23%E6%9B%9Dstew%E5%8A%A0%E5%85%A5EDG%23) `309.7K 🔥` `NEW`
+1. [女子花8万做试管被承诺精子免费送](https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E8%8A%B18%E4%B8%87%E5%81%9A%E8%AF%95%E7%AE%A1%E8%A2%AB%E6%89%BF%E8%AF%BA%E7%B2%BE%E5%AD%90%E5%85%8D%E8%B4%B9%E9%80%81%23) `294.5K 🔥` `NEW`
+1. [C罗乔治娜民政登记文件披露](https://s.weibo.com/weibo?q=%23C%E7%BD%97%E4%B9%94%E6%B2%BB%E5%A8%9C%E6%B0%91%E6%94%BF%E7%99%BB%E8%AE%B0%E6%96%87%E4%BB%B6%E6%8A%AB%E9%9C%B2%23) `288.9K 🔥` `NEW`
+1. [MINISO门店回应镜子被指暴露隐私](https://s.weibo.com/weibo?q=%23MINISO%E9%97%A8%E5%BA%97%E5%9B%9E%E5%BA%94%E9%95%9C%E5%AD%90%E8%A2%AB%E6%8C%87%E6%9A%B4%E9%9C%B2%E9%9A%90%E7%A7%81%23) `269.3K 🔥` `NEW`
+1. [三体公司原CEO长期毒害多名同事](https://s.weibo.com/weibo?q=%23%E4%B8%89%E4%BD%93%E5%85%AC%E5%8F%B8%E5%8E%9FCEO%E9%95%BF%E6%9C%9F%E6%AF%92%E5%AE%B3%E5%A4%9A%E5%90%8D%E5%90%8C%E4%BA%8B%23) `266.6K 🔥` `NEW`
+1. [白鹿凭北上拿到收视率90花第一](https://s.weibo.com/weibo?q=%23%E7%99%BD%E9%B9%BF%E5%87%AD%E5%8C%97%E4%B8%8A%E6%8B%BF%E5%88%B0%E6%94%B6%E8%A7%86%E7%8E%8790%E8%8A%B1%E7%AC%AC%E4%B8%80%23) `262.1K 🔥` `NEW`
+1. [五公直播](https://s.weibo.com/weibo?q=%23%E4%BA%94%E5%85%AC%E7%9B%B4%E6%92%AD%23) `250.3K 🔥` `NEW`
+1. [王水牛 非复旦研究生](https://s.weibo.com/weibo?q=%23%E7%8E%8B%E6%B0%B4%E7%89%9B%20%E9%9D%9E%E5%A4%8D%E6%97%A6%E7%A0%94%E7%A9%B6%E7%94%9F%23) `223.4K 🔥` `NEW`
+1. [麦迪娜金饰克重超1000克 (Medina’s gold jewelry weighs over 1,000 grams)](https://s.weibo.com/weibo?q=%23%E9%BA%A6%E8%BF%AA%E5%A8%9C%E9%87%91%E9%A5%B0%E5%85%8B%E9%87%8D%E8%B6%851000%E5%85%8B%23) `421.2K 🔥` `+25%`
+1. [小米阔折叠意外曝光](https://s.weibo.com/weibo?q=%23%E5%B0%8F%E7%B1%B3%E9%98%94%E6%8A%98%E5%8F%A0%E6%84%8F%E5%A4%96%E6%9B%9D%E5%85%89%23) `373.8K 🔥` `+65%`
+1. [高市早苗强烈抗议普京登岛 (Takaichi Sanae strongly protests against Putin’s landing on the island)](https://s.weibo.com/weibo?q=%23%E9%AB%98%E5%B8%82%E6%97%A9%E8%8B%97%E5%BC%BA%E7%83%88%E6%8A%97%E8%AE%AE%E6%99%AE%E4%BA%AC%E7%99%BB%E5%B2%9B%23) `337.2K 🔥` `+48%`
+1. [关注女干部外貌比关注救灾更重要吗](https://s.weibo.com/weibo?q=%23%E5%85%B3%E6%B3%A8%E5%A5%B3%E5%B9%B2%E9%83%A8%E5%A4%96%E8%B2%8C%E6%AF%94%E5%85%B3%E6%B3%A8%E6%95%91%E7%81%BE%E6%9B%B4%E9%87%8D%E8%A6%81%E5%90%97%23) `326.9K 🔥` `+43%`
+1. [朱镕基同志逝世 (Comrade Zhu Rongji passed away)](https://s.weibo.com/weibo?q=%23%E6%9C%B1%E9%95%95%E5%9F%BA%E5%90%8C%E5%BF%97%E9%80%9D%E4%B8%96%23) `1.0M 🔥`
+1. [地下试管婴儿](https://s.weibo.com/weibo?q=%23%E5%9C%B0%E4%B8%8B%E8%AF%95%E7%AE%A1%E5%A9%B4%E5%84%BF%23) `954.1K 🔥`
+1. [金鹰奖女主提名 (Golden Eagle Award for Leading Actress Nominated)](https://s.weibo.com/weibo?q=%23%E9%87%91%E9%B9%B0%E5%A5%96%E5%A5%B3%E4%B8%BB%E6%8F%90%E5%90%8D%23) `847.2K 🔥`
+1. [生理性喜欢是很可怕的一件事 (Physiological love is a terrible thing)](https://s.weibo.com/weibo?q=%23%E7%94%9F%E7%90%86%E6%80%A7%E5%96%9C%E6%AC%A2%E6%98%AF%E5%BE%88%E5%8F%AF%E6%80%95%E7%9A%84%E4%B8%80%E4%BB%B6%E4%BA%8B%23) `753.9K 🔥`
+1. [金鹰奖男主提名](https://s.weibo.com/weibo?q=%23%E9%87%91%E9%B9%B0%E5%A5%96%E7%94%B7%E4%B8%BB%E6%8F%90%E5%90%8D%23) `539.9K 🔥`
+1. [马天宇被姜潮搞不会了](https://s.weibo.com/weibo?q=%23%E9%A9%AC%E5%A4%A9%E5%AE%87%E8%A2%AB%E5%A7%9C%E6%BD%AE%E6%90%9E%E4%B8%8D%E4%BC%9A%E4%BA%86%23) `449.9K 🔥`
+1. [王楚钦从小男孩到王队](https://s.weibo.com/weibo?q=%23%E7%8E%8B%E6%A5%9A%E9%92%A6%E4%BB%8E%E5%B0%8F%E7%94%B7%E5%AD%A9%E5%88%B0%E7%8E%8B%E9%98%9F%23) `446.0K 🔥`
+1. [A股尾盘突发跳水 发生了什么](https://s.weibo.com/weibo?q=%23A%E8%82%A1%E5%B0%BE%E7%9B%98%E7%AA%81%E5%8F%91%E8%B7%B3%E6%B0%B4%20%E5%8F%91%E7%94%9F%E4%BA%86%E4%BB%80%E4%B9%88%23) `433.7K 🔥`
+1. [董卿 抖音评论被造谣](https://s.weibo.com/weibo?q=%23%E8%91%A3%E5%8D%BF%20%E6%8A%96%E9%9F%B3%E8%AF%84%E8%AE%BA%E8%A2%AB%E9%80%A0%E8%B0%A3%23) `366.2K 🔥`
+1. [90后女子爱生闷气乳腺癌去世丈夫痛哭](https://s.weibo.com/weibo?q=%2390%E5%90%8E%E5%A5%B3%E5%AD%90%E7%88%B1%E7%94%9F%E9%97%B7%E6%B0%94%E4%B9%B3%E8%85%BA%E7%99%8C%E5%8E%BB%E4%B8%96%E4%B8%88%E5%A4%AB%E7%97%9B%E5%93%AD%23) `360.1K 🔥`
+1. [王鹤棣杨洋拥抱 (Wang Hedi Yang Yang hugs)](https://s.weibo.com/weibo?q=%23%E7%8E%8B%E9%B9%A4%E6%A3%A3%E6%9D%A8%E6%B4%8B%E6%8B%A5%E6%8A%B1%23) `345.2K 🔥`
+1. [怪不得医生有时候会反复套话](https://s.weibo.com/weibo?q=%23%E6%80%AA%E4%B8%8D%E5%BE%97%E5%8C%BB%E7%94%9F%E6%9C%89%E6%97%B6%E5%80%99%E4%BC%9A%E5%8F%8D%E5%A4%8D%E5%A5%97%E8%AF%9D%23) `221.0K 🔥`
+1. [2小孩超市混掺几十种杂粮被迫下架](https://s.weibo.com/weibo?q=%232%E5%B0%8F%E5%AD%A9%E8%B6%85%E5%B8%82%E6%B7%B7%E6%8E%BA%E5%87%A0%E5%8D%81%E7%A7%8D%E6%9D%82%E7%B2%AE%E8%A2%AB%E8%BF%AB%E4%B8%8B%E6%9E%B6%23) `200.1K 🔥`
+1. [今年以来我国生态环境质量持续向好](https://s.weibo.com/weibo?q=%23%E4%BB%8A%E5%B9%B4%E4%BB%A5%E6%9D%A5%E6%88%91%E5%9B%BD%E7%94%9F%E6%80%81%E7%8E%AF%E5%A2%83%E8%B4%A8%E9%87%8F%E6%8C%81%E7%BB%AD%E5%90%91%E5%A5%BD%23) `919.7K 🔥` `-27%`
+1. [gap一年会失去什么](https://s.weibo.com/weibo?q=%23gap%E4%B8%80%E5%B9%B4%E4%BC%9A%E5%A4%B1%E5%8E%BB%E4%BB%80%E4%B9%88%23) `570.2K 🔥` `-38%`
+1. [俩孩子将超市内几十种杂粮混掺](https://s.weibo.com/weibo?q=%23%E4%BF%A9%E5%AD%A9%E5%AD%90%E5%B0%86%E8%B6%85%E5%B8%82%E5%86%85%E5%87%A0%E5%8D%81%E7%A7%8D%E6%9D%82%E7%B2%AE%E6%B7%B7%E6%8E%BA%23) `369.5K 🔥` `-39%`
+1. [情侣懒得拍婚纱照交给豆包](https://s.weibo.com/weibo?q=%23%E6%83%85%E4%BE%A3%E6%87%92%E5%BE%97%E6%8B%8D%E5%A9%9A%E7%BA%B1%E7%85%A7%E4%BA%A4%E7%BB%99%E8%B1%86%E5%8C%85%23) `339.4K 🔥` `-27%`
+1. [岳雨婷又喊话沈腾了](https://s.weibo.com/weibo?q=%23%E5%B2%B3%E9%9B%A8%E5%A9%B7%E5%8F%88%E5%96%8A%E8%AF%9D%E6%B2%88%E8%85%BE%E4%BA%86%23) `336.7K 🔥` `-35%`
+1. [宁艺卓 我是回到国内](https://s.weibo.com/weibo?q=%23%E5%AE%81%E8%89%BA%E5%8D%93%20%E6%88%91%E6%98%AF%E5%9B%9E%E5%88%B0%E5%9B%BD%E5%86%85%23) `329.9K 🔥` `-33%`
+1. [普京登岛后日本急了](https://s.weibo.com/weibo?q=%23%E6%99%AE%E4%BA%AC%E7%99%BB%E5%B2%9B%E5%90%8E%E6%97%A5%E6%9C%AC%E6%80%A5%E4%BA%86%23) `303.1K 🔥` `-42%`
+1. [您这样装修孙子孙女就愿意来了 (If you decorate like this, your grandchildren will be willing to come.)](https://s.weibo.com/weibo?q=%23%E6%82%A8%E8%BF%99%E6%A0%B7%E8%A3%85%E4%BF%AE%E5%AD%99%E5%AD%90%E5%AD%99%E5%A5%B3%E5%B0%B1%E6%84%BF%E6%84%8F%E6%9D%A5%E4%BA%86%23) `266.6K 🔥` `-22%`
+1. [女子0元购400根炸串退款被拒](https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%900%E5%85%83%E8%B4%AD400%E6%A0%B9%E7%82%B8%E4%B8%B2%E9%80%80%E6%AC%BE%E8%A2%AB%E6%8B%92%23) `260.1K 🔥` `-43%`
+1. [李飞 使唤人](https://s.weibo.com/weibo?q=%23%E6%9D%8E%E9%A3%9E%20%E4%BD%BF%E5%94%A4%E4%BA%BA%23) `246.2K 🔥` `-53%`
+1. [全球首款车载制冰冰箱 (The world's first car-mounted ice refrigerator)](https://s.weibo.com/weibo?q=%23%E5%85%A8%E7%90%83%E9%A6%96%E6%AC%BE%E8%BD%A6%E8%BD%BD%E5%88%B6%E5%86%B0%E5%86%B0%E7%AE%B1%23) `222.0K 🔥` `-41%`
+1. [关闭年赚1亿的店 胖东来把桌子掀了](https://s.weibo.com/weibo?q=%23%E5%85%B3%E9%97%AD%E5%B9%B4%E8%B5%9A1%E4%BA%BF%E7%9A%84%E5%BA%97%20%E8%83%96%E4%B8%9C%E6%9D%A5%E6%8A%8A%E6%A1%8C%E5%AD%90%E6%8E%80%E4%BA%86%23) `220.4K 🔥` `-57%`
 
-Updated at 2026-08-13 17:31:56
+Updated at 2026-08-13 18:39:56
 
 <!-- END -->
 
