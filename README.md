@@ -22,58 +22,56 @@ Browse historical trending data with status badges, velocity indicators, and cat
 
 <!-- BEGIN -->
 
-1. [当陆地小狗和海洋小狗第一次见面](https://s.weibo.com/weibo?q=%23%E5%BD%93%E9%99%86%E5%9C%B0%E5%B0%8F%E7%8B%97%E5%92%8C%E6%B5%B7%E6%B4%8B%E5%B0%8F%E7%8B%97%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%A7%81%E9%9D%A2%23) `57.0K 🔥` `NEW`
-1. [人民日报谈火车零食占座 (People's Daily talks about snacks occupying seats on trains)](https://s.weibo.com/weibo?q=%23%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%E8%B0%88%E7%81%AB%E8%BD%A6%E9%9B%B6%E9%A3%9F%E5%8D%A0%E5%BA%A7%23) `812.5K 🔥` `+41%`
-1. [必须从速从严处置甲醛白菜](https://s.weibo.com/weibo?q=%23%E5%BF%85%E9%A1%BB%E4%BB%8E%E9%80%9F%E4%BB%8E%E4%B8%A5%E5%A4%84%E7%BD%AE%E7%94%B2%E9%86%9B%E7%99%BD%E8%8F%9C%23) `485.7K 🔥` `+524%`
-1. [世界人形机器人运动会亮点 (World Humanoid Robot Games Highlights)](https://s.weibo.com/weibo?q=%23%E4%B8%96%E7%95%8C%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%BF%90%E5%8A%A8%E4%BC%9A%E4%BA%AE%E7%82%B9%23) `380.7K 🔥` `+33%`
-1. [王源一句话让几万人低头看手机](https://s.weibo.com/weibo?q=%23%E7%8E%8B%E6%BA%90%E4%B8%80%E5%8F%A5%E8%AF%9D%E8%AE%A9%E5%87%A0%E4%B8%87%E4%BA%BA%E4%BD%8E%E5%A4%B4%E7%9C%8B%E6%89%8B%E6%9C%BA%23) `116.4K 🔥` `+39%`
-1. [住破房穿20块衣服男子20年攒下789万](https://s.weibo.com/weibo?q=%23%E4%BD%8F%E7%A0%B4%E6%88%BF%E7%A9%BF20%E5%9D%97%E8%A1%A3%E6%9C%8D%E7%94%B7%E5%AD%9020%E5%B9%B4%E6%94%92%E4%B8%8B789%E4%B8%87%23) `102.8K 🔥` `+25%`
-1. [台湾节目嘉宾说北京没有冰箱引群嘲](https://s.weibo.com/weibo?q=%23%E5%8F%B0%E6%B9%BE%E8%8A%82%E7%9B%AE%E5%98%89%E5%AE%BE%E8%AF%B4%E5%8C%97%E4%BA%AC%E6%B2%A1%E6%9C%89%E5%86%B0%E7%AE%B1%E5%BC%95%E7%BE%A4%E5%98%B2%23) `69.2K 🔥` `+47%`
-1. [37岁失业建筑师转行养老护理员](https://s.weibo.com/weibo?q=%2337%E5%B2%81%E5%A4%B1%E4%B8%9A%E5%BB%BA%E7%AD%91%E5%B8%88%E8%BD%AC%E8%A1%8C%E5%85%BB%E8%80%81%E6%8A%A4%E7%90%86%E5%91%98%23) `68.1K 🔥` `+45%`
-1. [披荆斩棘排名](https://s.weibo.com/weibo?q=%23%E6%8A%AB%E8%8D%86%E6%96%A9%E6%A3%98%E6%8E%92%E5%90%8D%23) `58.9K 🔥` `+25%`
-1. [世界机器人大会](https://s.weibo.com/weibo?q=%23%E4%B8%96%E7%95%8C%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%A4%A7%E4%BC%9A%23) `58.9K 🔥` `+24%`
-1. [那英边唱边哭 (Na Ying cried while singing)](https://s.weibo.com/weibo?q=%23%E9%82%A3%E8%8B%B1%E8%BE%B9%E5%94%B1%E8%BE%B9%E5%93%AD%23) `58.8K 🔥` `+24%`
-1. [墨香铜臭 亿级版权 (The fragrance of ink and the smell of copper, billion-level copyright)](https://s.weibo.com/weibo?q=%23%E5%A2%A8%E9%A6%99%E9%93%9C%E8%87%AD%20%E4%BA%BF%E7%BA%A7%E7%89%88%E6%9D%83%23) `58.7K 🔥` `+24%`
-1. [巫哲顶着这张脸叫狗蛋儿](https://s.weibo.com/weibo?q=%23%E5%B7%AB%E5%93%B2%E9%A1%B6%E7%9D%80%E8%BF%99%E5%BC%A0%E8%84%B8%E5%8F%AB%E7%8B%97%E8%9B%8B%E5%84%BF%23) `58.6K 🔥` `+24%`
-1. [胡锡进呼吁严查白菜蘸甲醛保鲜事件](https://s.weibo.com/weibo?q=%23%E8%83%A1%E9%94%A1%E8%BF%9B%E5%91%BC%E5%90%81%E4%B8%A5%E6%9F%A5%E7%99%BD%E8%8F%9C%E8%98%B8%E7%94%B2%E9%86%9B%E4%BF%9D%E9%B2%9C%E4%BA%8B%E4%BB%B6%23) `58.4K 🔥` `+23%`
-1. [外国人来中国旅游的视频火了 (Videos of foreigners traveling to China have gone viral)](https://s.weibo.com/weibo?q=%23%E5%A4%96%E5%9B%BD%E4%BA%BA%E6%9D%A5%E4%B8%AD%E5%9B%BD%E6%97%85%E6%B8%B8%E7%9A%84%E8%A7%86%E9%A2%91%E7%81%AB%E4%BA%86%23) `58.4K 🔥` `+25%`
-1. [一点没有情趣的直男震撼](https://s.weibo.com/weibo?q=%23%E4%B8%80%E7%82%B9%E6%B2%A1%E6%9C%89%E6%83%85%E8%B6%A3%E7%9A%84%E7%9B%B4%E7%94%B7%E9%9C%87%E6%92%BC%23) `58.2K 🔥` `+26%`
-1. [男子回应20年攒789万被骗光](https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E5%9B%9E%E5%BA%9420%E5%B9%B4%E6%94%92789%E4%B8%87%E8%A2%AB%E9%AA%97%E5%85%89%23) `58.2K 🔥` `+24%`
-1. [iPhone18ProMax手机壳曝光 (iPhone 18 Pro Max mobile phone case exposed)](https://s.weibo.com/weibo?q=%23iPhone18ProMax%E6%89%8B%E6%9C%BA%E5%A3%B3%E6%9B%9D%E5%85%89%23) `58.1K 🔥` `+24%`
-1. [4名男子拒付嫖资勒索卖淫女后赌光 (4 men blackmailed prostitutes after refusing to pay for prostitution and then gambled away their money)](https://s.weibo.com/weibo?q=%234%E5%90%8D%E7%94%B7%E5%AD%90%E6%8B%92%E4%BB%98%E5%AB%96%E8%B5%84%E5%8B%92%E7%B4%A2%E5%8D%96%E6%B7%AB%E5%A5%B3%E5%90%8E%E8%B5%8C%E5%85%89%23) `58.1K 🔥` `+23%`
-1. [老外常州恐龙飞车自拍视频火了 (Selfie video of Changzhou dinosaur speeding car by foreigners goes viral)](https://s.weibo.com/weibo?q=%23%E8%80%81%E5%A4%96%E5%B8%B8%E5%B7%9E%E6%81%90%E9%BE%99%E9%A3%9E%E8%BD%A6%E8%87%AA%E6%8B%8D%E8%A7%86%E9%A2%91%E7%81%AB%E4%BA%86%23) `58.0K 🔥` `+24%`
-1. [幼童被电梯扶手带离瞬间被救回](https://s.weibo.com/weibo?q=%23%E5%B9%BC%E7%AB%A5%E8%A2%AB%E7%94%B5%E6%A2%AF%E6%89%B6%E6%89%8B%E5%B8%A6%E7%A6%BB%E7%9E%AC%E9%97%B4%E8%A2%AB%E6%95%91%E5%9B%9E%23) `57.9K 🔥` `+24%`
-1. [陈俊生的工资是年薪150万](https://s.weibo.com/weibo?q=%23%E9%99%88%E4%BF%8A%E7%94%9F%E7%9A%84%E5%B7%A5%E8%B5%84%E6%98%AF%E5%B9%B4%E8%96%AA150%E4%B8%87%23) `57.8K 🔥` `+25%`
-1. [女子回应男友转账30万后自缢身亡 (Woman hanged herself after responding to her boyfriend's transfer of 300,000 yuan)](https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E5%9B%9E%E5%BA%94%E7%94%B7%E5%8F%8B%E8%BD%AC%E8%B4%A630%E4%B8%87%E5%90%8E%E8%87%AA%E7%BC%A2%E8%BA%AB%E4%BA%A1%23) `57.7K 🔥` `+23%`
-1. [王源淘了个相机捡大漏了 (Wang Yuan bought a camera and lost it.)](https://s.weibo.com/weibo?q=%23%E7%8E%8B%E6%BA%90%E6%B7%98%E4%BA%86%E4%B8%AA%E7%9B%B8%E6%9C%BA%E6%8D%A1%E5%A4%A7%E6%BC%8F%E4%BA%86%23) `57.6K 🔥` `+24%`
-1. [樊振东杜塞尔多夫首秀影院票抢空](https://s.weibo.com/weibo?q=%23%E6%A8%8A%E6%8C%AF%E4%B8%9C%E6%9D%9C%E5%A1%9E%E5%B0%94%E5%A4%9A%E5%A4%AB%E9%A6%96%E7%A7%80%E5%BD%B1%E9%99%A2%E7%A5%A8%E6%8A%A2%E7%A9%BA%23) `57.6K 🔥` `+24%`
-1. [印尼最新涉华表态](https://s.weibo.com/weibo?q=%23%E5%8D%B0%E5%B0%BC%E6%9C%80%E6%96%B0%E6%B6%89%E5%8D%8E%E8%A1%A8%E6%80%81%23) `57.5K 🔥` `+24%`
-1. [三个台风出现了](https://s.weibo.com/weibo?q=%23%E4%B8%89%E4%B8%AA%E5%8F%B0%E9%A3%8E%E5%87%BA%E7%8E%B0%E4%BA%86%23) `57.4K 🔥` `+24%`
-1. [龙餐馆](https://s.weibo.com/weibo?q=%23%E9%BE%99%E9%A4%90%E9%A6%86%23) `57.4K 🔥` `+24%`
-1. [SuperJunior出场太帅了](https://s.weibo.com/weibo?q=%23SuperJunior%E5%87%BA%E5%9C%BA%E5%A4%AA%E5%B8%85%E4%BA%86%23) `57.3K 🔥` `+25%`
-1. [陈伟霆只评论了应昊茗收官文 (William Chan only commented on Ying Haoming’s closing post)](https://s.weibo.com/weibo?q=%23%E9%99%88%E4%BC%9F%E9%9C%86%E5%8F%AA%E8%AF%84%E8%AE%BA%E4%BA%86%E5%BA%94%E6%98%8A%E8%8C%97%E6%94%B6%E5%AE%98%E6%96%87%23) `57.2K 🔥` `+23%`
-1. [孟子义321泼水游戏天才来了 (Meng Ziyi 321 Water Splashing Game Genius is Here)](https://s.weibo.com/weibo?q=%23%E5%AD%9F%E5%AD%90%E4%B9%89321%E6%B3%BC%E6%B0%B4%E6%B8%B8%E6%88%8F%E5%A4%A9%E6%89%8D%E6%9D%A5%E4%BA%86%23) `57.2K 🔥` `+24%`
-1. [抽离 难听 (Detachment sounds ugly)](https://s.weibo.com/weibo?q=%23%E6%8A%BD%E7%A6%BB%20%E9%9A%BE%E5%90%AC%23) `57.1K 🔥` `+24%`
-1. [走马太好听了 (Zouma sounds so good)](https://s.weibo.com/weibo?q=%23%E8%B5%B0%E9%A9%AC%E5%A4%AA%E5%A5%BD%E5%90%AC%E4%BA%86%23) `56.9K 🔥` `+24%`
-1. [国家队最新持股名单出炉 (The latest shareholding list of the national team is released)](https://s.weibo.com/weibo?q=%23%E5%9B%BD%E5%AE%B6%E9%98%9F%E6%9C%80%E6%96%B0%E6%8C%81%E8%82%A1%E5%90%8D%E5%8D%95%E5%87%BA%E7%82%89%23) `56.9K 🔥` `+24%`
-1. [欢子淘汰 (Huanzi eliminated)](https://s.weibo.com/weibo?q=%23%E6%AC%A2%E5%AD%90%E6%B7%98%E6%B1%B0%23) `56.8K 🔥` `+82%`
-1. [拾荒老人肯德基讨水被拒结果反转](https://s.weibo.com/weibo?q=%23%E6%8B%BE%E8%8D%92%E8%80%81%E4%BA%BA%E8%82%AF%E5%BE%B7%E5%9F%BA%E8%AE%A8%E6%B0%B4%E8%A2%AB%E6%8B%92%E7%BB%93%E6%9E%9C%E5%8F%8D%E8%BD%AC%23) `56.7K 🔥` `+23%`
-1. [中超联赛 (Chinese Super League)](https://s.weibo.com/weibo?q=%23%E4%B8%AD%E8%B6%85%E8%81%94%E8%B5%9B%23) `56.7K 🔥` `+24%`
-1. [欢子淘汰 压根没来](https://s.weibo.com/weibo?q=%23%E6%AC%A2%E5%AD%90%E6%B7%98%E6%B1%B0%20%E5%8E%8B%E6%A0%B9%E6%B2%A1%E6%9D%A5%23) `94.2K 🔥`
-1. [桃酥是没有一滴水的](https://s.weibo.com/weibo?q=%23%E6%A1%83%E9%85%A5%E6%98%AF%E6%B2%A1%E6%9C%89%E4%B8%80%E6%BB%B4%E6%B0%B4%E7%9A%84%23) `93.8K 🔥`
-1. [郭晓东张睿 越看越心酸](https://s.weibo.com/weibo?q=%23%E9%83%AD%E6%99%93%E4%B8%9C%E5%BC%A0%E7%9D%BF%20%E8%B6%8A%E7%9C%8B%E8%B6%8A%E5%BF%83%E9%85%B8%23) `69.2K 🔥`
-1. [王传君说的是乔任梁吗 (Is Wang Chuanjun talking about Qiao Renliang?)](https://s.weibo.com/weibo?q=%23%E7%8E%8B%E4%BC%A0%E5%90%9B%E8%AF%B4%E7%9A%84%E6%98%AF%E4%B9%94%E4%BB%BB%E6%A2%81%E5%90%97%23) `69.2K 🔥`
-1. [韩国狗肉馆迎来最后一批食客](https://s.weibo.com/weibo?q=%23%E9%9F%A9%E5%9B%BD%E7%8B%97%E8%82%89%E9%A6%86%E8%BF%8E%E6%9D%A5%E6%9C%80%E5%90%8E%E4%B8%80%E6%89%B9%E9%A3%9F%E5%AE%A2%23) `69.2K 🔥`
-1. [曾被狼群抚养12年狼孩去世](https://s.weibo.com/weibo?q=%23%E6%9B%BE%E8%A2%AB%E7%8B%BC%E7%BE%A4%E6%8A%9A%E5%85%BB12%E5%B9%B4%E7%8B%BC%E5%AD%A9%E5%8E%BB%E4%B8%96%23) `69.2K 🔥`
-1. [零食占座当事人母亲发声 (The mother of the person involved in snacks occupying a seat speaks out)](https://s.weibo.com/weibo?q=%23%E9%9B%B6%E9%A3%9F%E5%8D%A0%E5%BA%A7%E5%BD%93%E4%BA%8B%E4%BA%BA%E6%AF%8D%E4%BA%B2%E5%8F%91%E5%A3%B0%23) `69.2K 🔥`
-1. [亚朵卖枕头被子收入快赶上酒店主业 (Atour's income from selling pillows and quilts is almost catching up with the hotel's main business)](https://s.weibo.com/weibo?q=%23%E4%BA%9A%E6%9C%B5%E5%8D%96%E6%9E%95%E5%A4%B4%E8%A2%AB%E5%AD%90%E6%94%B6%E5%85%A5%E5%BF%AB%E8%B5%B6%E4%B8%8A%E9%85%92%E5%BA%97%E4%B8%BB%E4%B8%9A%23) `58.8K 🔥`
-1. [男孩被民警掌掴近1个月未能正常上学 (The boy was slapped by the police and was unable to attend school normally for nearly a month)](https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%A9%E8%A2%AB%E6%B0%91%E8%AD%A6%E6%8E%8C%E6%8E%B4%E8%BF%911%E4%B8%AA%E6%9C%88%E6%9C%AA%E8%83%BD%E6%AD%A3%E5%B8%B8%E4%B8%8A%E5%AD%A6%23) `58.5K 🔥`
-1. [手机出现这行字存款正被转走](https://s.weibo.com/weibo?q=%23%E6%89%8B%E6%9C%BA%E5%87%BA%E7%8E%B0%E8%BF%99%E8%A1%8C%E5%AD%97%E5%AD%98%E6%AC%BE%E6%AD%A3%E8%A2%AB%E8%BD%AC%E8%B5%B0%23) `58.5K 🔥`
-1. [铁路暂无无成人陪伴儿童托管](https://s.weibo.com/weibo?q=%23%E9%93%81%E8%B7%AF%E6%9A%82%E6%97%A0%E6%97%A0%E6%88%90%E4%BA%BA%E9%99%AA%E4%BC%B4%E5%84%BF%E7%AB%A5%E6%89%98%E7%AE%A1%23) `57.9K 🔥`
-1. [披荆斩棘淘汰 (Overcome all obstacles and eliminate)](https://s.weibo.com/weibo?q=%23%E6%8A%AB%E8%8D%86%E6%96%A9%E6%A3%98%E6%B7%98%E6%B1%B0%23) `102.1K 🔥` `-72%`
-1. [MG07发布10.59万起 (MG07 is released starting from 105,900)](https://s.weibo.com/weibo?q=%23MG07%E5%8F%91%E5%B8%8310.59%E4%B8%87%E8%B5%B7%23) `96.5K 🔥` `-55%`
+1. [樊振东新赛季首秀](https://s.weibo.com/weibo?q=%23%E6%A8%8A%E6%8C%AF%E4%B8%9C%E6%96%B0%E8%B5%9B%E5%AD%A3%E9%A6%96%E7%A7%80%23) `655.7K 🔥` `NEW`
+1. [处暑](https://s.weibo.com/weibo?q=%23%E5%A4%84%E6%9A%91%23) `135.5K 🔥` `NEW`
+1. [李维嘉追星成功王菲](https://s.weibo.com/weibo?q=%23%E6%9D%8E%E7%BB%B4%E5%98%89%E8%BF%BD%E6%98%9F%E6%88%90%E5%8A%9F%E7%8E%8B%E8%8F%B2%23) `129.9K 🔥` `NEW`
+1. [日本地震](https://s.weibo.com/weibo?q=%23%E6%97%A5%E6%9C%AC%E5%9C%B0%E9%9C%87%23) `89.6K 🔥` `NEW`
+1. [秦牛正威恋爱史首次公开](https://s.weibo.com/weibo?q=%23%E7%A7%A6%E7%89%9B%E6%AD%A3%E5%A8%81%E6%81%8B%E7%88%B1%E5%8F%B2%E9%A6%96%E6%AC%A1%E5%85%AC%E5%BC%80%23) `77.5K 🔥` `NEW`
+1. [华晨宇回应造型像壮壮妈](https://s.weibo.com/weibo?q=%23%E5%8D%8E%E6%99%A8%E5%AE%87%E5%9B%9E%E5%BA%94%E9%80%A0%E5%9E%8B%E5%83%8F%E5%A3%AE%E5%A3%AE%E5%A6%88%23) `62.2K 🔥` `NEW`
+1. [台风简拉维突然大拐弯](https://s.weibo.com/weibo?q=%23%E5%8F%B0%E9%A3%8E%E7%AE%80%E6%8B%89%E7%BB%B4%E7%AA%81%E7%84%B6%E5%A4%A7%E6%8B%90%E5%BC%AF%23) `55.2K 🔥` `NEW`
+1. [那英演唱会热度](https://s.weibo.com/weibo?q=%23%E9%82%A3%E8%8B%B1%E6%BC%94%E5%94%B1%E4%BC%9A%E7%83%AD%E5%BA%A6%23) `53.6K 🔥` `NEW`
+1. [冉莹颖邹市明车内发生争吵](https://s.weibo.com/weibo?q=%23%E5%86%89%E8%8E%B9%E9%A2%96%E9%82%B9%E5%B8%82%E6%98%8E%E8%BD%A6%E5%86%85%E5%8F%91%E7%94%9F%E4%BA%89%E5%90%B5%23) `49.3K 🔥` `NEW`
+1. [无畏契约](https://s.weibo.com/weibo?q=%23%E6%97%A0%E7%95%8F%E5%A5%91%E7%BA%A6%23) `46.7K 🔥` `NEW`
+1. [东京震感](https://s.weibo.com/weibo?q=%23%E4%B8%9C%E4%BA%AC%E9%9C%87%E6%84%9F%23) `46.6K 🔥` `NEW`
+1. [人民日报谈火车零食占座 (People's Daily talks about snacks occupying seats on trains)](https://s.weibo.com/weibo?q=%23%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%E8%B0%88%E7%81%AB%E8%BD%A6%E9%9B%B6%E9%A3%9F%E5%8D%A0%E5%BA%A7%23) `1.2M 🔥` `+45%`
+1. [世界人形机器人运动会亮点 (World Humanoid Robot Games Highlights)](https://s.weibo.com/weibo?q=%23%E4%B8%96%E7%95%8C%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%BF%90%E5%8A%A8%E4%BC%9A%E4%BA%AE%E7%82%B9%23) `534.3K 🔥` `+40%`
+1. [韩国狗肉馆迎来最后一批食客](https://s.weibo.com/weibo?q=%23%E9%9F%A9%E5%9B%BD%E7%8B%97%E8%82%89%E9%A6%86%E8%BF%8E%E6%9D%A5%E6%9C%80%E5%90%8E%E4%B8%80%E6%89%B9%E9%A3%9F%E5%AE%A2%23) `216.8K 🔥` `+213%`
+1. [王源一句话让几万人低头看手机](https://s.weibo.com/weibo?q=%23%E7%8E%8B%E6%BA%90%E4%B8%80%E5%8F%A5%E8%AF%9D%E8%AE%A9%E5%87%A0%E4%B8%87%E4%BA%BA%E4%BD%8E%E5%A4%B4%E7%9C%8B%E6%89%8B%E6%9C%BA%23) `149.8K 🔥` `+29%`
+1. [披荆斩棘淘汰 (Overcome all obstacles and eliminate)](https://s.weibo.com/weibo?q=%23%E6%8A%AB%E8%8D%86%E6%96%A9%E6%A3%98%E6%B7%98%E6%B1%B0%23) `139.5K 🔥` `+37%`
+1. [住破房穿20块衣服男子20年攒下789万](https://s.weibo.com/weibo?q=%23%E4%BD%8F%E7%A0%B4%E6%88%BF%E7%A9%BF20%E5%9D%97%E8%A1%A3%E6%9C%8D%E7%94%B7%E5%AD%9020%E5%B9%B4%E6%94%92%E4%B8%8B789%E4%B8%87%23) `132.5K 🔥` `+29%`
+1. [王传君说的是乔任梁吗 (Is Wang Chuanjun talking about Qiao Renliang?)](https://s.weibo.com/weibo?q=%23%E7%8E%8B%E4%BC%A0%E5%90%9B%E8%AF%B4%E7%9A%84%E6%98%AF%E4%B9%94%E4%BB%BB%E6%A2%81%E5%90%97%23) `132.0K 🔥` `+91%`
+1. [曾被狼群抚养12年狼孩去世](https://s.weibo.com/weibo?q=%23%E6%9B%BE%E8%A2%AB%E7%8B%BC%E7%BE%A4%E6%8A%9A%E5%85%BB12%E5%B9%B4%E7%8B%BC%E5%AD%A9%E5%8E%BB%E4%B8%96%23) `130.4K 🔥` `+88%`
+1. [桃酥是没有一滴水的](https://s.weibo.com/weibo?q=%23%E6%A1%83%E9%85%A5%E6%98%AF%E6%B2%A1%E6%9C%89%E4%B8%80%E6%BB%B4%E6%B0%B4%E7%9A%84%23) `129.6K 🔥` `+38%`
+1. [零食占座当事人母亲发声 (The mother of the person involved in snacks occupying a seat speaks out)](https://s.weibo.com/weibo?q=%23%E9%9B%B6%E9%A3%9F%E5%8D%A0%E5%BA%A7%E5%BD%93%E4%BA%8B%E4%BA%BA%E6%AF%8D%E4%BA%B2%E5%8F%91%E5%A3%B0%23) `128.9K 🔥` `+86%`
+1. [37岁失业建筑师转行养老护理员](https://s.weibo.com/weibo?q=%2337%E5%B2%81%E5%A4%B1%E4%B8%9A%E5%BB%BA%E7%AD%91%E5%B8%88%E8%BD%AC%E8%A1%8C%E5%85%BB%E8%80%81%E6%8A%A4%E7%90%86%E5%91%98%23) `93.7K 🔥` `+38%`
+1. [郭晓东张睿 越看越心酸](https://s.weibo.com/weibo?q=%23%E9%83%AD%E6%99%93%E4%B8%9C%E5%BC%A0%E7%9D%BF%20%E8%B6%8A%E7%9C%8B%E8%B6%8A%E5%BF%83%E9%85%B8%23) `88.8K 🔥` `+28%`
+1. [手机出现这行字存款正被转走](https://s.weibo.com/weibo?q=%23%E6%89%8B%E6%9C%BA%E5%87%BA%E7%8E%B0%E8%BF%99%E8%A1%8C%E5%AD%97%E5%AD%98%E6%AC%BE%E6%AD%A3%E8%A2%AB%E8%BD%AC%E8%B5%B0%23) `88.4K 🔥` `+51%`
+1. [那英边唱边哭 (Na Ying cried while singing)](https://s.weibo.com/weibo?q=%23%E9%82%A3%E8%8B%B1%E8%BE%B9%E5%94%B1%E8%BE%B9%E5%93%AD%23) `76.0K 🔥` `+29%`
+1. [墨香铜臭 亿级版权 (The fragrance of ink and the smell of copper, billion-level copyright)](https://s.weibo.com/weibo?q=%23%E5%A2%A8%E9%A6%99%E9%93%9C%E8%87%AD%20%E4%BA%BF%E7%BA%A7%E7%89%88%E6%9D%83%23) `73.5K 🔥` `+25%`
+1. [欢子淘汰 压根没来](https://s.weibo.com/weibo?q=%23%E6%AC%A2%E5%AD%90%E6%B7%98%E6%B1%B0%20%E5%8E%8B%E6%A0%B9%E6%B2%A1%E6%9D%A5%23) `96.1K 🔥`
+1. [台湾节目嘉宾说北京没有冰箱引群嘲](https://s.weibo.com/weibo?q=%23%E5%8F%B0%E6%B9%BE%E8%8A%82%E7%9B%AE%E5%98%89%E5%AE%BE%E8%AF%B4%E5%8C%97%E4%BA%AC%E6%B2%A1%E6%9C%89%E5%86%B0%E7%AE%B1%E5%BC%95%E7%BE%A4%E5%98%B2%23) `71.1K 🔥`
+1. [男孩被民警掌掴近1个月未能正常上学 (The boy was slapped by the police and was unable to attend school normally for nearly a month)](https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%A9%E8%A2%AB%E6%B0%91%E8%AD%A6%E6%8E%8C%E6%8E%B4%E8%BF%911%E4%B8%AA%E6%9C%88%E6%9C%AA%E8%83%BD%E6%AD%A3%E5%B8%B8%E4%B8%8A%E5%AD%A6%23) `69.8K 🔥`
+1. [披荆斩棘排名](https://s.weibo.com/weibo?q=%23%E6%8A%AB%E8%8D%86%E6%96%A9%E6%A3%98%E6%8E%92%E5%90%8D%23) `67.6K 🔥`
+1. [亚朵卖枕头被子收入快赶上酒店主业 (Atour's income from selling pillows and quilts is almost catching up with the hotel's main business)](https://s.weibo.com/weibo?q=%23%E4%BA%9A%E6%9C%B5%E5%8D%96%E6%9E%95%E5%A4%B4%E8%A2%AB%E5%AD%90%E6%94%B6%E5%85%A5%E5%BF%AB%E8%B5%B6%E4%B8%8A%E9%85%92%E5%BA%97%E4%B8%BB%E4%B8%9A%23) `64.3K 🔥`
+1. [陈俊生的工资是年薪150万](https://s.weibo.com/weibo?q=%23%E9%99%88%E4%BF%8A%E7%94%9F%E7%9A%84%E5%B7%A5%E8%B5%84%E6%98%AF%E5%B9%B4%E8%96%AA150%E4%B8%87%23) `59.0K 🔥`
+1. [幼童被电梯扶手带离瞬间被救回](https://s.weibo.com/weibo?q=%23%E5%B9%BC%E7%AB%A5%E8%A2%AB%E7%94%B5%E6%A2%AF%E6%89%B6%E6%89%8B%E5%B8%A6%E7%A6%BB%E7%9E%AC%E9%97%B4%E8%A2%AB%E6%95%91%E5%9B%9E%23) `58.6K 🔥`
+1. [巫哲顶着这张脸叫狗蛋儿](https://s.weibo.com/weibo?q=%23%E5%B7%AB%E5%93%B2%E9%A1%B6%E7%9D%80%E8%BF%99%E5%BC%A0%E8%84%B8%E5%8F%AB%E7%8B%97%E8%9B%8B%E5%84%BF%23) `52.1K 🔥`
+1. [4名男子拒付嫖资勒索卖淫女后赌光 (4 men blackmailed prostitutes after refusing to pay for prostitution and then gambled away their money)](https://s.weibo.com/weibo?q=%234%E5%90%8D%E7%94%B7%E5%AD%90%E6%8B%92%E4%BB%98%E5%AB%96%E8%B5%84%E5%8B%92%E7%B4%A2%E5%8D%96%E6%B7%AB%E5%A5%B3%E5%90%8E%E8%B5%8C%E5%85%89%23) `51.2K 🔥`
+1. [一点没有情趣的直男震撼](https://s.weibo.com/weibo?q=%23%E4%B8%80%E7%82%B9%E6%B2%A1%E6%9C%89%E6%83%85%E8%B6%A3%E7%9A%84%E7%9B%B4%E7%94%B7%E9%9C%87%E6%92%BC%23) `46.7K 🔥`
+1. [男子回应20年攒789万被骗光](https://s.weibo.com/weibo?q=%23%E7%94%B7%E5%AD%90%E5%9B%9E%E5%BA%9420%E5%B9%B4%E6%94%92789%E4%B8%87%E8%A2%AB%E9%AA%97%E5%85%89%23) `46.7K 🔥`
+1. [老外常州恐龙飞车自拍视频火了 (Selfie video of Changzhou dinosaur speeding car by foreigners goes viral)](https://s.weibo.com/weibo?q=%23%E8%80%81%E5%A4%96%E5%B8%B8%E5%B7%9E%E6%81%90%E9%BE%99%E9%A3%9E%E8%BD%A6%E8%87%AA%E6%8B%8D%E8%A7%86%E9%A2%91%E7%81%AB%E4%BA%86%23) `46.7K 🔥`
+1. [王源淘了个相机捡大漏了 (Wang Yuan bought a camera and lost it.)](https://s.weibo.com/weibo?q=%23%E7%8E%8B%E6%BA%90%E6%B7%98%E4%BA%86%E4%B8%AA%E7%9B%B8%E6%9C%BA%E6%8D%A1%E5%A4%A7%E6%BC%8F%E4%BA%86%23) `46.7K 🔥`
+1. [女子回应男友转账30万后自缢身亡 (Woman hanged herself after responding to her boyfriend's transfer of 300,000 yuan)](https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E5%9B%9E%E5%BA%94%E7%94%B7%E5%8F%8B%E8%BD%AC%E8%B4%A630%E4%B8%87%E5%90%8E%E8%87%AA%E7%BC%A2%E8%BA%AB%E4%BA%A1%23) `46.7K 🔥`
+1. [外国人来中国旅游的视频火了 (Videos of foreigners traveling to China have gone viral)](https://s.weibo.com/weibo?q=%23%E5%A4%96%E5%9B%BD%E4%BA%BA%E6%9D%A5%E4%B8%AD%E5%9B%BD%E6%97%85%E6%B8%B8%E7%9A%84%E8%A7%86%E9%A2%91%E7%81%AB%E4%BA%86%23) `46.7K 🔥`
+1. [胡锡进呼吁严查白菜蘸甲醛保鲜事件](https://s.weibo.com/weibo?q=%23%E8%83%A1%E9%94%A1%E8%BF%9B%E5%91%BC%E5%90%81%E4%B8%A5%E6%9F%A5%E7%99%BD%E8%8F%9C%E8%98%B8%E7%94%B2%E9%86%9B%E4%BF%9D%E9%B2%9C%E4%BA%8B%E4%BB%B6%23) `46.7K 🔥`
+1. [三个台风出现了](https://s.weibo.com/weibo?q=%23%E4%B8%89%E4%B8%AA%E5%8F%B0%E9%A3%8E%E5%87%BA%E7%8E%B0%E4%BA%86%23) `46.6K 🔥`
+1. [必须从速从严处置甲醛白菜](https://s.weibo.com/weibo?q=%23%E5%BF%85%E9%A1%BB%E4%BB%8E%E9%80%9F%E4%BB%8E%E4%B8%A5%E5%A4%84%E7%BD%AE%E7%94%B2%E9%86%9B%E7%99%BD%E8%8F%9C%23) `208.2K 🔥` `-57%`
+1. [郭敬明剧组减肥方法](https://s.weibo.com/weibo?q=%23%E9%83%AD%E6%95%AC%E6%98%8E%E5%89%A7%E7%BB%84%E5%87%8F%E8%82%A5%E6%96%B9%E6%B3%95%23) `131.5K 🔥` `-66%`
+1. [偶遇朱志鑫游泳 (Encountering Zhu Zhixin swimming by chance)](https://s.weibo.com/weibo?q=%23%E5%81%B6%E9%81%87%E6%9C%B1%E5%BF%97%E9%91%AB%E6%B8%B8%E6%B3%B3%23) `53.4K 🔥` `-86%`
+1. [网友把蔡徐坤当路人p掉了](https://s.weibo.com/weibo?q=%23%E7%BD%91%E5%8F%8B%E6%8A%8A%E8%94%A1%E5%BE%90%E5%9D%A4%E5%BD%93%E8%B7%AF%E4%BA%BAp%E6%8E%89%E4%BA%86%23) `46.7K 🔥` `-88%`
+1. [周笔畅 当我想拍下英子的歌喉 (Zhou Bichang When I want to take a picture of Yingzi's singing voice)](https://s.weibo.com/weibo?q=%23%E5%91%A8%E7%AC%94%E7%95%85%20%E5%BD%93%E6%88%91%E6%83%B3%E6%8B%8D%E4%B8%8B%E8%8B%B1%E5%AD%90%E7%9A%84%E6%AD%8C%E5%96%89%23) `46.7K 🔥` `-77%`
 
-Updated at 2026-08-23 06:56:27
+Updated at 2026-08-23 07:24:07
 
 <!-- END -->
 
